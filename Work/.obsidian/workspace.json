@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Log/6-23-2023.md",
+                "file": "Daily Log/6-26-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "15782f6663c21f0c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Log/6-23-2023.md",
+                "file": "Daily Log/6-26-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Log/6-23-2023.md",
+                "file": "Daily Log/6-26-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Log/6-23-2023.md"
+                "file": "Daily Log/6-26-23.md"
               }
             }
           }
@@ -148,9 +149,14 @@
   },
   "active": "6c7af840a3850d4f",
   "lastOpenFiles": [
-    "Daily Log/6-22-2023.md",
-    "Daily Log/6-23-2023.md",
     "Daily Log/Daily Log Template 1.md",
+    "Daily Log/6-26-23.md",
+    "Daily Log/6-23-2023.md",
+    "Trading Log Bootcamp/Trading Log.md",
+    "Trading Log Bootcamp/My_Trading_Plan.md",
+    "Trading Log Bootcamp/Execution_Plan.md",
+    "Trading Log Bootcamp",
+    "Daily Log/6-22-2023.md",
     "Daily Log/6-21-23.md",
     "Daily Log/Untitled.md",
     "Daily Log"
