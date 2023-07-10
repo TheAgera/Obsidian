@@ -1,1 +1,1 @@
-##For Obsidian only
+## For Obsidian only
