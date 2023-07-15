@@ -11,8 +11,17 @@
             "id": "3714d06f6b2da7b2",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
+              "type": "markdown",
+              "state": {
+                "file": "Trading Log Bootcamp/Break of Structure.md",
+                "mode": "source",
+                "source": false
+              }
+=======
               "type": "empty",
               "state": {}
+>>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
             }
           }
         ]
@@ -81,6 +90,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+                "file": "Trading Log Bootcamp/Break of Structure.md",
+=======
+>>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+                "file": "Trading Log Bootcamp/Break of Structure.md",
+=======
+>>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +135,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
+              "state": {
+                "file": "Trading Log Bootcamp/Break of Structure.md"
+              }
+=======
               "state": {}
+>>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
             }
           }
         ]
@@ -140,6 +163,10 @@
   },
   "active": "ff1c3fe10b321b62",
   "lastOpenFiles": [
+<<<<<<< HEAD
+    "Daily Log/6-27-23.md",
+    "Trading Log Bootcamp/Trading Log.md",
+=======
     "Daily Log/6-21-23.md",
     "Daily Log/7-7-23.md",
     "Daily Log/7-10-23.md",
@@ -159,6 +186,7 @@
     "Daily Log/6-22-2023.md",
     "Daily Log/6-23-2023.md",
     "Daily Log/6-26-23.md",
+>>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
     "Trading Log Bootcamp/TJR Trading Plan.md",
     "Trading Log Bootcamp/Break of Structure.md",
     "Trading Log Bootcamp/My_Trading_Plan.md",
