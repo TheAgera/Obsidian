@@ -6,7 +6,9 @@ Step : Figure out to have the script run every day at 4pm  and 8am
 
 Step 3 : Hide the program
 
+Step 4 : Fix hard-coded file paths
 
+Step 5 : Manage multiple repositories
 
 
 
