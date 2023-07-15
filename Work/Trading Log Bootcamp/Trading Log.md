@@ -25,3 +25,8 @@ Today I thought gold looked nice, I was able to catch a small short off a 1hr li
 # 7-3-23
 
 - We are only looking at gold and SPX, Gold is bullish
+
+# 7-11-23
+
+I took a Gold long today, I am currently still in the trade as no TP or SL has been hit. My HTF Bias was long, Everything below the daily was showing a bullish shift in structure. There was a FVG on the daily time frame that I thought price was going to go into, and the send price further down. Price ended up sweeping the weekly liquidity before 8am NYS started. At session start, price immediately fell down, with a small small retracement then consolidate for the rest of the day. Price ended up sweeping london session sell side liquidity and broke structure on 5m and 15m but not higher than that. I entered off of that alone. In hindsight, I should've started at the weekly and noticed weekly liquidty was sweept, meaning we were going to really down a bit. GOLD is bearish and will continue to be bearisdh unless we get a htf break of structure.
+- Update, trade ended up working out, it was until before NYSE close that price began to rally. However, i believe that to be luck. Gol

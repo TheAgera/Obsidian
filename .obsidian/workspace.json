@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md"
               }
             }
           }
@@ -147,6 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d7c6ff522d8c1e7",
-  "lastOpenFiles": []
+  "active": "1dcf748316081060",
+  "lastOpenFiles": [
+    "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
+    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
+    "Work/Trading Log Bootcamp/Bootcamp Day 32 - Execution pt.2.md",
+    "Work/Daily Log/7-12-23.md",
+    "Work/Trading Log Bootcamp/Trading Log.md",
+    "Work/Daily Log/7-11-23.md",
+    "README.md"
+  ]
 }
