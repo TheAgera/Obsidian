@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "3af24abcf37793a7",
+    "id": "b4ecbaad06728add",
     "type": "split",
     "children": [
       {
-        "id": "aa5b54b4d5b228ff",
+        "id": "409a0cc863ba3e4b",
         "type": "tabs",
         "children": [
           {
-            "id": "6c7af840a3850d4f",
+            "id": "b0ae813b5328de4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6da1de24278db405",
+    "id": "c8c8bb987ba4909b",
     "type": "split",
     "children": [
       {
-        "id": "acc96f8c7173c98a",
+        "id": "5f083fbfe1cb1d58",
         "type": "tabs",
         "children": [
           {
-            "id": "ff1c3fe10b321b62",
+            "id": "f175f332ec2a97ad",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "3419bd6b6f6de56c",
+            "id": "0bd68198c7974f18",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "7209ff97dea5f51b",
+            "id": "eb32fb50a5e8fa15",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "15782f6663c21f0c",
+    "id": "85b633493a606a08",
     "type": "split",
     "children": [
       {
-        "id": "2cdcae3fb0da7b65",
+        "id": "a25cfe7105a5f625",
         "type": "tabs",
         "children": [
           {
-            "id": "3d0557ae946bfa0f",
+            "id": "5c0ebb6921645dcd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "c184b80424eae888",
+            "id": "c2f92d80ca97382e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b90651d578107bf8",
+            "id": "5f95612facdf3567",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "7f8bdcb7a79668bd",
+            "id": "4ef087710c0d8d0b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,21 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c7af840a3850d4f",
-  "lastOpenFiles": [
-    "Daily Log/6-27-23.md",
-    "Trading Log Bootcamp/Trading Log.md",
-    "Trading Log Bootcamp/TJR Trading Plan.md",
-    "Trading Log Bootcamp/Break of Structure.md",
-    "Trading Log Bootcamp/My_Trading_Plan.md",
-    "Trading Log Bootcamp/Execution_Plan.md",
-    "Daily Log/6-26-23.md",
-    "Daily Log/Daily Log Template 1.md",
-    "Daily Log/6-23-2023.md",
-    "Trading Log Bootcamp",
-    "Daily Log/6-22-2023.md",
-    "Daily Log/6-21-23.md",
-    "Daily Log/Untitled.md",
-    "Daily Log"
-  ]
+  "active": "b0ae813b5328de4e",
+  "lastOpenFiles": []
 }
