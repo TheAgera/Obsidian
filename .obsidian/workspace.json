@@ -13,11 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
-=======
                 "file": "Growth/Program to have powershell run automated tasks.md",
->>>>>>> a7f1e7a1e33fb76c13fe418e6353dd4535cc0563
                 "mode": "source",
                 "source": false
               }
@@ -89,11 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
-=======
                 "file": "Growth/Program to have powershell run automated tasks.md",
->>>>>>> a7f1e7a1e33fb76c13fe418e6353dd4535cc0563
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,11 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
-=======
                 "file": "Growth/Program to have powershell run automated tasks.md",
->>>>>>> a7f1e7a1e33fb76c13fe418e6353dd4535cc0563
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,11 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md"
-=======
                 "file": "Growth/Program to have powershell run automated tasks.md"
->>>>>>> a7f1e7a1e33fb76c13fe418e6353dd4535cc0563
               }
             }
           }
@@ -162,19 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "1dcf748316081060",
-  "lastOpenFiles": [
-    "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 32 - Execution pt.2.md",
-    "Work/Daily Log/7-12-23.md",
-    "Work/Trading Log Bootcamp/Trading Log.md",
-    "Work/Daily Log/7-11-23.md",
-    "README.md"
-=======
   "active": "b0ae813b5328de4e",
   "lastOpenFiles": [
+    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
+    "Work/Daily Log/7-12-23.md",
+    "Work/Daily Log/7-11-23.md",
     "Work/Trading Log Bootcamp/Gold Analysis.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 33 - Execution pt.3.md",
@@ -188,6 +164,5 @@
     "Work/Daily Log/6-30-23.md",
     "Work/Daily Log/6-29-23.md",
     "Work/Daily Log/6-28-23.md"
->>>>>>> a7f1e7a1e33fb76c13fe418e6353dd4535cc0563
   ]
 }
