@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/7-21-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/7-21-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/7-21-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md"
+                "file": "Work/Daily Log/7-21-23.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "b0ae813b5328de4e",
   "lastOpenFiles": [
-    "Work/Daily Log/7-20-23.md",
     "Work/Daily Log/Daily Log Template 1 1.md",
+    "Work/Daily Log/7-21-23.md",
+    "Work/Trading Log Bootcamp/Trading Log.md",
+    "Work/Daily Log/7-20-23 1.md",
+    "Work/Daily Log/7-20-23.md",
     "Work/Daily Log/7-18-23.md",
     "Work/Daily Log/7-17-23.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 51 - Motivational Sunday.md",
@@ -162,7 +165,6 @@
     "Work/Trading Log Bootcamp/Execution_Plan.md",
     "Work/Trading Log Bootcamp/Gold Analysis.md",
     "Work/Trading Log Bootcamp/My_Trading_Plan.md",
-    "Work/Trading Log Bootcamp/Trading Log.md",
     "Growth/Program to have powershell run automated tasks.md",
     "Work/Daily Log/7-11-23.md",
     "Work/Daily Log/7-7-23.md",
@@ -171,7 +173,6 @@
     "Work/Daily Log/7-3-23.md",
     "Work/Daily Log/7-10-23.md",
     "Work/Daily Log/6-30-23.md",
-    "Work/Daily Log/6-29-23.md",
-    "Work/Daily Log/6-28-23.md"
+    "Work/Daily Log/6-29-23.md"
   ]
 }
