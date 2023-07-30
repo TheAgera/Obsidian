@@ -1,7 +1,10 @@
-## Tasks for Today & Weekend:
+## Tasks to Complete:
 
-- [ ] Get gitsync script to work without modifying permissions
-- [ ] Task 2
+- [ ] Split script into three seperate scripts 
+      Script to make Scheduled Task and grab the current logged on user/user who laucnhed script
+      Script to git sync
+      Script to git push
+- [ ] 
 - [ ] Task 3
 
 ## Notes:

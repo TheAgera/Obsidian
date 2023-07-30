@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/7-24-23.md",
+                "file": "Work/Daily Log/7-25-23.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6f06028f515d113",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log/7-25-23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/7-24-23.md",
+                "file": "Work/Daily Log/7-25-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/7-24-23.md",
+                "file": "Work/Daily Log/7-25-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/7-24-23.md"
+                "file": "Work/Daily Log/7-25-23.md"
               }
             }
           }
@@ -146,18 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0ae813b5328de4e",
+  "active": "d6f06028f515d113",
   "lastOpenFiles": [
-    "Work/Daily Log/7-21-23.md",
     "Work/Daily Log/7-24-23.md",
+    "Work/Daily Log/7-21-23.md",
+    "Work/Daily Log/7-18-23.md",
+    "Work/Daily Log/7-11-23.md",
+    "Work/Daily Log/7-12-23.md",
+    "Work/Daily Log/7-17-23.md",
+    "Work/Daily Log/7-20-23.md",
+    "Work/Daily Log/Git Sync Script.md",
+    "Work/Daily Log/7-25-23.md",
     "Work/Daily Log/Daily Log Template 1 1.md",
+    "Untitled.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
     "Work/Daily Log/7-20-23 1.md",
-    "Work/Daily Log/7-20-23.md",
-    "Work/Daily Log/7-18-23.md",
-    "Work/Daily Log/7-17-23.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 51 - Motivational Sunday.md",
-    "Work/Daily Log/7-12-23.md",
     "Work/Daily Log/7-12-23 1.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 33 - Execution pt.3.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
@@ -167,12 +184,8 @@
     "Work/Trading Log Bootcamp/Gold Analysis.md",
     "Work/Trading Log Bootcamp/My_Trading_Plan.md",
     "Growth/Program to have powershell run automated tasks.md",
-    "Work/Daily Log/7-11-23.md",
     "Work/Daily Log/7-7-23.md",
     "Work/Daily Log/7-6-23.md",
-    "Work/Daily Log/7-5-23.md",
-    "Work/Daily Log/7-3-23.md",
-    "Work/Daily Log/7-10-23.md",
-    "Work/Daily Log/6-30-23.md"
+    "Work/Daily Log/7-5-23.md"
   ]
 }
