@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/7-25-23.md",
+                "file": "Work/Daily Log/7-26-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/7-25-23.md",
+                "file": "Work/Daily Log/7-26-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/7-25-23.md",
+                "file": "Work/Daily Log/7-26-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/7-25-23.md"
+                "file": "Work/Daily Log/7-26-23.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "d6f06028f515d113",
   "lastOpenFiles": [
+    "Work/Daily Log/7-25-23.md",
+    "Work/Daily Log/7-26-23.md",
+    "Work/Daily Log/Git Sync Script.md",
     "Work/Daily Log/7-24-23.md",
     "Work/Daily Log/7-21-23.md",
     "Work/Daily Log/7-18-23.md",
@@ -168,8 +171,6 @@
     "Work/Daily Log/7-12-23.md",
     "Work/Daily Log/7-17-23.md",
     "Work/Daily Log/7-20-23.md",
-    "Work/Daily Log/Git Sync Script.md",
-    "Work/Daily Log/7-25-23.md",
     "Work/Daily Log/Daily Log Template 1 1.md",
     "Untitled.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
@@ -185,7 +186,6 @@
     "Work/Trading Log Bootcamp/My_Trading_Plan.md",
     "Growth/Program to have powershell run automated tasks.md",
     "Work/Daily Log/7-7-23.md",
-    "Work/Daily Log/7-6-23.md",
-    "Work/Daily Log/7-5-23.md"
+    "Work/Daily Log/7-6-23.md"
   ]
 }

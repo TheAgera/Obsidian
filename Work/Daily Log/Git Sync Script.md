@@ -10,7 +10,7 @@
 ## Notes:
 
 - My scsript should be split into two, one file that creates the task, and another that runs the git commands. I was having issues because my git repo was private, and since I was running the script as SYSTEMNT
-- Note 2
+- I got my script where it is running and split into two scripts currently. One to schedule tasks and another to 
 - Note 3
 
 ## Ideas:
