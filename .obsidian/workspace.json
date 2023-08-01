@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb40c8942ad43671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log/Git Sync Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/7-26-23.md",
+                "file": "Work/Daily Log/Git Sync Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/7-26-23.md",
+                "file": "Work/Daily Log/Git Sync Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/7-26-23.md"
+                "file": "Work/Daily Log/Git Sync Script.md"
               }
             }
           }
@@ -159,8 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6f06028f515d113",
+  "active": "fb40c8942ad43671",
   "lastOpenFiles": [
+    "Work/Daily Log/7-27-23.md",
     "Work/Daily Log/Git Sync Script.md",
     "Work/Daily Log/7-26-23.md",
     "Work/Daily Log/7-25-23.md",
@@ -185,7 +198,6 @@
     "Work/Trading Log Bootcamp/Gold Analysis.md",
     "Work/Trading Log Bootcamp/My_Trading_Plan.md",
     "Growth/Program to have powershell run automated tasks.md",
-    "Work/Daily Log/7-7-23.md",
-    "Work/Daily Log/7-6-23.md"
+    "Work/Daily Log/7-7-23.md"
   ]
 }

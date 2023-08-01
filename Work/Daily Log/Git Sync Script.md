@@ -1,10 +1,11 @@
 ## Tasks to Complete:
 
-- [ ] Split script into three seperate scripts 
+- [x] Split script into three seperate scripts 
       Script to make Scheduled Task and grab the current logged on user/user who laucnhed script
       Script to git sync
       Script to git push
-- [ ] 
+- [ ] Learm to access powershell with Node.js
+      Learn to attach specific GUI elements with electron to function in my powershell script.
 - [ ] Task 3
 
 ## Notes:
