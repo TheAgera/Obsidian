@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/8-2-2023.md",
+                "file": "Work/Daily Log/8-2-2023 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/8-2-2023.md",
+                "file": "Work/Daily Log/8-2-2023 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/8-2-2023.md",
+                "file": "Work/Daily Log/8-2-2023 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/8-2-2023.md"
+                "file": "Work/Daily Log/8-2-2023 1.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "fb40c8942ad43671",
   "lastOpenFiles": [
-    "Work/Daily Log/7-27-23.md",
     "Work/Daily Log/8-2-2023.md",
+    "Work/Daily Log/8-2-2023 1.md",
+    "Work/Daily Log/7-27-23.md",
     "Work/Daily Log/Git Sync Script.md",
     "Work/Daily Log/7-26-23.md",
     "Work/Daily Log/7-25-23.md",
@@ -197,7 +198,6 @@
     "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
     "Work/Trading Log Bootcamp/Execution_Plan.md",
     "Work/Trading Log Bootcamp/Gold Analysis.md",
-    "Work/Trading Log Bootcamp/My_Trading_Plan.md",
-    "Growth/Program to have powershell run automated tasks.md"
+    "Work/Trading Log Bootcamp/My_Trading_Plan.md"
   ]
 }
