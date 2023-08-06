@@ -1,0 +1,15 @@
+{
+  "name": "gitsync",
+  "version": "1.0.0",
+  "description": "allows users to select folder containing git repos they would automatically wish to run push/pull commands on so files can be synced between computers. This is not reccomended for team collaborations, as you don't want to push every change up to the main repo. Features for that will come in later versions :)",
+  "main": "Gitsynclaunch.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyler Bubba Suess",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.4.0"
+  }
+}

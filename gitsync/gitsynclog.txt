@@ -1,0 +1,998 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230731090856
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 7128
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230731090858
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731091241
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 25828
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230731091242
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731091307
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 42384
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/appearance.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins-migration.json', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/Git Sync Script.md', LF will be replaced by CRLF the next time Git touch
+es it
+warning: in the working copy of 'Work/Daily Log/7-26-23.md', LF will be replaced by CRLF the next time Git touches it
+[master 8b50dc4] 07-31-23
+ 3 files changed, 32 insertions(+), 9 deletions(-)
+ create mode 100644 Work/Daily Log/7-26-23.md
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.11 KiB | 1.11 MiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/TheAgera/Obsidian.git
+   38f79b3..8b50dc4  master -> master
+**********************
+Windows PowerShell transcript end
+End time: 20230731091309
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731095257
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 27608
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20230731095257
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731095357
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 38536
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Git-Add : The term 'Git-Add' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:93 char:5
++     Git-Add $repo
++     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Add:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Git-Add : The term 'Git-Add' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:93 char:5
++     Git-Add $repo
++     ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Add:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Git-Commit : The term 'Git-Commit' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:94 char:5
++     Git-Commit $repo
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Commit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Git-Commit : The term 'Git-Commit' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:94 char:5
++     Git-Commit $repo
++     ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Commit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+Git-Push : The term 'Git-Push' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:95 char:5
++     Git-Push $repo
++     ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Push:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Git-Push : The term 'Git-Push' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\ksuess\Documents\gitsync\gitsync.ps1:95 char:5
++     Git-Push $repo
++     ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Git-Push:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript start
+Start time: 20230731095827
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 36632
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+**********************
+Windows PowerShell transcript end
+End time: 20230731095827
+**********************
+﻿**********************
+PowerShell transcript start
+Start time: 20230731100044
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\ksuess\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\ksuess\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\ksuess\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1690806738-61e748c5-9b86-4fcb-9495-516e1f0a255c1690806737215\EditorServices.log' -SessionDetailsPath 'c:\Users\ksuess\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8800-239268.json' -FeatureFlags @() 
+Process ID: 3192
+PSVersion: 7.3.4
+PSEdition: Core
+GitCommitId: 7.3.4
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.4
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+**********************
+PowerShell transcript end
+End time: 20230731100044
+**********************
+﻿**********************
+PowerShell transcript start
+Start time: 20230731100211
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\ksuess\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\ksuess\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\ksuess\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1690806738-61e748c5-9b86-4fcb-9495-516e1f0a255c1690806737215\EditorServices.log' -SessionDetailsPath 'c:\Users\ksuess\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-8800-239268.json' -FeatureFlags @() 
+Process ID: 3192
+PSVersion: 7.3.4
+PSEdition: Core
+GitCommitId: 7.3.4
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.4
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Invalid Operation:
+Invalid Operation:
+**********************
+PowerShell transcript end
+End time: 20230731100211
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731100242
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 16920
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/Git Sync Script.md', LF will be replaced by CRLF the next time Git touch
+es it
+[master 9646a3a] 07-31-23
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 675 bytes | 675.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/TheAgera/Obsidian.git
+   8b50dc4..9646a3a  master -> master
+
+[main cd42528] 07-31-23
+ 80 files changed, 1210 insertions(+), 55 deletions(-)
+ create mode 100644 Fall 2023/Readme.txt
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/NoCheat.py
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/NoCheatx.py
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/ZabbixIOSTAT.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostat.json
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx.json
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 102652.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 144553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 144653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 144753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 144853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 144953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 145953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 150953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 151953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 152953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 153953.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154053.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154153.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154253.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154353.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154453.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154553.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154653.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154753.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154853.csv
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Work/iostatx_20230710 - 154953.csv
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M8/e09c1HouseCleaners_SuessKyler.xlsx
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M8/e09c1HouseCleaners_SuessKyler.zip
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M8/e09c1HouseInput_SuessKyler.xlsx
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M9/Solutions/e10c1Agents_LastFirst.csv
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M9/e10c1Agents_SuessKyler.xlsx
+To https://github.com/TheAgera/College.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TheAgera/College.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+**********************
+Windows PowerShell transcript end
+End time: 20230731100246
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731100429
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 43332
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Already up to date.
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 17 (delta 4), reused 17 (delta 4), pack-reused 0
+Unpacking objects: 100% (17/17), 148.12 KiB | 1.83 MiB/s, done.
+From https://github.com/TheAgera/College
+   a33c53f..580c1c6  main       -> origin/main
+Merge made by the 'ort' strategy.
+ .../Experiments/LoveLetter.html                    | 106 +++++++++++++++++++++
+ .../Exam 3/exam3_SuessKyler.xlsm                   | Bin 0 -> 44978 bytes
+ .../Exam 3/exam3_SuessKyler.xlsx                   | Bin 0 -> 25094 bytes
+ .../Exam 3/exam3_SuessKyler.xltm                   | Bin 0 -> 44647 bytes
+ .../M10/e11c1Donors_SuessKyler.xlsx                | Bin 0 -> 16202 bytes
+ .../m121/e12c1Inventory_SuessKyler.xlsm            | Bin 0 -> 28651 bytes
+ .../m121/e12c1Inventory_SuessKyler.xltm            | Bin 0 -> 28684 bytes
+ .../m121/e12c1Inventory_SuessKyler1.xlsm           | Bin 0 -> 28499 bytes
+ 8 files changed, 106 insertions(+)
+ create mode 100644 Summer 2023/CIS 129 (Intro to Programming)/Experiments/LoveLetter.html
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/Exam 3/exam3_SuessKyler.xlsm
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/Exam 3/exam3_SuessKyler.xlsx
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/Exam 3/exam3_SuessKyler.xltm
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/M10/e11c1Donors_SuessKyler.xlsx
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/m121/e12c1Inventory_SuessKyler.xlsm
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/m121/e12c1Inventory_SuessKyler.xltm
+ create mode 100644 Summer 2023/CIS 180 (Spreadsheet Applications/m121/e12c1Inventory_SuessKyler1.xlsm
+**********************
+Windows PowerShell transcript end
+End time: 20230731100432
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731100436
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 7792
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+
+No changes to commit
+Everything up-to-date
+
+No changes to commit
+Enumerating objects: 43, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (29/29), 73.52 KiB | 18.38 MiB/s, done.
+Total 29 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 4 local objects.
+To https://github.com/TheAgera/College.git
+   580c1c6..76520b0  main -> main
+**********************
+Windows PowerShell transcript end
+End time: 20230731100439
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731160002
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 2648
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/7-26-23.md', LF will be replaced by CRLF the next time Git touches it
+[master 6c21d41] 07-31-23
+ 2 files changed, 11 insertions(+), 9 deletions(-)
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.05 KiB | 1.05 MiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/TheAgera/Obsidian.git
+   9646a3a..6c21d41  master -> master
+
+No changes to commit
+Everything up-to-date
+**********************
+Windows PowerShell transcript end
+End time: 20230731160007
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230731160335
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: powershell.exe ./taskschedulergit.ps1
+Process ID: 29580
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Task already exists.
+Task already exists.
+**********************
+Windows PowerShell transcript end
+End time: 20230731160337
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230801080001
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 50740
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230801080027
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230801101807
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: powershell.exe ./taskschedulergit.ps1
+Process ID: 10876
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Task already exists.
+Task already exists.
+**********************
+Windows PowerShell transcript end
+End time: 20230801101809
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230801101937
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: powershell.exe -ExecutionPolicy Bypass -File ./taskschedulergit.ps1
+Process ID: 33112
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Task already exists.
+Task already exists.
+**********************
+Windows PowerShell transcript end
+End time: 20230801101938
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230801102238
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: powershell.exe ./taskschedulergit.ps1
+Process ID: 30716
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Task already exists.
+Task already exists.
+**********************
+Windows PowerShell transcript end
+End time: 20230801102239
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230801160002
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 39304
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/appearance.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins-migration.json', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/Git Sync Script.md', LF will be replaced by CRLF the next time Git touch
+es it
+warning: in the working copy of 'Work/Daily Log/7-27-23.md', LF will be replaced by CRLF the next time Git touches it
+[master 690ec5a] 08-01-23
+ 3 files changed, 45 insertions(+), 9 deletions(-)
+ create mode 100644 Work/Daily Log/7-27-23.md
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.11 KiB | 1.11 MiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/TheAgera/Obsidian.git
+   6c21d41..690ec5a  master -> master
+
+No changes to commit
+Everything up-to-date
+**********************
+Windows PowerShell transcript end
+End time: 20230801160008
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230802080001
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 66944
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230802080024
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230803074737
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 52200
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/appearance.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins-migration.json', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/8-2-2023.md', LF will be replaced by CRLF the next time Git touches it
+[master 1672fb6] 08-03-23
+ 2 files changed, 29 insertions(+), 6 deletions(-)
+ create mode 100644 Work/Daily Log/8-2-2023.md
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+
+No changes to commit
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/College.git/'
+**********************
+Windows PowerShell transcript end
+End time: 20230803075837
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230803080001
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 7720
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230803080013
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230803091859
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 22484
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+Already up to date.
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230803091901
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230804073004
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 22616
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+warning: in the working copy of '.obsidian/appearance.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins-migration.json', LF will be replaced by CRLF the next time Git t
+ouches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/workspace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Work/Daily Log/8-2-2023 1.md', LF will be replaced by CRLF the next time Git touches it
+[master b1c9a0a] 08-04-23
+ 2 files changed, 30 insertions(+), 7 deletions(-)
+ create mode 100644 Work/Daily Log/8-2-2023 1.md
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+
+No changes to commit
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': ksuess
+Password for 'https://ksuess@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/TheAgera/College.git/'
+**********************
+Windows PowerShell transcript end
+End time: 20230804073021
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230804080001
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 8892
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': TheAgera
+Password for 'https://TheAgera@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+Already up to date.
+**********************
+Windows PowerShell transcript end
+End time: 20230804080017
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230804160002
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation push
+Process ID: 43556
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
+
+[master 67b1b3a] 08-04-23
+ 2 files changed, 127 insertions(+)
+ create mode 100644 Birthdayletter.html
+ create mode 100644 javalearning.js
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': TheAgera
+Password for 'https://TheAgera@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/Obsidian.git/'
+
+No changes to commit
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+Username for 'https://github.com': theagera
+Password for 'https://theagera@github.com':
+fatal: Unable to persist credentials with the 'wincredman' credential store.
+See https://aka.ms/gcm/credstores for more information.
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-wit
+h-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/TheAgera/College.git/'
+**********************
+Windows PowerShell transcript end
+End time: 20230804160045
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230805204459
+Username: CCI\ksuess
+RunAs User: CCI\ksuess
+Configuration Name: 
+Machine: CCIWL-210 (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File C:\Users\ksuess\Documents\gitsync\gitsync.ps1 -operation pull
+Process ID: 27452
+PSVersion: 5.1.22621.1778
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.1778
+BuildVersion: 10.0.22621.1778
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\ksuess\Documents\gitsync\gitsynclog.txt
