@@ -34,3 +34,14 @@ I took a Gold long today, I am currently still in the trade as no TP or SL has b
 # 7-20-23
 
 I had a perfect gold short set up today after news, but I was scared to take it. IT was a simple EQ play. My only issue was I was waiting for confirmation off of Equilibrium, when in reality I already have confirmation through the liquidity, break of structure that caused the initial movedown. EQ was just to find a retracement in case you missed the original entry. Overall because I know for next time and I know that in a few years I will be very profitable. Also today was a news day and I really shouldnt have traded anyways.
+
+# 8-7-23
+
+I took a trade on XAUUSD today. I could've taken two. Weekly was bearish, daily was bearish, but 4hr was bullish. Price was coming down and I initially saw a really good long oppurtinity off of a order block and break of structure. I didn't see a liquidity sweep. That order block pushed price up and did sweep liquidity, and broke structure to the downside. I took this trade because it was in line with my daily bias. However once I was in the trade, I started to get anxious because I wasn't very confident and ended up entering too early, and exiting too early. I am scared of failing, I want this extra money so bad, but the more I think about Profits, the more I am going to lose
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [x] Liquidity Sweep
+- [x] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
