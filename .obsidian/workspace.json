@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/8-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/8-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/8-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/8-7-23.md"
+                "file": "Work/Trading Log Bootcamp/Trading Log.md"
               }
             }
           }
@@ -173,8 +173,9 @@
   },
   "active": "fb40c8942ad43671",
   "lastOpenFiles": [
-    "Work/Trading Log Bootcamp/Trading Log.md",
+    "Work/Daily Log/8-8-23.md",
     "Work/Daily Log/8-7-23.md",
+    "Work/Trading Log Bootcamp/Trading Log.md",
     "Work/Daily Log/Daily Log Template 1 1.md",
     "Work/Daily Log/8-2-2023 1.md",
     "Work/Daily Log/8-2-2023 1 1.md",
@@ -197,7 +198,6 @@
     "Work/Trading Log Bootcamp/Bootcamp Day 33 - Execution pt.3.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 32 - Execution pt.2.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md",
-    "Work/Trading Log Bootcamp/Execution_Plan.md"
+    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md"
   ]
 }

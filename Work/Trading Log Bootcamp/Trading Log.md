@@ -45,3 +45,14 @@ I took a trade on XAUUSD today. I could've taken two. Weekly was bearish, daily 
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-8-23
+
+Currently my daily bias is bearish, but i don't see any bearish setups, and the only short I could take would be a retracement play off of a fair value gap or equilibrium. Otherwise, a long makes more sense to me as we just swept daily liquidity. Will stay patient to see what market does. Might not trade today. Ended up trading today. Gold swept daily liquidity, and pushed up into EQ, I missed that play, but found a 15 minute fvg  it pushed into and took the trade off of that. Risked 1%, and only made .75%, but overall on the week I am up 2% on my account and I can't complain about that.
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [x] Liquidity Sweep
+- [x] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
