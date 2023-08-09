@@ -56,3 +56,14 @@ Currently my daily bias is bearish, but i don't see any bearish setups, and the 
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-9-23
+
+My Daily Bias today was bearish, and I had found a perfect setup off of EQ, however, I changed my bias to bullish because I thought since we had swept Daily Liquidity we were going to get a break of structure + rally, however I was wrong. I should never be changing my daily bias. Today I lost 1%. Overall account is up 1.5%
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium

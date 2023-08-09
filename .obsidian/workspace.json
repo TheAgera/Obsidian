@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/8-9-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,11 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb40c8942ad43671",
+  "active": "f175f332ec2a97ad",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 1.md",
+    "Work/Daily Log/8-9-23.md",
     "Work/Daily Log/8-8-23.md",
-    "Work/Daily Log/8-7-23.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
+    "Work/Daily Log/8-7-23.md",
     "Work/Daily Log/Daily Log Template 1 1.md",
     "Work/Daily Log/8-2-2023 1.md",
     "Work/Daily Log/8-2-2023 1 1.md",
@@ -191,13 +190,10 @@
     "Work/Daily Log/7-12-23.md",
     "Work/Daily Log/7-17-23.md",
     "Work/Daily Log/7-20-23.md",
-    "Untitled.md",
     "Work/Daily Log/7-20-23 1.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 51 - Motivational Sunday.md",
     "Work/Daily Log/7-12-23 1.md",
     "Work/Trading Log Bootcamp/Bootcamp Day 33 - Execution pt.3.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 32 - Execution pt.2.md",
-    "Work/Trading Log Bootcamp/Bootcamp Day 49 - Daily Bias and Backtesting.md"
+    "Work/Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md"
   ]
 }
