@@ -67,3 +67,18 @@ My Daily Bias today was bearish, and I had found a perfect setup off of EQ, howe
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-10-23
+
+I messed up big today. My account is down 5%. I traded during news, I trade again, and risked way too much. Even then, I am just itching to take another trade. I wanted to cry after losing 5% on MY PAPER ACCOUNT. ITS NOT EVEN REAL??? WHY DO I CARE??? Because the longer this takes, the longer I have to wait to stop worrying about money. I was about to put my fake account back at 200,000. However, I welcome this challenge and I think I would be very proud if I could bring hte account back up from a deficit because this is going to happen when I am live trading on my own account.
+What did I learn:
+	Not to trade on news
+	It is going to be years before i start making money from this
+	
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
