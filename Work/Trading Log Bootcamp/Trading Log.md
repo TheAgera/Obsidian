@@ -82,3 +82,15 @@ What did I learn:
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-10-23
+
+Today is a high impact news day. I could trade, and I could make tons of money, but there is no point as I do not want to take on that kind of risk. Its like working out with an injury; sure it could get better, but the chance of you further injuring yourself is never worth it.
+	
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
