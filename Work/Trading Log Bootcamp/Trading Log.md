@@ -94,3 +94,15 @@ Today is a high impact news day. I could trade, and I could make tons of money, 
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-16-23
+
+My account is back at break even! If I can do that, there's no reason I can't make 10% this month and 10% the next month, and then get my funded. I risked .25% today, and I should've risked 0% as today is FOMC at 2pm. FOMC is one of, if not the HIGHEST impact news, so no trading should be happening. You can even see volume slowing down over the last 24 hours because of FOMC. Lots of volatility and strategies not working because of that. STAY AWAY. DON"T OPEN TRADING VIEW AGAIN TODAY
+	
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
