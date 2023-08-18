@@ -16,7 +16,7 @@ I decided to take a trade on SPX, price was inside a 30m fair value gap, along w
 
 Today I thought gold looked nice, I was able to catch a small short off a 1hr liquidity sweep, break of structure, and orderblock. It hit tp1 and I was stopped at break even. I did good at this point, but then I tried to revenge trade, because I had only risked .5%. I thought my reentry was nice but set my stopless to smalll because I was emotional. Currently I would be up well over a % if I had traded emotionless, and been more patient. I then traded SPX as per TJR reccomendations. The entry was the same as gold, and got tp1 with stop a break even. SPX might run more, but honestly I am okay today as i am up about .4%.
 - IF I were to do better, I need to start being more robotic during my trades. and especially after I place the trade. I can't seem to ever look away from the charts. I also need to be patient, as I realize there are about 3 trades you can take between 8am, and 10:30am. So if I be patient I can wait for the perfect setup. 
-
+## UPDATE: Once price took out london buy side liquidty, PRICE DID WHAT I THOUGH IT WAS GOING TO DO.... WAIT FOR LIQUIDITY SWEEP YESSS
 # 6-28-23
 
 ## STOP TRADING DURING NEWS WTF IS WRONG WITH YOU???????
@@ -103,6 +103,30 @@ My account is back at break even! If I can do that, there's no reason I can't ma
 - [ ] Bullish Bias
 - [ ] Liquidity Sweep
 - [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+# 8-17-23
+
+Today I risked 1%, and so far am up .5% in secured profits and have a safe stop loss. Today was unemployment claims at 8:30 which essentially took out immediate liquiidty on both sides. Everything was bearish besides the 1 hr. After news, price went up into an hourly order block, and after that I waited for 15 minute break of structure. I entered off of the 5 min break of structure. I got scarred because as i entered, price ramped back up which looked like my 5 min break of structure was going to be a 5min liquidity sweep. I could've entered another 1% and had a much better entry, but I am still up a percent today, and could be up 1.5%. Over all good day
+	
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [x] Break of Structure
+- [ ] Fair Value Gap
+- [x] Order Block
+- [ ] Equilibrium
+
+# 8-18-23
+
+Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal to the upside soon, but we shall see.  I risked 2% on a short that was honestly a terrible move. I got impatient because I thought that since it was friday there would be low volume after a certain time. I'm not even sure what I noticed... There was no liqiudity sweep, 15min bos, and then a fair value gap that got ignored so it doesnt even matter. I think focusing on my emotions during all of this is more important. I'm SO upset I lost this trade, and during the entire time all I could think about was how stressed the trade made me. I should be confident, because I found a good setup and have nothing to worry about. I lost this trade, all I can do is recognize what I did wrong and move on and be happy that I made a mistake I can learn from. Mistakes were: over emotional, didn't wait for liquidity sweep. We just got a liquidity sweep, but i just can't trade again. That would be breaking my rules. It is a friday and price is going to chop-chop because of low volume. I have to wait for a liquidity sweep at the MINIMUM
+	
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [x] Break of Structure
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium

@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b7c6370bcaa6f0f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work Code/ProxMox Summary Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work Code/ProxMox Summary Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work Code/ProxMox Summary Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md"
+                "file": "Work Code/ProxMox Summary Template.md"
               }
             }
           }
@@ -171,9 +183,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fb40c8942ad43671",
+  "active": "b7c6370bcaa6f0f4",
   "lastOpenFiles": [
+    "Work Code/7741E500",
+    "Work/Trading Log Bootcamp/Trading Log.md",
+    "Work Code/ProxMox Summary Template.md",
     "Work/Daily Log/8-15-23.md",
+    "Work/Daily Log/Git Sync Script.md",
+    "Work Code/~$ProxMoxServerSummary.xlsx",
+    "switch ($Division) {.ps1",
+    "C & C++/Untitled-2.c",
+    "C & C++",
+    "New folder",
+    "gitsync/Old/gitpush.ps1",
+    "gitsync/Old/gitpull.ps1",
+    "gitsync/Old",
+    "gitsync/New folder",
     "Work/Daily Log/8-14-23.md",
     "Work/Daily Log/7-7-23.md",
     "Work/Daily Log/6-21-23.md",
@@ -193,11 +218,7 @@
     "Work/Daily Log/7-17-23.md",
     "Work/Daily Log/7-12-23.md",
     "Work/Daily Log/7-11-23.md",
-    "Work/Trading Log Bootcamp/Trading Log.md",
     "Work/Daily Log/AD User Script.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Work/Daily Log/Daily Log Template 1 1.md",
-    "Work/Daily Log/8-2-2023 1 1.md"
+    "Untitled 1.md"
   ]
 }
