@@ -118,12 +118,13 @@ function BuildTableForHosts($ports) {
             "53" { "DNS"}
             "80" { "HTTP Port" }
             "443" { "HTTPS Port" }
-            ""
+            "9000" {"Portainer HTTP"}
+            "9001" {"Portainer Agent"}
             "9090" {"Cockpit"}
             "9443" {"Portainer HTTPS"}
             "10050" {"Zabbix Agent"}
             "10055" {"Zabbix Agent"}
-            default { "Other Port: $port" }
+            default { "Undocumented" }
         }
         $table += "`n| $port | $description |"
     }
@@ -179,7 +180,7 @@ $portsTable
 "
 
     Write-Host $markdown
-    #Add-Content -Path $outputFilePath -Value $markdown
+    Add-Content -Path $outputFilePath -Value $markdown
 }
 
 $workbook.Close()
