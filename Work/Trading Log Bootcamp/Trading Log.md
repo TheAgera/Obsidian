@@ -130,3 +130,19 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# 8-18-23
+
+
+
+	- [ ]  Am I mentally prepped to trade?
+		- [ ] Am I upset?
+		- [ ] Do I feel awake?
+		- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [x] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
