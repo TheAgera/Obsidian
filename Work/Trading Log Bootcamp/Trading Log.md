@@ -131,18 +131,17 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ] Order Block
 - [ ] Equilibrium
 
-# 8-18-23
+# 8-31-23
 
-
-
-	- [ ]  Am I mentally prepped to trade?
-		- [ ] Am I upset?
-		- [ ] Do I feel awake?
-		- [ ] Is there anything bothering that might distract?
+I was not mentally prepared to trade today as I am still feeling ill. I noticed a big 4 hour fvg that price tapped into it, I was waiting for the break of structure following the liq sweep + fvg and I thought there was a 5min bos, but it ended up being a wick by the time I entered. What could I have done better today? Don't trade if I feel sick, and adjust my bias if needed as price was bearish today and I thought it was bullish. 
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
 - [ ] Bearish Bias
-- [ ] Bullish Bias
-- [ ] Liquidity Sweep
-- [x] Break of Structure
-- [ ] Fair Value Gap
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium

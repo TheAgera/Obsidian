@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/8-31-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/8-31-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/8-31-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/8-31-23.md"
+                "file": "Work/Trading Log Bootcamp/Trading Log.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "b7c6370bcaa6f0f4",
   "lastOpenFiles": [
-    "Work/Daily Log/8-28-23.md",
     "Work/Daily Log/8-31-23.md",
+    "Work/Daily Log/8-28-23.md",
     "Work/Daily Log/8-25-23.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
     "Work Code/36968A10",
