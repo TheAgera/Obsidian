@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8d139305667b3c13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7c6370bcaa6f0f4",
+  "active": "8d139305667b3c13",
   "lastOpenFiles": [
     "Work/Daily Log/8-31-23.md",
     "Work/Daily Log/8-28-23.md",
