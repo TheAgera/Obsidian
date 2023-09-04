@@ -145,3 +145,14 @@ I was not mentally prepared to trade today as I am still feeling ill. I noticed 
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+# Weekly Review for the week of 8-28/9-1
+
+This is probably my worst week in trading, losing 6% of my account... Let's take a step back and see what I did wrong on each trade this week
+
+### Monday
+Last week we had taken out what I thought to be daily buyside liquidity, however that was actually a doji candle, and shouldn't be used for strong confluence in my direction. I did the usual TJR forex strategy, but what I failed to notice is that we just swept MONTHLY liquidity meaning price was going to continue going on up. I also failed to notice that the monthly was bullish. If I had checked that we swept monthly liquidity I most likely would've gone bullish. Also, I poplace three trades this day showing I was too emotional. I also don't have a check list for this day proving I was too emotional. I also keep doing this thing where I keep looking for order blocks and it just isn't working. liq sweep and break of structure are the two most important. 
+
+### Tuesday
+
+This was a heavy news day, which caused price to rocket up and form this fair value gap. My idea was to take the short and fill the fair value gap. However market was not interested in filling the fair value gap for the entire week. I was so deadset on this fair value gap being filled that I went way overboard 
