@@ -81,3 +81,12 @@ let person = {
     eyecolor: "blue"
 
 };
+
+
+// In this example, person is an object. firstName, lastName, age, and eyeColor are properties of the person object.
+
+// You can access object properties in two ways:
+
+console.log(person.firstname); // Outputs: "John"
+console.log(person["lastName"]); // Outputs :"Joe"
+

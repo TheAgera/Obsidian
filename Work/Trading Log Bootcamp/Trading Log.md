@@ -131,14 +131,13 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ] Order Block
 - [ ] Equilibrium
 
-# 8-18-23
+# 8-25-23
 
 
 
-	- [ ]  Am I mentally prepped to trade?
-		- [ ] Am I upset?
-		- [ ] Do I feel awake?
-		- [ ] Is there anything bothering that might distract?
+- [ ]  Am I mentally prepped to trade?
+- [ ] Am I upset?
+- [ ] Do I feel awake?	- [ ] Is there anything bothering that might distract?
 - [ ] Bearish Bias
 - [ ] Bullish Bias
 - [ ] Liquidity Sweep
@@ -146,3 +145,38 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+
+# 8-28-23
+
+- [ ]  Am I mentally prepped to trade?
+	- [x] Am I upset?
+	- [ ] Do I feel awake?	
+	- [x] Is there anything bothering that might distract?
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+
+Knowing I wasn't mentally there for a trade, I wanted to trade so bad so let's review what I traded this day. I assumed we were bearish for the day, as the 1 hour has been in a downtrend, besides the big shot up from the previous large news day. Asian/London liquidity was swept. My issue is that I keep forcing trades, instead of waiting for a 15 minute break of structure. 5minute break of structure is honestly a scam most days and it is better to wait for 15 minute. I would rather not trade than lose money. Anyways, I took a 5m break of structure and that was pretty much it... I think I got excited because it was a non news day, but I think moving forward I need to get comfortable with trading after news. I keep doing this thing where I do a daily EQ, that is a terrible strategy and try to avoid it when possible. DAILY BIAS -> LIQ -> BREAK OF STRUCTUER
+
+
+# 8-29-23
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?	
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+I am bullish for tomorrow, but I am also not trading as I have to go to TDM and help processing with the laser
