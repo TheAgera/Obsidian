@@ -155,4 +155,4 @@ Last week we had taken out what I thought to be daily buyside liquidity, however
 
 ### Tuesday
 
-This was a heavy news day, which caused price to rocket up and form this fair value gap. My idea was to take the short and fill the fair value gap. However market was not interested in filling the fair value gap for the entire week. I was so deadset on this fair value gap being filled that I went way overboard 
+This was a heavy news day, which caused price to rocket up and form this fair value gap. My idea was to take the short and fill the fair value gap. However market was not interested in filling the fair value gap for the entire week. I was so deadset on this fair value gap being filled that I went way overboard, however, price is following 
