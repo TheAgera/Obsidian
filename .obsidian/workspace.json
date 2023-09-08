@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/9-5-23.md",
+                "file": "Work/Daily Log/9-7-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/9-5-23.md",
+                "file": "Work/Daily Log/9-7-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/9-5-23.md",
+                "file": "Work/Daily Log/9-7-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/9-5-23.md"
+                "file": "Work/Daily Log/9-7-23.md"
               }
             }
           }
@@ -197,8 +197,9 @@
   },
   "active": "8d139305667b3c13",
   "lastOpenFiles": [
-    "Work/Daily Log/Daily Log Template.md",
     "Work/Daily Log/9-5-23.md",
+    "Work/Daily Log/9-7-23.md",
+    "Work/Daily Log/Daily Log Template.md",
     "Work/Daily Log/Git Sync Script.md",
     "Work/Daily Log/8-31-23.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
@@ -231,7 +232,6 @@
     "Work/Daily Log/7-25-23.md",
     "Work/Daily Log/7-24-23.md",
     "Work/Daily Log/7-21-23.md",
-    "Work/Daily Log/7-20-23.md",
-    "Work/Daily Log/7-18-23.md"
+    "Work/Daily Log/7-20-23.md"
   ]
 }
