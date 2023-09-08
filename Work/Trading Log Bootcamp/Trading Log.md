@@ -131,6 +131,7 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ] Order Block
 - [ ] Equilibrium
 
+<<<<<<< HEAD
 # 8-25-23
 
 
@@ -138,11 +139,49 @@ Today is a friday, no news. Gold was swept weekly liquidity. I expect a reversal
 - [ ]  Am I mentally prepped to trade?
 - [ ] Am I upset?
 - [ ] Do I feel awake?	- [ ] Is there anything bothering that might distract?
+=======
+# 8-31-23
+
+I was not mentally prepared to trade today as I am still feeling ill. I noticed a big 4 hour fvg that price tapped into it, I was waiting for the break of structure following the liq sweep + fvg and I thought there was a 5min bos, but it ended up being a wick by the time I entered. What could I have done better today? Don't trade if I feel sick, and adjust my bias if needed as price was bearish today and I thought it was bullish. 
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+>>>>>>> ed75bb76220b48f8ad889a52355ff9ef8f4f7e8d
 - [ ] Bearish Bias
-- [ ] Bullish Bias
-- [ ] Liquidity Sweep
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+# Weekly Review for the week of 8-28/9-1
+
+This is probably my worst week in trading, losing 6% of my account... Let's take a step back and see what I did wrong on each trade this week
+
+### Monday
+Last week we had taken out what I thought to be daily buyside liquidity, however that was actually a doji candle, and shouldn't be used for strong confluence in my direction. I did the usual TJR forex strategy, but what I failed to notice is that we just swept MONTHLY liquidity meaning price was going to continue going on up. I also failed to notice that the monthly was bullish. If I had checked that we swept monthly liquidity I most likely would've gone bullish. Also, I poplace three trades this day showing I was too emotional. I also don't have a check list for this day proving I was too emotional. I also keep doing this thing where I keep looking for order blocks and it just isn't working. liq sweep and break of structure are the two most important. 
+
+### Tuesday
+
+This was a heavy news day, which caused price to rocket up and form this fair value gap. My idea was to take the short and fill the fair value gap. However market was not interested in filling the fair value gap for the entire week. I was so deadset on this fair value gap being filled that I went way overboard, however, price is following 
+
+
+
+# 9-5-23
+
+No news today, price has filled the fair value gap from last week and now I am looking for a long position. Waiting for a 15m or even 30 m break of structure + a sweep of london session lows before I enter the trade. I could possibly see bos, and then a liq sweep down to the london session lows. Price swep london session lows, and I entered 5 lots on the 15min bos, and then another 5lots after a slight retracement. If the 30 minute candle closes bullish and gives a bos I think I am in the clear, but we shall see... I got my 30 minute break of structure and I could also be seeing an hourly break of structure. Well hourly and 30 minute look like it is going to rebreak structure. Absolutely beautiful. I'm so happy right now. I got stopped out and price is seemingly ignoring the fair value gap and is continuing further down. I'm not sure what I did wrong, unless I am not understanding fair value gaps, they are a retracement tool. Will need to analyze further.
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [x] Liquidity Sweep
 - [x] Break of Structure
-- [ ] Fair Value Gap
+- [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
 

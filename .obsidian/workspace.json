@@ -1,76 +1,39 @@
 {
   "main": {
-    "id": "b4ecbaad06728add",
+    "id": "c39c56e1b84dbe6f",
     "type": "split",
     "children": [
       {
-        "id": "409a0cc863ba3e4b",
+        "id": "a43450d09c2ab8d9",
         "type": "tabs",
         "children": [
           {
-            "id": "b0ae813b5328de4e",
+            "id": "82156f4ec90759b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/7-25-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6f06028f515d113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Daily Log/7-26-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb40c8942ad43671",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7c6370bcaa6f0f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/9-6-23.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c8c8bb987ba4909b",
+    "id": "ffb9824556b3eae9",
     "type": "split",
     "children": [
       {
-        "id": "5f083fbfe1cb1d58",
+        "id": "ccc278ba6cf9c1b6",
         "type": "tabs",
         "children": [
           {
-            "id": "f175f332ec2a97ad",
+            "id": "9de1ca18d4f625e2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +43,7 @@
             }
           },
           {
-            "id": "0bd68198c7974f18",
+            "id": "8ab289a90d112d7b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +58,7 @@
             }
           },
           {
-            "id": "eb32fb50a5e8fa15",
+            "id": "4fa991ed088a5e6a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "85b633493a606a08",
+    "id": "8c4f066b7bd41559",
     "type": "split",
     "children": [
       {
-        "id": "a25cfe7105a5f625",
+        "id": "a792ca65dc380fc9",
         "type": "tabs",
         "children": [
           {
-            "id": "5c0ebb6921645dcd",
+            "id": "62ed900a7b084b3d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/9-6-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +97,19 @@
             }
           },
           {
-            "id": "c2f92d80ca97382e",
+            "id": "ff987c5254f11403",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/9-6-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5f95612facdf3567",
+            "id": "f6f2a91f34781cd3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,12 +120,12 @@
             }
           },
           {
-            "id": "4ef087710c0d8d0b",
+            "id": "44cf33d66cf6213a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md"
+                "file": "Work/Daily Log/9-6-23.md"
               }
             }
           }
@@ -183,42 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7c6370bcaa6f0f4",
+  "active": "82156f4ec90759b9",
   "lastOpenFiles": [
-    "Work/Daily Log/8-25-23.md",
-    "Work/Trading Log Bootcamp/Trading Log.md",
-    "Work Code/36968A10",
-    "Work Code/ProxMox Summary Template.md",
-    "Work/Daily Log/8-15-23 1.md",
-    "Work Code/tempCodeRunnerFile.ps1",
-    "Work Code/~$ProxMoxServerSummary.xlsx",
-    "Work Code/7741E500",
-    "Work/Daily Log/8-15-23.md",
-    "Work/Daily Log/Git Sync Script.md",
-    "switch ($Division) {.ps1",
-    "C & C++/Untitled-2.c",
-    "C & C++",
-    "New folder",
-    "gitsync/Old/gitpush.ps1",
-    "gitsync/Old/gitpull.ps1",
-    "Work/Daily Log/8-14-23.md",
-    "Work/Daily Log/7-7-23.md",
-    "Work/Daily Log/6-21-23.md",
-    "Work/Daily Log/8-11-23.md",
-    "Work/Daily Log/8-9-23.md",
-    "Work/Daily Log/8-8-23.md",
-    "Work/Daily Log/8-7-23.md",
-    "Work/Daily Log/8-2-2023 1.md",
-    "Work/Daily Log/8-2-2023.md",
-    "Work/Daily Log/7-27-23.md",
-    "Work/Daily Log/7-26-23.md",
-    "Work/Daily Log/7-25-23.md",
-    "Work/Daily Log/7-24-23.md",
-    "Work/Daily Log/7-21-23.md",
-    "Work/Daily Log/7-20-23.md",
-    "Work/Daily Log/7-18-23.md",
-    "Work/Daily Log/7-17-23.md",
-    "Work/Daily Log/7-12-23.md",
-    "Work/Daily Log/7-11-23.md"
+    "Work/Daily Log/Daily Log Template.md",
+    "Work/Daily Log/9-6-23.md",
+    "Work/Daily Log/9-5-23.md",
+    "Work/Daily Log/9-5-23 1.md"
   ]
 }
