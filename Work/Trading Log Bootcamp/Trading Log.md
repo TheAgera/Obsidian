@@ -174,3 +174,20 @@ No news today, price has filled the fair value gap from last week and now I am l
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+
+# 9-8-23
+
+No news today, price has filled the fair value gap from last week and now I am looking for a long position. Waiting for a 15m or even 30 m break of structure + a sweep of london session lows before I enter the trade. I could possibly see bos, and then a liq sweep down to the london session lows. Price swep london session lows, and I entered 5 lots on the 15min bos, and then another 5lots after a slight retracement. If the 30 minute candle closes bullish and gives a bos I think I am in the clear, but we shall see... I got my 30 minute break of structure and I could also be seeing an hourly break of structure. Well hourly and 30 minute look like it is going to rebreak structure. Absolutely beautiful. I'm so happy right now. I got stopped out and price is seemingly ignoring the fair value gap and is continuing further down. I'm not sure what I did wrong, unless I am not understanding fair value gaps, they are a retracement tool. Will need to analyze further.
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [x] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium

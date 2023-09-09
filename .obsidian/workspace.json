@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/9-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/9-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/9-7-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/9-7-23.md"
+                "file": "Work/Trading Log Bootcamp/Trading Log.md"
               }
             }
           }
@@ -197,16 +197,17 @@
   },
   "active": "8d139305667b3c13",
   "lastOpenFiles": [
-    "Work/Daily Log/9-5-23.md",
-    "Work/Daily Log/9-7-23.md",
-    "Work/Daily Log/Daily Log Template.md",
+    "Work/Trading Log Bootcamp/TJR Trading Plan.md",
+    "Work Code/ProxMox Summary Template.md",
     "Work/Daily Log/Git Sync Script.md",
+    "Work/Daily Log/Daily Log Template.md",
+    "Work/Daily Log/9-7-23.md",
+    "Work/Daily Log/9-5-23.md",
     "Work/Daily Log/8-31-23.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
     "Work/Daily Log/8-28-23.md",
     "Work/Daily Log/8-25-23.md",
     "Work Code/36968A10",
-    "Work Code/ProxMox Summary Template.md",
     "Work/Daily Log/8-15-23 1.md",
     "Work Code/tempCodeRunnerFile.ps1",
     "Work Code/~$ProxMoxServerSummary.xlsx",
@@ -231,7 +232,6 @@
     "Work/Daily Log/7-26-23.md",
     "Work/Daily Log/7-25-23.md",
     "Work/Daily Log/7-24-23.md",
-    "Work/Daily Log/7-21-23.md",
-    "Work/Daily Log/7-20-23.md"
+    "Work/Daily Log/7-21-23.md"
   ]
 }
