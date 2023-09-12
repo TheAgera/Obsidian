@@ -191,3 +191,38 @@ No news today, price has filled the fair value gap from last week and now I am l
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+
+
+# 9-11-23
+
+I think my mistake today is having difficulty deciding my bias. I saw an opportunity for for a short and a long, but I was in my head so much that I ended up forcing a trade. Honestly I just wasn't focused today. It didn't sweep assian session lows. London session highs made like an order block, and that got file half before price dropping along with a nice 5 min BOS and a retreacement. Honestly that was the trade to take, but my bias was more bullish that I day so I was wating for a long to happen. I ended up taking a long off a 5 min bos , but there was no liq sweep so I should have entered into the trade. I think I am going to wake up to price being up, because the accumulation zone was just touched.
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [x] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+
+# 9-12-23
+
+No news today. Let's wait for at the minimum, liq sweep and break of structure. Let's also figure out my Bias because I have been getting tripped up on my bias
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
