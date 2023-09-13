@@ -226,3 +226,22 @@ No news today. Let's wait for at the minimum, liq sweep and break of structure. 
 - [ ] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium
+
+
+# 9-12-23
+
+I am looking at bearish bias, there is this fvg I wanna get filled and the short, but news seems to be doing its own thing right now so, lets see whats news does and adapt. If 1903 gets swept, look for longs. Still waiting for that FVG to get, I am 3.5 points away from it getting hit. I originally had a 15min fvg, but switching to 4 hour, the fvg gets hit (see picture below)
+I might have missed the trade entry, I will wait, otherwise no trade today.
+I entered off of the EQ after it hit the 4hr fvg, but I am starting to think that was a bad idea since the fvg didn't get filled 50%. I ended up selling at .5 percent. I didn't like the way price is looking today, just seems to be chopped. I missed the original entry of 1915, if I got in that I would've stayed in the trade all day
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium ![[chrome_qfm5pPzKxF.png]]
