@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md",
+                "file": "Work/Daily Log/9-12&13&14-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md",
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md"
+                "file": "Work/Trading Log Bootcamp/Trading Log.md"
               }
             }
           },
@@ -231,12 +231,13 @@
   },
   "active": "702d1362494b194f",
   "lastOpenFiles": [
+    "Work/Daily Log/9-12&13&14-23.md",
+    "Work/Trading Log Bootcamp/Trading Log.md",
+    "chrome_9mtHqUCyi8.png",
     "Work/Daily Log/Daily Log Template 1.md",
     "Work/Daily Log/Daily Log Template.md",
-    "Work/Trading Log Bootcamp/Trading Log.md",
     "chrome_qfm5pPzKxF.png",
     "Work Code/apikeytest.ps1",
-    "Work/Daily Log/9-12&13-23.md",
     "Work/Daily Log/9-11-23.md",
     "Work/Trading Log Bootcamp/TJR Trading Plan.md",
     "Work Code/ProxMox Summary Template.md",
@@ -266,7 +267,6 @@
     "Work/Daily Log/8-7-23.md",
     "Work/Daily Log/8-2-2023 1.md",
     "Work/Daily Log/8-2-2023.md",
-    "Work/Daily Log/7-27-23.md",
-    "Work/Daily Log/7-26-23.md"
+    "Work/Daily Log/7-27-23.md"
   ]
 }

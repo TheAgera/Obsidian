@@ -228,12 +228,12 @@ No news today. Let's wait for at the minimum, liq sweep and break of structure. 
 - [ ] Equilibrium
 
 
-# 9-12-23
+# 9-13-23
 
 I am looking at bearish bias, there is this fvg I wanna get filled and the short, but news seems to be doing its own thing right now so, lets see whats news does and adapt. If 1903 gets swept, look for longs. Still waiting for that FVG to get, I am 3.5 points away from it getting hit. I originally had a 15min fvg, but switching to 4 hour, the fvg gets hit (see picture below)
 I might have missed the trade entry, I will wait, otherwise no trade today.
 I entered off of the EQ after it hit the 4hr fvg, but I am starting to think that was a bad idea since the fvg didn't get filled 50%. I ended up selling at .5 percent. I didn't like the way price is looking today, just seems to be chopped. I missed the original entry of 1915, if I got in that I would've stayed in the trade all day
-
+I MADE ONE PERCENT WHOOO
 - [x]  Am I mentally prepped to trade?
 	- [ ] Am I upset?
 	- [ ] Do I feel awake?
@@ -245,3 +245,18 @@ I entered off of the EQ after it hit the 4hr fvg, but I am starting to think tha
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium ![[chrome_qfm5pPzKxF.png]]
+
+# 9-14-23
+
+Major liqiduity has just been swept at 1903 thanks to news. This leads me to believe that we are going to get a nice rally up so my bias is bullish for today. This is a big FVG that could be filled half way and send price lower. Might try to catch a quick scalp there. The next major liqiduity is 1889, so we could see that price hit if the FVG wants to get filled and drop further. But because of the liqiduity sweep I expect a retracement. Below is the trade I took, I think it makes sense, but there is a chance this trade does not work out, and the small run up was just to fill more orders to send price lower. However, I am not checking tradingview or metatrader for the rest of the day because I don't care. I believe I took a good trade. My trade ended up working, but i was so close to being stopped out that Im sure if I was on a funded account I would've been stopped due to the terrible spreads.
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium ![[chrome_9mtHqUCyi8.png]]
