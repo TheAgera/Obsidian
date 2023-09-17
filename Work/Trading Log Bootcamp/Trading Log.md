@@ -186,6 +186,7 @@ No news today, price has filled the fair value gap from last week and now I am l
 - [ ] Equilibrium
 
 
+<<<<<<< HEAD
 # 8-28-23
 
 - [ ]  Am I mentally prepped to trade?
@@ -193,6 +194,52 @@ No news today, price has filled the fair value gap from last week and now I am l
 	- [ ] Do I feel awake?	
 	- [x] Is there anything bothering that might distract?
 - [x] Bearish Bias
+=======
+# 9-8-23
+
+No news today, price has filled the fair value gap from last week and now I am looking for a long position. Waiting for a 15m or even 30 m break of structure + a sweep of london session lows before I enter the trade. I could possibly see bos, and then a liq sweep down to the london session lows. Price swep london session lows, and I entered 5 lots on the 15min bos, and then another 5lots after a slight retracement. If the 30 minute candle closes bullish and gives a bos I think I am in the clear, but we shall see... I got my 30 minute break of structure and I could also be seeing an hourly break of structure. Well hourly and 30 minute look like it is going to rebreak structure. Absolutely beautiful. I'm so happy right now. I got stopped out and price is seemingly ignoring the fair value gap and is continuing further down. I'm not sure what I did wrong, unless I am not understanding fair value gaps, they are a retracement tool. Will need to analyze further.
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [x] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+
+
+# 9-11-23
+
+I think my mistake today is having difficulty deciding my bias. I saw an opportunity for for a short and a long, but I was in my head so much that I ended up forcing a trade. Honestly I just wasn't focused today. It didn't sweep assian session lows. London session highs made like an order block, and that got file half before price dropping along with a nice 5 min BOS and a retreacement. Honestly that was the trade to take, but my bias was more bullish that I day so I was wating for a long to happen. I ended up taking a long off a 5 min bos , but there was no liq sweep so I should have entered into the trade. I think I am going to wake up to price being up, because the accumulation zone was just touched.
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [x] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium
+
+
+# 9-12-23
+
+No news today. Let's wait for at the minimum, liq sweep and break of structure. Let's also figure out my Bias because I have been getting tripped up on my bias
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+>>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
 - [ ] Bullish Bias
 - [ ] Liquidity Sweep
 - [ ] Break of Structure
@@ -201,6 +248,7 @@ No news today, price has filled the fair value gap from last week and now I am l
 - [ ] Equilibrium
 
 
+<<<<<<< HEAD
 Knowing I wasn't mentally there for a trade, I wanted to trade so bad so let's review what I traded this day. I assumed we were bearish for the day, as the 1 hour has been in a downtrend, besides the big shot up from the previous large news day. Asian/London liquidity was swept. My issue is that I keep forcing trades, instead of waiting for a 15 minute break of structure. 5minute break of structure is honestly a scam most days and it is better to wait for 15 minute. I would rather not trade than lose money. Anyways, I took a 5m break of structure and that was pretty much it... I think I got excited because it was a non news day, but I think moving forward I need to get comfortable with trading after news. I keep doing this thing where I do a daily EQ, that is a terrible strategy and try to avoid it when possible. DAILY BIAS -> LIQ -> BREAK OF STRUCTUER
 
 
@@ -219,3 +267,22 @@ Knowing I wasn't mentally there for a trade, I wanted to trade so bad so let's r
 - [ ] Equilibrium
 
 I am bullish for tomorrow, but I am also not trading as I have to go to TDM and help processing with the laser
+=======
+# 9-12-23
+
+I am looking at bearish bias, there is this fvg I wanna get filled and the short, but news seems to be doing its own thing right now so, lets see whats news does and adapt. If 1903 gets swept, look for longs. Still waiting for that FVG to get, I am 3.5 points away from it getting hit. I originally had a 15min fvg, but switching to 4 hour, the fvg gets hit (see picture below)
+I might have missed the trade entry, I will wait, otherwise no trade today.
+I entered off of the EQ after it hit the 4hr fvg, but I am starting to think that was a bad idea since the fvg didn't get filled 50%. I ended up selling at .5 percent. I didn't like the way price is looking today, just seems to be chopped. I missed the original entry of 1915, if I got in that I would've stayed in the trade all day
+
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium ![[chrome_qfm5pPzKxF.png]]
+>>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
