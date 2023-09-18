@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "23ebc34dfcdded38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log/Wazuh Documentation Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/Wazuh Documentation Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "file": "Work/Daily Log/Wazuh Documentation Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md"
+                "file": "Work/Daily Log/Wazuh Documentation Notes.md"
               }
             }
           },
@@ -229,14 +241,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "702d1362494b194f",
+  "active": "23ebc34dfcdded38",
   "lastOpenFiles": [
-    "Work/Daily Log/9-12&13&14-23.md",
     "Work/Trading Log Bootcamp/Trading Log.md",
-    "chrome_9mtHqUCyi8.png",
-    "Work/Daily Log/Daily Log Template 1.md",
+    "Work/Daily Log/Wazuh Documentation Notes.md",
+    "Work/Daily Log/9-18.md",
     "Work/Daily Log/Daily Log Template.md",
     "chrome_qfm5pPzKxF.png",
+    "chrome_9mtHqUCyi8.png",
+    "Work/Daily Log/7-3-23.md",
+    "Work/Daily Log/9-12&13&14-23.md",
     "Work Code/apikeytest.ps1",
     "Work/Daily Log/9-11-23.md",
     "Work/Trading Log Bootcamp/TJR Trading Plan.md",
@@ -266,7 +280,6 @@
     "Work/Daily Log/8-8-23.md",
     "Work/Daily Log/8-7-23.md",
     "Work/Daily Log/8-2-2023 1.md",
-    "Work/Daily Log/8-2-2023.md",
-    "Work/Daily Log/7-27-23.md"
+    "Work/Daily Log/8-2-2023.md"
   ]
 }
