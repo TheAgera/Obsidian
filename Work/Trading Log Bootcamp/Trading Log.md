@@ -264,6 +264,7 @@ Major liqiduity has just been swept at 1903 thanks to news. This leads me to bel
 # 9-18-23
 
 No news on this monday. Let's figure out my bias by starting from monthly and working my way down. I am bullish today. I believe price is going to up. I was looking at FVG on ltf, but it was fully filled on htf. Unfortunately I am not seeing much today. Going to let price develop over the next hour and see if I can catch a nice scalp/small trade. I took a trade and I didn't get any previous session liquidity sweep. I lost 1% putting my account back at BE. Not trading again today unless I see some serious movement. Not sure what price is doing today. My guess is nothing because of the big news later in the week. Finally entered the asian session liquidity block at 1930. Waiting for a break of structure. No BoS no trade.
+I lost two percent and this is what I traded.
 
 - [ ]  Am I mentally prepped to trade?
 	- [ ] Am I upset?
@@ -275,4 +276,20 @@ No news on this monday. Let's figure out my bias by starting from monthly and wo
 - [ ] Break of Structure
 - [ ] Fair Value Gap
 - [x] Order Block
+- [ ] Equilibrium ![[chrome_qfm5pPzKxF 1.png]]
+
+# 9-19-23
+
+
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
 - [ ] Equilibrium 
