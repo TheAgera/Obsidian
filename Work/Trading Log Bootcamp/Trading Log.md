@@ -249,6 +249,7 @@ No news today. Let's wait for at the minimum, liq sweep and break of structure. 
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Knowing I wasn't mentally there for a trade, I wanted to trade so bad so let's review what I traded this day. I assumed we were bearish for the day, as the 1 hour has been in a downtrend, besides the big shot up from the previous large news day. Asian/London liquidity was swept. My issue is that I keep forcing trades, instead of waiting for a 15 minute break of structure. 5minute break of structure is honestly a scam most days and it is better to wait for 15 minute. I would rather not trade than lose money. Anyways, I took a 5m break of structure and that was pretty much it... I think I got excited because it was a non news day, but I think moving forward I need to get comfortable with trading after news. I keep doing this thing where I do a daily EQ, that is a terrible strategy and try to avoid it when possible. DAILY BIAS -> LIQ -> BREAK OF STRUCTUER
 
 
@@ -269,11 +270,14 @@ Knowing I wasn't mentally there for a trade, I wanted to trade so bad so let's r
 I am bullish for tomorrow, but I am also not trading as I have to go to TDM and help processing with the laser
 =======
 # 9-12-23
+=======
+# 9-13-23
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
 
 I am looking at bearish bias, there is this fvg I wanna get filled and the short, but news seems to be doing its own thing right now so, lets see whats news does and adapt. If 1903 gets swept, look for longs. Still waiting for that FVG to get, I am 3.5 points away from it getting hit. I originally had a 15min fvg, but switching to 4 hour, the fvg gets hit (see picture below)
 I might have missed the trade entry, I will wait, otherwise no trade today.
 I entered off of the EQ after it hit the 4hr fvg, but I am starting to think that was a bad idea since the fvg didn't get filled 50%. I ended up selling at .5 percent. I didn't like the way price is looking today, just seems to be chopped. I missed the original entry of 1915, if I got in that I would've stayed in the trade all day
-
+I MADE ONE PERCENT WHOOO
 - [x]  Am I mentally prepped to trade?
 	- [ ] Am I upset?
 	- [ ] Do I feel awake?
@@ -285,4 +289,55 @@ I entered off of the EQ after it hit the 4hr fvg, but I am starting to think tha
 - [x] Fair Value Gap
 - [ ] Order Block
 - [ ] Equilibrium ![[chrome_qfm5pPzKxF.png]]
+<<<<<<< HEAD
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+
+# 9-14-23
+
+Major liqiduity has just been swept at 1903 thanks to news. This leads me to believe that we are going to get a nice rally up so my bias is bullish for today. This is a big FVG that could be filled half way and send price lower. Might try to catch a quick scalp there. The next major liqiduity is 1889, so we could see that price hit if the FVG wants to get filled and drop further. But because of the liqiduity sweep I expect a retracement. Below is the trade I took, I think it makes sense, but there is a chance this trade does not work out, and the small run up was just to fill more orders to send price lower. However, I am not checking tradingview or metatrader for the rest of the day because I don't care. I believe I took a good trade. My trade ended up working, but i was so close to being stopped out that Im sure if I was on a funded account I would've been stopped due to the terrible spreads.
+- [x]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [x] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [x] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium ![[chrome_9mtHqUCyi8.png]]
+
+# 9-18-23
+
+No news on this monday. Let's figure out my bias by starting from monthly and working my way down. I am bullish today. I believe price is going to up. I was looking at FVG on ltf, but it was fully filled on htf. Unfortunately I am not seeing much today. Going to let price develop over the next hour and see if I can catch a nice scalp/small trade. I took a trade and I didn't get any previous session liquidity sweep. I lost 1% putting my account back at BE. Not trading again today unless I see some serious movement. Not sure what price is doing today. My guess is nothing because of the big news later in the week. Finally entered the asian session liquidity block at 1930. Waiting for a break of structure. No BoS no trade.
+I lost two percent and this is what I traded.
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [x] Bearish Bias
+- [ ] Bullish Bias
+- [x] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [x] Order Block
+- [ ] Equilibrium ![[chrome_qfm5pPzKxF 1.png]]
+
+# 9-19-23
+
+
+
+- [ ]  Am I mentally prepped to trade?
+	- [ ] Am I upset?
+	- [ ] Do I feel awake?
+	- [ ] Is there anything bothering that might distract?
+- [ ] Bearish Bias
+- [ ] Bullish Bias
+- [ ] Liquidity Sweep
+- [ ] Break of Structure
+- [ ] Fair Value Gap
+- [ ] Order Block
+- [ ] Equilibrium 
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8

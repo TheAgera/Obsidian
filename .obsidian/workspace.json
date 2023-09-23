@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log/9-12&13-23.md",
+                "file": "Work/Daily Log/9-12&13&14-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,8 +88,24 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-12&13-23.md",
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+                "file": "Work/Trading Log Bootcamp/Trading Log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23ebc34dfcdded38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log/9-12&13&14-23.md",
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
                 "mode": "source",
                 "source": false
               }
@@ -99,8 +115,12 @@
         ]
 =======
         ],
+<<<<<<< HEAD
         "currentTab": 6
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+        "currentTab": 7
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
       }
     ],
     "direction": "vertical"
@@ -167,10 +187,14 @@
               "type": "backlink",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md",
 =======
                 "file": "Work/Daily Log/9-12&13-23.md",
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+                "file": "Work/Daily Log/9-12&13&14-23.md",
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,10 +212,14 @@
               "type": "outgoing-link",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md",
 =======
                 "file": "Work/Daily Log/9-12&13-23.md",
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+                "file": "Work/Daily Log/9-12&13&14-23.md",
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,9 +243,13 @@
               "type": "outline",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md"
 =======
                 "file": "Work/Daily Log/9-12&13-23.md"
+=======
+                "file": "Work/Daily Log/9-12&13&14-23.md"
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
               }
             }
           },
@@ -250,6 +282,7 @@
     }
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "active": "82156f4ec90759b9",
 =======
   "active": "702d1362494b194f",
@@ -262,10 +295,20 @@
     "Work/Daily Log/9-5-23.md",
     "Work/Daily Log/9-5-23 1.md"
 =======
+=======
+  "active": "23ebc34dfcdded38",
+  "lastOpenFiles": [
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
     "Work/Trading Log Bootcamp/Trading Log.md",
+    "chrome_qfm5pPzKxF 1.png",
+    "Work/Daily Log/Wazuh Documentation Notes.md",
+    "Work/Daily Log/9-18.md",
+    "Work/Daily Log/Daily Log Template.md",
     "chrome_qfm5pPzKxF.png",
+    "chrome_9mtHqUCyi8.png",
+    "Work/Daily Log/7-3-23.md",
+    "Work/Daily Log/9-12&13&14-23.md",
     "Work Code/apikeytest.ps1",
-    "Work/Daily Log/9-12&13-23.md",
     "Work/Daily Log/9-11-23.md",
     "Work/Trading Log Bootcamp/TJR Trading Plan.md",
     "Work Code/ProxMox Summary Template.md",
@@ -293,10 +336,14 @@
     "Work/Daily Log/8-9-23.md",
     "Work/Daily Log/8-8-23.md",
     "Work/Daily Log/8-7-23.md",
+<<<<<<< HEAD
     "Work/Daily Log/8-2-2023 1.md",
     "Work/Daily Log/8-2-2023.md",
     "Work/Daily Log/7-27-23.md",
     "Work/Daily Log/7-26-23.md"
 >>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+=======
+    "Work/Daily Log/8-2-2023 1.md"
+>>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
   ]
 }
