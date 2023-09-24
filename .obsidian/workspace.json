@@ -104,8 +104,12 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-12&13&14-23.md",
 >>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+=======
+                "file": "Work/Daily Log/9-20.md",
+>>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
                 "mode": "source",
                 "source": false
               }
@@ -188,6 +192,7 @@
               "state": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md",
 =======
                 "file": "Work/Daily Log/9-12&13-23.md",
@@ -195,6 +200,9 @@
 =======
                 "file": "Work/Daily Log/9-12&13&14-23.md",
 >>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+=======
+                "file": "Work/Daily Log/9-20.md",
+>>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,6 +221,7 @@
               "state": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md",
 =======
                 "file": "Work/Daily Log/9-12&13-23.md",
@@ -220,6 +229,9 @@
 =======
                 "file": "Work/Daily Log/9-12&13&14-23.md",
 >>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+=======
+                "file": "Work/Daily Log/9-20.md",
+>>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,12 +256,16 @@
               "state": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Work/Daily Log/9-6-23.md"
 =======
                 "file": "Work/Daily Log/9-12&13-23.md"
 =======
                 "file": "Work/Daily Log/9-12&13&14-23.md"
 >>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+=======
+                "file": "Work/Daily Log/9-20.md"
+>>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
               }
             }
           },
@@ -298,16 +314,19 @@
 =======
   "active": "23ebc34dfcdded38",
   "lastOpenFiles": [
+<<<<<<< HEAD
 >>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+=======
+    "Work/Daily Log/9-12&13&14-23.md",
+>>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
     "Work/Trading Log Bootcamp/Trading Log.md",
     "chrome_qfm5pPzKxF 1.png",
     "Work/Daily Log/Wazuh Documentation Notes.md",
-    "Work/Daily Log/9-18.md",
+    "Work/Daily Log/9-20.md",
     "Work/Daily Log/Daily Log Template.md",
     "chrome_qfm5pPzKxF.png",
     "chrome_9mtHqUCyi8.png",
     "Work/Daily Log/7-3-23.md",
-    "Work/Daily Log/9-12&13&14-23.md",
     "Work Code/apikeytest.ps1",
     "Work/Daily Log/9-11-23.md",
     "Work/Trading Log Bootcamp/TJR Trading Plan.md",
