@@ -1,144 +1,39 @@
 {
   "main": {
-    "id": "c39c56e1b84dbe6f",
+    "id": "8920c86bca94deb4",
     "type": "split",
     "children": [
       {
-        "id": "a43450d09c2ab8d9",
+        "id": "e6ce1d4feab48b94",
         "type": "tabs",
         "children": [
           {
-            "id": "82156f4ec90759b9",
+            "id": "9534bd97dc369507",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-6-23.md",
-=======
-                "file": "Work/Daily Log/7-25-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6f06028f515d113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Daily Log/7-26-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb40c8942ad43671",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7c6370bcaa6f0f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d139305667b3c13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Daily Log/9-11-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e967c480d08c6cb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Daily Log/9-12&13&14-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "702d1362494b194f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-12&13-23.md",
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
-=======
-                "file": "Work/Trading Log Bootcamp/Trading Log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23ebc34dfcdded38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-12&13&14-23.md",
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
-=======
-                "file": "Work/Daily Log/9-20.md",
->>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
+                "file": "Work/Daily Log October/10-5-2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-<<<<<<< HEAD
         ]
-=======
-        ],
-<<<<<<< HEAD
-        "currentTab": 6
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
-=======
-        "currentTab": 7
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ffb9824556b3eae9",
+    "id": "308beabdd8ab416d",
     "type": "split",
     "children": [
       {
-        "id": "ccc278ba6cf9c1b6",
+        "id": "db63564592694f33",
         "type": "tabs",
         "children": [
           {
-            "id": "9de1ca18d4f625e2",
+            "id": "c6b511eeee559414",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -148,7 +43,7 @@
             }
           },
           {
-            "id": "8ab289a90d112d7b",
+            "id": "4e4bcb2b17896c6b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -163,7 +58,7 @@
             }
           },
           {
-            "id": "4fa991ed088a5e6a",
+            "id": "16acaec122a6aaaa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -177,32 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "8c4f066b7bd41559",
+    "id": "5d804ba693d17550",
     "type": "split",
     "children": [
       {
-        "id": "a792ca65dc380fc9",
+        "id": "54399e0b88cc06c2",
         "type": "tabs",
         "children": [
           {
-            "id": "62ed900a7b084b3d",
+            "id": "48020421171b323d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-6-23.md",
-=======
-                "file": "Work/Daily Log/9-12&13-23.md",
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
-=======
-                "file": "Work/Daily Log/9-12&13&14-23.md",
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
-=======
-                "file": "Work/Daily Log/9-20.md",
->>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
+                "file": "Work/Daily Log October/10-5-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,31 +97,19 @@
             }
           },
           {
-            "id": "ff987c5254f11403",
+            "id": "b4c22284f58c8861",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-6-23.md",
-=======
-                "file": "Work/Daily Log/9-12&13-23.md",
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
-=======
-                "file": "Work/Daily Log/9-12&13&14-23.md",
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
-=======
-                "file": "Work/Daily Log/9-20.md",
->>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
+                "file": "Work/Daily Log October/10-5-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f6f2a91f34781cd3",
+            "id": "c6356cc39ed3b5b9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -249,34 +120,22 @@
             }
           },
           {
-            "id": "44cf33d66cf6213a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "file": "Work/Daily Log/9-6-23.md"
-=======
-                "file": "Work/Daily Log/9-12&13-23.md"
-=======
-                "file": "Work/Daily Log/9-12&13&14-23.md"
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
-=======
-                "file": "Work/Daily Log/9-20.md"
->>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
-              }
-            }
-          },
-          {
-            "id": "7d7a9fc842d8a87c",
+            "id": "30c4409b03bbfdad",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency"
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+              }
+            }
+          },
+          {
+            "id": "cdf189976d472d66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Work/Daily Log October/10-5-2023.md"
               }
             }
           }
@@ -297,72 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "active": "82156f4ec90759b9",
-=======
-  "active": "702d1362494b194f",
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
+  "active": "9534bd97dc369507",
   "lastOpenFiles": [
-    "Work/Daily Log/Daily Log Template 1.md",
-    "Work/Daily Log/Daily Log Template.md",
-<<<<<<< HEAD
-    "Work/Daily Log/9-6-23.md",
-    "Work/Daily Log/9-5-23.md",
-    "Work/Daily Log/9-5-23 1.md"
-=======
-=======
-  "active": "23ebc34dfcdded38",
-  "lastOpenFiles": [
-<<<<<<< HEAD
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
-=======
-    "Work/Daily Log/9-12&13&14-23.md",
->>>>>>> 06fd26c6ed4cc309f9ff046f7fc4145b0d5610c3
-    "Work/Trading Log Bootcamp/Trading Log.md",
-    "chrome_qfm5pPzKxF 1.png",
-    "Work/Daily Log/Wazuh Documentation Notes.md",
-    "Work/Daily Log/9-20.md",
-    "Work/Daily Log/Daily Log Template.md",
-    "chrome_qfm5pPzKxF.png",
-    "chrome_9mtHqUCyi8.png",
-    "Work/Daily Log/7-3-23.md",
-    "Work Code/apikeytest.ps1",
-    "Work/Daily Log/9-11-23.md",
-    "Work/Trading Log Bootcamp/TJR Trading Plan.md",
-    "Work Code/ProxMox Summary Template.md",
-    "Work/Daily Log/Git Sync Script.md",
-    "Work/Daily Log/9-7-23.md",
-    "Work/Daily Log/9-5-23.md",
-    "Work/Daily Log/8-31-23.md",
-    "Work/Daily Log/8-28-23.md",
-    "Work/Daily Log/8-25-23.md",
-    "Work Code/36968A10",
-    "Work/Daily Log/8-15-23 1.md",
-    "Work Code/tempCodeRunnerFile.ps1",
-    "Work Code/~$ProxMoxServerSummary.xlsx",
-    "Work Code/7741E500",
-    "Work/Daily Log/8-15-23.md",
-    "switch ($Division) {.ps1",
-    "C & C++/Untitled-2.c",
-    "C & C++",
-    "New folder",
-    "gitsync/Old/gitpush.ps1",
-    "Work/Daily Log/8-14-23.md",
-    "Work/Daily Log/7-7-23.md",
-    "Work/Daily Log/6-21-23.md",
-    "Work/Daily Log/8-11-23.md",
-    "Work/Daily Log/8-9-23.md",
-    "Work/Daily Log/8-8-23.md",
-    "Work/Daily Log/8-7-23.md",
-<<<<<<< HEAD
-    "Work/Daily Log/8-2-2023 1.md",
-    "Work/Daily Log/8-2-2023.md",
-    "Work/Daily Log/7-27-23.md",
-    "Work/Daily Log/7-26-23.md"
->>>>>>> d1e6e24a27ca83249e1b50cbf1222e0d075fe69f
-=======
-    "Work/Daily Log/8-2-2023 1.md"
->>>>>>> 63ffca9c02f91016ec89c131984e20e5ed585eb8
+    "Work/Daily Log October/Daily Log Template.md",
+    "Work/Daily Log October/10-5-2023.md",
+    "Work/Daily Log June-September/9-11-23.md",
+    "Work/Daily Log October",
+    "Work/Daily Log June-September/Daily Log Template.md"
   ]
 }
