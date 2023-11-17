@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log November/11-6-23.md",
+                "file": "Work/Daily Log November/11-13-23.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log November/11-6-23.md",
+                "file": "Work/Daily Log November/11-13-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log November/11-6-23.md",
+                "file": "Work/Daily Log November/11-13-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log November/11-6-23.md"
+                "file": "Work/Daily Log November/11-13-23.md"
               }
             }
           }
@@ -183,8 +183,9 @@
   },
   "active": "df66ed1d25409f87",
   "lastOpenFiles": [
-    "Work/Daily Log October/Daily Log Template.md",
     "Work/Daily Log November/11-6-23.md",
+    "Work/Daily Log November/11-13-23.md",
+    "Work/Daily Log October/Daily Log Template.md",
     "Work/Daily Log October/10-19-2023.md",
     "Work/Daily Log November",
     "Work/Daily Log October/Untitled",
