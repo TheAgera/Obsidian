@@ -1,0 +1,3894 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose
+customization and migration functionality. If you need to change
+information in the customization file, use the Customize User Interface
+dialog in the product.
+To access the Customize User Interface dialog, click the Tools menu,
+Customization panel, User Interface button, or enter CUI on the command line.
+-->
+<MenuGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="TEST" DisplayName="TEST">
+  <MacroGroup Name="NEWGROUP">
+    <MenuMacro UID="CCI_0002">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Bill of Materials Header</Name>
+        <Command>^C^C-INSERT;Bill_of_Materials_Header;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0003">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BlankPage LineNumbers Wire Diagram</Name>
+        <Command>^C^C-INSERT;BlankPage_LineNumbers_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0004">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BlankPage Wire Diagram</Name>
+        <Command>^C^C-INSERT;BlankPage_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0005">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CoverPage Wire Diagram</Name>
+        <Command>^C^C-INSERT;CoverPage_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0006">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LineNumbers Wire Diagram</Name>
+        <Command>^C^C-INSERT;LineNumbers_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0007">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Rails Wire Diagram</Name>
+        <Command>^C^C-INSERT;Rails_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0008">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AntennaBracket Panel Layout</Name>
+        <Command>^C^C-INSERT;AntennaBracket_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0009">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BracketLong Panel Layout</Name>
+        <Command>^C^C-INSERT;BracketLong_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0010">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HatBracket1 Panel Layout</Name>
+        <Command>^C^C-INSERT;HatBracket1_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0011">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HatBracket2 Panel Layout</Name>
+        <Command>^C^C-INSERT;HatBracket2_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0012">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">L Bracket Panel Layout</Name>
+        <Command>^C^C-INSERT;L_Bracket_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0013">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">UPS Mounting Brackets Panel Layout</Name>
+        <Command>^C^C-INSERT;UPS_Mounting_Brackets_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0014">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">UPS Shelf Panel Layout</Name>
+        <Command>^C^C-INSERT;UPS_Shelf_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0015">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Z Bracket Panel Layout</Name>
+        <Command>^C^C-INSERT;Z_Bracket_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0016">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1-38HoleCutOut Panel Layout</Name>
+        <Command>^C^C-INSERT;1-38HoleCutOut_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0017">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AirVentHole Panel Layout</Name>
+        <Command>^C^C-INSERT;AirVentHole_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0018">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley 800MR Cutout Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_800MR_Cutout_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0019">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley 800T Cutout Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_800T_Cutout_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0020">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Edwards 874-N5 Horn Panel Layout</Name>
+        <Command>^C^C-INSERT;Edwards_874-N5_Horn_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0021">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fan With Rainhood Panel Layout</Name>
+        <Command>^C^C-INSERT;Fan_With_Rainhood_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0022">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CenterDimension Symbol Panel Layout</Name>
+        <Command>^C^C-INSERT;CenterDimension_Symbol_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0023">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CenterLine Symbol Panel Layout</Name>
+        <Command>^C^C-INSERT;CenterLine_Symbol_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0024">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">480v DisconnectHandle Panel Layout</Name>
+        <Command>^C^C-INSERT;480v_DisconnectHandle_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0025">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AlarmBeacon Panel Layout</Name>
+        <Command>^C^C-INSERT;AlarmBeacon_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0026">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">DoorSwitch Panel Layout</Name>
+        <Command>^C^C-INSERT;DoorSwitch_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0027">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Horn Round Panel Layout</Name>
+        <Command>^C^C-INSERT;Horn_Round_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0028">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Horn Square Panel Layout</Name>
+        <Command>^C^C-INSERT;Horn_Square_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0029">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Print Pocket Panel Layout</Name>
+        <Command>^C^C-INSERT;Print_Pocket_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0030">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Side View PanelLight Panel Layout</Name>
+        <Command>^C^C-INSERT;Side_View_PanelLight_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0031">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door CabinetOpenBottomView Panel Layout</Name>
+        <Command>^C^C-INSERT;1_Door_CabinetOpenBottomView_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0032">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door Enclosure 42W 84H 18D Panel Layout</Name>
+        <Command>^C^C-INSERT;1_Door_Enclosure_42W_84H_18D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0033">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door Enclosure 42W 84H 20D Panel Layout</Name>
+        <Command>^C^C-INSERT;1_Door_Enclosure_42W_84H_20D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0034">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door Enclosure 42W 84H 24D Panel Layout</Name>
+        <Command>^C^C-INSERT;1_Door_Enclosure_42W_84H_24D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0035">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door Inside</Name>
+        <Command>^C^C-INSERT;1_Door_Inside;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0036">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1 Door Subplate 34W 72H Panel Layout</Name>
+        <Command>^C^C-INSERT;1_Door_Subplate_34W_72H_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0037">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">2 Door Enclosure 84W 84H 18D Panel Layout</Name>
+        <Command>^C^C-INSERT;2_Door_Enclosure_84W_84H_18D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0038">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">2 Door Enclosure 84W 84H 20D Panel Layout</Name>
+        <Command>^C^C-INSERT;2_Door_Enclosure_84W_84H_20D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0039">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">2 Door Enclosure 84W 84H 24D Panel Layout</Name>
+        <Command>^C^C-INSERT;2_Door_Enclosure_84W_84H_24D_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0040">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">2 Door Subplate 72W 72H Panel Layout</Name>
+        <Command>^C^C-INSERT;2_Door_Subplate_72W_72H_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0041">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">3 Door Enclosure 124W 84 24D</Name>
+        <Command>^C^C-INSERT;3_Door_Enclosure_124W_84_24D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0042">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">3 Door Enclosure 124W 84H 18D</Name>
+        <Command>^C^C-INSERT;3_Door_Enclosure_124W_84H_18D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0043">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">3 Door Enclosure 124W 84H 20D</Name>
+        <Command>^C^C-INSERT;3_Door_Enclosure_124W_84H_20D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0044">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">3 Door Subplate 114W 72H</Name>
+        <Command>^C^C-INSERT;3_Door_Subplate_114W_72H;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0045">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">4 Door Enclosure 164W 84H 18D</Name>
+        <Command>^C^C-INSERT;4_Door_Enclosure_164W_84H_18D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0046">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">4 Door Enclosure 164W 84H 20D</Name>
+        <Command>^C^C-INSERT;4_Door_Enclosure_164W_84H_20D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0047">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">4 Door Enclosure 164W 84H 24D</Name>
+        <Command>^C^C-INSERT;4_Door_Enclosure_164W_84H_24D;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0048">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">4 Door Subplate 154W 72H</Name>
+        <Command>^C^C-INSERT;4_Door_Subplate_154W_72H;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0049">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CabinetSunShield Panel Layout</Name>
+        <Command>^C^C-INSERT;CabinetSunShield_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0050">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CabinetVent Panel Layout</Name>
+        <Command>^C^C-INSERT;CabinetVent_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0051">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Eye MountsPanel Layout</Name>
+        <Command>^C^C-INSERT;Eye_MountsPanel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0052">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">FanRainHood Panel Layout</Name>
+        <Command>^C^C-INSERT;FanRainHood_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0053">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Handle Panel Layout</Name>
+        <Command>^C^C-INSERT;Handle_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0054">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Handle2 Panel Layout</Name>
+        <Command>^C^C-INSERT;Handle2_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0055">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Handle3 Panel Layout</Name>
+        <Command>^C^C-INSERT;Handle3_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0056">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LiftingEars Panel Layout</Name>
+        <Command>^C^C-INSERT;LiftingEars_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0057">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Quarter Inch Turn Lock Panel Layout</Name>
+        <Command>^C^C-INSERT;Quarter_Inch_Turn_Lock_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0058">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Shelf Panel Layout</Name>
+        <Command>^C^C-INSERT;Shelf_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0059">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SubplateTop-Side Panel Layout</Name>
+        <Command>^C^C-INSERT;SubplateTop-Side_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0060">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Window Panel Layout</Name>
+        <Command>^C^C-INSERT;Window_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0061">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LegendCircuit Breaker Panel Layout</Name>
+        <Command>^C^C-INSERT;LegendCircuit_Breaker_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0062">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LegendFuse Panel Layout</Name>
+        <Command>^C^C-INSERT;LegendFuse_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0063">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LegendRelay Panel Layout</Name>
+        <Command>^C^C-INSERT;LegendRelay_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0064">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LegendTags Panel Layout</Name>
+        <Command>^C^C-INSERT;LegendTags_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0065">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley EthernetSwitch Stratix5700 Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_EthernetSwitch_Stratix5700_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0066">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley EthernetSwitch Stratix8300 Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_EthernetSwitch_Stratix8300_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0067">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fiber Optic Patch Panel Panel Layout</Name>
+        <Command>^C^C-INSERT;Fiber_Optic_Patch_Panel_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0068">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Hirschmann EthernetSwitch RS20 Panel Layout</Name>
+        <Command>^C^C-INSERT;Hirschmann_EthernetSwitch_RS20_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0069">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagCCILg Panel Layout</Name>
+        <Command>^C^C-INSERT;TagCCILg_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0070">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagCCISm Panel Layout</Name>
+        <Command>^C^C-INSERT;TagCCISm_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0071">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-1 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-1_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0072">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-2 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-2_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0073">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-3 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-3_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0074">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-4 a Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-4_a_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0075">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-4 b Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-4_b_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0076">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-5 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-5_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0077">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-6 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-6_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0078">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-7 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-7_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0079">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-8 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-8_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0080">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagN-9 Panel Layout</Name>
+        <Command>^C^C-INSERT;TagN-9_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0081">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PanelViewTouchScr Panel Layout</Name>
+        <Command>^C^C-INSERT;PanelViewTouchScr_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0082">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PanelViewUDC2000 Panel Layout</Name>
+        <Command>^C^C-INSERT;PanelViewUDC2000_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0083">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PanelViewUDC3000 Panel Layout</Name>
+        <Command>^C^C-INSERT;PanelViewUDC3000_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0084">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley 800T PilotLight Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_800T_PilotLight_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0085">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley 800T PushButton Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_800T_PushButton_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0086">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">AllenBradley 800T Switch Panel Layout</Name>
+        <Command>^C^C-INSERT;AllenBradley_800T_Switch_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0087">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1492-SP1PCB Panel Layout</Name>
+        <Command>^C^C-INSERT;1492-SP1PCB_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0088">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1492-SP2PCB Panel Layout</Name>
+        <Command>^C^C-INSERT;1492-SP2PCB_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0089">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1492-SP3PCB Panel Layout</Name>
+        <Command>^C^C-INSERT;1492-SP3PCB_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0090">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756 PS Panel Layout</Name>
+        <Command>^C^C-INSERT;1756_PS_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0091">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-A10 Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-A10_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0092">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-A13 Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-A13_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0093">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-A17 Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-A17_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0094">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-A4 Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-A4_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0095">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-A7 Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-A7_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0096">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-PA Panel Layout</Name>
+        <Command>^C^C-INSERT;1756-PA_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0097">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreakerAB Panel Layout</Name>
+        <Command>^C^C-INSERT;CircuitBreakerAB_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0098">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">DINrailLow Panel Layout</Name>
+        <Command>^C^C-INSERT;DINrailLow_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0099">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">EndAnchor Panel Layout</Name>
+        <Command>^C^C-INSERT;EndAnchor_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0100">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">GroundBar Panel Layout</Name>
+        <Command>^C^C-INSERT;GroundBar_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0101">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HoffTherm Panel Layout</Name>
+        <Command>^C^C-INSERT;HoffTherm_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0102">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">MAC--MAC Panel Layout</Name>
+        <Command>^C^C-INSERT;MAC--MAC_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0103">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PLCPatch Panel Layout</Name>
+        <Command>^C^C-INSERT;PLCPatch_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0104">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PLCRack Panel Layout</Name>
+        <Command>^C^C-INSERT;PLCRack_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0105">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PowerSupply Panel Layout</Name>
+        <Command>^C^C-INSERT;PowerSupply_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0106">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Recep Panel Layout</Name>
+        <Command>^C^C-INSERT;Recep_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0107">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">RelaySmall Panel Layout</Name>
+        <Command>^C^C-INSERT;RelaySmall_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0108">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SelectorSwBracket Panel Layout</Name>
+        <Command>^C^C-INSERT;SelectorSwBracket_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0109">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SubplateMountingStud Panel Layout</Name>
+        <Command>^C^C-INSERT;SubplateMountingStud_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0110">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SurgeSupressor Panel Layout</Name>
+        <Command>^C^C-INSERT;SurgeSupressor_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0111">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TagRing Panel Layout</Name>
+        <Command>^C^C-INSERT;TagRing_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0112">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Term-1 Panel Layout</Name>
+        <Command>^C^C-INSERT;Term-1_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0113">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Beacon Wire Diagram</Name>
+        <Command>^C^C-INSERT;Beacon_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0114">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fan Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Fan_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0115">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fan Wire Diagram</Name>
+        <Command>^C^C-INSERT;Fan_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0116">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Heater Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Heater_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0117">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Heater Wire Diagram</Name>
+        <Command>^C^C-INSERT;Heater_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0118">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HeatingElement Wire Diagram block</Name>
+        <Command>^C^C-INSERT;HeatingElement_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0119">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HeatingElement Wire Diagram</Name>
+        <Command>^C^C-INSERT;HeatingElement_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0120">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HornSiren Wire Diagram block</Name>
+        <Command>^C^C-INSERT;HornSiren_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0121">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HornSiren Wire Diagram</Name>
+        <Command>^C^C-INSERT;HornSiren_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0122">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PanelLight Wire Diagram block</Name>
+        <Command>^C^C-INSERT;PanelLight_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0123">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PanelLight Wire Diagram</Name>
+        <Command>^C^C-INSERT;PanelLight_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0124">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Receptacle Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Receptacle_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0125">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Receptacle Wire Diagram</Name>
+        <Command>^C^C-INSERT;Receptacle_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0126">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ReceptacleGFCI Wire Diagram block</Name>
+        <Command>^C^C-INSERT;ReceptacleGFCI_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0127">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ReceptacleGFCI Wire Diagram</Name>
+        <Command>^C^C-INSERT;ReceptacleGFCI_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0128">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">UPS Bypass Wire Diagram</Name>
+        <Command>^C^C-INSERT;UPS_Bypass_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0129">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker 3Pole 120v Wire Diagram block</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_3Pole_120v_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0130">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker 3Pole 120v Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_3Pole_120v_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0131">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker 3Pole 480v Vertical block</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_3Pole_480v_Vertical_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0132">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker 3Pole 480v Vertical</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_3Pole_480v_Vertical;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0133">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker Terminals Vertical Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_Terminals_Vertical_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0134">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker Terminals Wire Diagram block</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_Terminals_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0135">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker Terminals Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_Terminals_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0136">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker Vertical Wire Diagram block</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_Vertical_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0137">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreaker Vertical Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircuitBreaker_Vertical_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0138">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircuitBreakerTermV Wire Diagram block</Name>
+        <Command>^C^C-INSERT;CircuitBreakerTermV_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0139">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Circuit Interrupt Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Circuit_Interrupt_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0140">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Circuit Interrupt Wire Diagram</Name>
+        <Command>^C^C-INSERT;Circuit_Interrupt_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0141">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Contact Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Contact_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0142">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Contact Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Contact_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0143">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Contact Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Contact_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0144">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Contact Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Contact_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0145">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">4-20mA Wire Diagram</Name>
+        <Command>^C^C-INSERT;4-20mA_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0146">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ArrowDown Wire Diagram</Name>
+        <Command>^C^C-INSERT;ArrowDown_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0147">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Balloon Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Balloon_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0148">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Balloon Wire Diagram</Name>
+        <Command>^C^C-INSERT;Balloon_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0149">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Battery Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Battery_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0150">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Battery Wire Diagram</Name>
+        <Command>^C^C-INSERT;Battery_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0151">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Bell Wire Diagram - Copy</Name>
+        <Command>^C^C-INSERT;Bell_Wire_Diagram_-_Copy;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0152">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Bell Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Bell_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0153">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Bell Wire Diagram</Name>
+        <Command>^C^C-INSERT;Bell_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0154">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BoxCont Wire Diagram</Name>
+        <Command>^C^C-INSERT;BoxCont_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0155">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BoxGnd Wire Diagram</Name>
+        <Command>^C^C-INSERT;BoxGnd_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0156">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">BoxTerm Wire Diagram</Name>
+        <Command>^C^C-INSERT;BoxTerm_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0157">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Buzzer Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Buzzer_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0158">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Buzzer Wire Diagram</Name>
+        <Command>^C^C-INSERT;Buzzer_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0159">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircleF TB Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircleF_TB_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0160">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">CircleO TB Wire Diagram</Name>
+        <Command>^C^C-INSERT;CircleO_TB_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0161">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Continued Wire Diagram</Name>
+        <Command>^C^C-INSERT;Continued_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0162">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HandL Wire Diagram</Name>
+        <Command>^C^C-INSERT;HandL_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0163">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HandLlong Wire Diagram</Name>
+        <Command>^C^C-INSERT;HandLlong_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0164">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HandR Wire Diagram</Name>
+        <Command>^C^C-INSERT;HandR_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0165">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">HandRlong Wire Diagram</Name>
+        <Command>^C^C-INSERT;HandRlong_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0166">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Jumper Panel Layout</Name>
+        <Command>^C^C-INSERT;Jumper_Panel_Layout;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0167">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Jumper Wire Diagram</Name>
+        <Command>^C^C-INSERT;Jumper_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0168">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Ohm Wire Diagram</Name>
+        <Command>^C^C-INSERT;Ohm_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0169">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Phase Wire Diagram</Name>
+        <Command>^C^C-INSERT;Phase_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0170">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Sheild Wire Diagram</Name>
+        <Command>^C^C-INSERT;Sheild_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0171">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Shield Wire Diagram</Name>
+        <Command>^C^C-INSERT;Shield_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0172">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">WireDot Wire Diagram</Name>
+        <Command>^C^C-INSERT;WireDot_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0173">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">WireGND Wire Diagram</Name>
+        <Command>^C^C-INSERT;WireGND_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0174">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">WireOverPassH Wire Diagram</Name>
+        <Command>^C^C-INSERT;WireOverPassH_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0175">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">WireOverPassV Wire Diagram</Name>
+        <Command>^C^C-INSERT;WireOverPassV_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0176">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">WireTerm Wire Diagram</Name>
+        <Command>^C^C-INSERT;WireTerm_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0177">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fuse Horizontal Wire Diagram</Name>
+        <Command>^C^C-INSERT;Fuse_Horizontal_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0178">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fuse Horizontal Wire Diagram</Name>
+        <Command>^C^C-INSERT;Fuse_Horizontal_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0179">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fuse Vertical Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Fuse_Vertical_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0180">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Fuse Vertical Wire Diagram</Name>
+        <Command>^C^C-INSERT;Fuse_Vertical_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0181">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">FusedTerminal Horizontal Wire Diagram block</Name>
+        <Command>^C^C-INSERT;FusedTerminal_Horizontal_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0182">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">FusedTerminal Horizontal Wire Diagram</Name>
+        <Command>^C^C-INSERT;FusedTerminal_Horizontal_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0183">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">FusedTerminal Vertical Wire Diagram block</Name>
+        <Command>^C^C-INSERT;FusedTerminal_Vertical_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0184">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">FusedTerminal Vertical Wire Diagram</Name>
+        <Command>^C^C-INSERT;FusedTerminal_Vertical_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0185">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopCard Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopCard_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0186">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPageLayout Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPageLayout_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0187">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPageLayout Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPageLayout_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0188">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdDeviceInstrument Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPnIdDeviceInstrument_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0189">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdDeviceInstrument Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPnIdDeviceInstrument_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0190">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdFieldHMI Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPnIdFieldHMI_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0191">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdFieldHMI Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPnIdFieldHMI_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0192">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdMainHMI Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPnIdMainHMI_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0193">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdMainHMI Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPnIdMainHMI_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0194">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdPLC Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPnIdPLC_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0195">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdPLC Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPnIdPLC_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0196">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdSCADA Wire Diagram block</Name>
+        <Command>^C^C-INSERT;LoopPnIdSCADA_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0197">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">LoopPnIdSCADA Wire Diagram</Name>
+        <Command>^C^C-INSERT;LoopPnIdSCADA_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0198">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">MeterAmp Wire Diagram block</Name>
+        <Command>^C^C-INSERT;MeterAmp_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0199">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">MeterAmp Wire Diagram</Name>
+        <Command>^C^C-INSERT;MeterAmp_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0200">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">MeterVolt Wire Diagram block</Name>
+        <Command>^C^C-INSERT;MeterVolt_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0201">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">MeterVolt Wire Diagram</Name>
+        <Command>^C^C-INSERT;MeterVolt_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0202">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">480v Motor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;480v_Motor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0203">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">480v Motor Wire Diagram</Name>
+        <Command>^C^C-INSERT;480v_Motor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0204">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">480v MotorFuses Wire Diagram</Name>
+        <Command>^C^C-INSERT;480v_MotorFuses_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0205">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">DC Motor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;DC_Motor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0206">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">DC Motor Wire Diagram</Name>
+        <Command>^C^C-INSERT;DC_Motor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0207">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Antenna Wire Diagram</Name>
+        <Command>^C^C-INSERT;Antenna_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0208">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Antenna2 block Wire Diagram</Name>
+        <Command>^C^C-INSERT;Antenna2_block_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0209">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Antenna2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Antenna2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0210">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Ethernet Switch SFP Wire Diagram</Name>
+        <Command>^C^C-INSERT;Ethernet_Switch_SFP_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0211">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PLCPCandMonitor Wire Diagram</Name>
+        <Command>^C^C-INSERT;PLCPCandMonitor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0212">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">RJ45 Female Wire Diagram</Name>
+        <Command>^C^C-INSERT;RJ45_Female_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0213">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">RJ45 Male Wire Diagram</Name>
+        <Command>^C^C-INSERT;RJ45_Male_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0214">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">RS232Connector Wire Diagram</Name>
+        <Command>^C^C-INSERT;RS232Connector_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0215">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">RS232Port Wire Diagram</Name>
+        <Command>^C^C-INSERT;RS232Port_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0216">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Straight-tip Female Fiber Wire</Name>
+        <Command>^C^C-INSERT;Straight-tip_Female_Fiber_Wire;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0217">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Straight-tip Male Fiber Wire Diagram</Name>
+        <Command>^C^C-INSERT;Straight-tip_Male_Fiber_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0218">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Switch OnDelay Block Wire Diagram</Name>
+        <Command>^C^C-INSERT;Switch_OnDelay_Block_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0219">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Switch OnDelay Wire Diagram</Name>
+        <Command>^C^C-INSERT;Switch_OnDelay_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0220">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Grounded PilotLight Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Grounded_PilotLight_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0221">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Grounded PilotLight Wire Diagram</Name>
+        <Command>^C^C-INSERT;Grounded_PilotLight_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0222">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PilotLight Wire Diagram block</Name>
+        <Command>^C^C-INSERT;PilotLight_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0223">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PilotLight Wire Diagram</Name>
+        <Command>^C^C-INSERT;PilotLight_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0224">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PushToTest PilotLight Wire Diagram block</Name>
+        <Command>^C^C-INSERT;PushToTest_PilotLight_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0225">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PushToTest PilotLight Wire Diagram</Name>
+        <Command>^C^C-INSERT;PushToTest_PilotLight_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0226">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-CN2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-CN2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0227">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-CN2R Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-CN2R_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0228">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-CNB Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-CNB_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0229">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-DHRIO-DH Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-DHRIO-DH_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0230">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-EN2T Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-EN2T_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0231">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-EN2TR Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-EN2TR_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0232">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-ENBT Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-ENBT_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0233">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-ENET Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-ENET_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0234">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-HSC Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-HSC_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0235">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IA16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IA16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0236">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IA16I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IA16I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0237">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IA32 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IA32_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0238">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IB16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IB16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0239">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IF16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IF16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0240">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IF8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IF8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0241">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IF8H Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IF8H_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0242">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IF8I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IF8I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0243">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-IF8IH Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-IF8IH_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0244">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L71 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L71_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0245">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L72 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L72_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0246">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L73 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L73_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0247">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L74 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L74_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0248">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L75 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L75_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0249">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-L8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-L8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0250">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OA16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OA16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0251">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OA16I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OA16I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0252">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OF4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OF4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0253">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OF8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OF8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0254">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OF8I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OF8I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0255">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-OW16I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-OW16I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0256">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-P75 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-P75_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0257">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-PA72 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-PA72_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0258">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-PA75 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-PA75_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0259">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1756-RM2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1756-RM2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0260">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1762-IF4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1762-IF4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0261">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1762-IQ16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1762-IQ16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0262">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1762-OF4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1762-OF4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0263">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1762-OW16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1762-OW16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0264">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1762-OW8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1762-OW8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0265">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1766-IA8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1766-IA8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0266">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1766-L32AWA 1OF3 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1766-L32AWA_1OF3_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0267">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1766-L32AWA 2OF3 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1766-L32AWA_2OF3_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0268">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1766-L32AWA 3OF3 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1766-L32AWA_3OF3_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0269">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-AENTR Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-AENTR_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0270">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IA16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IA16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0271">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IA8I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IA8I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0272">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IB16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IB16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0273">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IF4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IF4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0274">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IF4I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IF4I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0275">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IF4XOF2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IF4XOF2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0276">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IF8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IF8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0277">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-IQ16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-IQ16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0278">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OA16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OA16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0279">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OA8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OA8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0280">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OF4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OF4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0281">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OF8C Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OF8C_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0282">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OW16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OW16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0283">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OW8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OW8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0284">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-OW8I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-OW8I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0285">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1769-SDN Wire Diagram</Name>
+        <Command>^C^C-INSERT;1769-SDN_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0286">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-IA16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-IA16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0287">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-IA8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-IA8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0288">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-IB16 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-IB16_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0289">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-IE8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-IE8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0290">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-IF4I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-IF4I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0291">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-OE8 Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-OE8_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0292">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-OF4I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-OF4I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0293">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">1794-OW8I Wire Diagram</Name>
+        <Command>^C^C-INSERT;1794-OW8I_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0294">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">PLC-Spare Wire Diagram</Name>
+        <Command>^C^C-INSERT;PLC-Spare_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0295">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Mushroom Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Pushbutton_Mushroom_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0296">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Mushroom Wire Diagram</Name>
+        <Command>^C^C-INSERT;Pushbutton_Mushroom_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0297">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Pushbutton_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0298">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Pushbutton_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0299">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Pushbutton_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0300">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pushbutton Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Pushbutton_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0301">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Relay Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Relay_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0302">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Relay Wire Diagram</Name>
+        <Command>^C^C-INSERT;Relay_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0303">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Potentiometer Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Potentiometer_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0304">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Potentiometer Wire Diagram</Name>
+        <Command>^C^C-INSERT;Potentiometer_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0305">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Resistor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Resistor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0306">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Resistor Wire Diagram</Name>
+        <Command>^C^C-INSERT;Resistor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0307">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ResResistor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;ResResistor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0308">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ResResistor Wire Diagram</Name>
+        <Command>^C^C-INSERT;ResResistor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0309">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Rheostat Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Rheostat_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0310">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Rheostat Wire Diagram</Name>
+        <Command>^C^C-INSERT;Rheostat_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0311">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TappedResistor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;TappedResistor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0312">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">TappedResistor Wire Diagram</Name>
+        <Command>^C^C-INSERT;TappedResistor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0313">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Solenoid_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0314">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid Wire Diagram</Name>
+        <Command>^C^C-INSERT;Solenoid_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0315">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-2Position-Hydraulic Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Solenoid-2Position-Hydraulic_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0316">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-2Position-Hydraulic Wire Diagram</Name>
+        <Command>^C^C-INSERT;Solenoid-2Position-Hydraulic_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0317">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-2Position-Lube Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Solenoid-2Position-Lube_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0318">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-2Position-Lube Wire Diagram</Name>
+        <Command>^C^C-INSERT;Solenoid-2Position-Lube_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0319">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-3Position-Pneumatic Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Solenoid-3Position-Pneumatic_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0320">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Solenoid-3Position-Pneumatic Wire Diagram</Name>
+        <Command>^C^C-INSERT;Solenoid-3Position-Pneumatic_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0321">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SurgeSupressor Wire Diagram block</Name>
+        <Command>^C^C-INSERT;SurgeSupressor_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0322">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">SurgeSupressor Wire Diagram</Name>
+        <Command>^C^C-INSERT;SurgeSupressor_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0323">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Float Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Float_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0324">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Float Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Float_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0325">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Float Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Float_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0326">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Float Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Float_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0327">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Flow Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Flow_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0328">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Flow Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Flow_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0329">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Flow Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Flow_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0330">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Flow Switch Normally OpenWire Diagram block</Name>
+        <Command>^C^C-INSERT;Flow_Switch_Normally_OpenWire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0331">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Held Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Held_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0332">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Held Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Held_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0333">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Held Open Wire Diagram  block</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Held_Open_Wire_Diagram__block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0334">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Held Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Held_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0335">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0336">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0337">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0338">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Limit Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Limit_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0339">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Position Switch Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Position_Switch_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0340">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Postition Switch Wire Diagram</Name>
+        <Command>^C^C-INSERT;Postition_Switch_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0341">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pressure Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Pressure_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0342">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pressure Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Pressure_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0343">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pressure Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Pressure_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0344">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Pressure Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Pressure_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0345">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 2Position Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_2Position_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0346">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 2Position Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_2Position_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0347">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 2Position2 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_2Position2_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0348">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 2Position2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_2Position2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0349">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0350">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0351">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position2 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position2_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0352">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0353">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position3 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position3_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0354">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position3 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position3_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0355">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position4 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position4_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0356">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 3Position4 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_3Position4_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0357">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 4Position1 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_4Position1_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0358">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 4Position1 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_4Position1_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0359">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 4Position2 Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_4Position2_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0360">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch 4Position2 Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_4Position2_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0361">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch CableOpen Emergency Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_CableOpen_Emergency_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0362">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch CableOpen Emergency Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_CableOpen_Emergency_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0363">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Neutral Automatic Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Neutral_Automatic_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0364">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Neutral Automatic Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Neutral_Automatic_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0365">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Neutral Non-Automatic Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Neutral_Non-Automatic_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0366">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Neutral Non-Automatic Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Neutral_Non-Automatic_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0367">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Rotary Bridge Contact Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Rotary_Bridge_Contact_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0368">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Rotary Bridge Contact Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Rotary_Bridge_Contact_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0369">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Selector Switch Rotary NONBridge Contact Wire Diagram</Name>
+        <Command>^C^C-INSERT;Selector_Switch_Rotary_NONBridge_Contact_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0370">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Temperature  Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Temperature _Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0371">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Temperature Switch  Normally Closed Diagram block</Name>
+        <Command>^C^C-INSERT;Temperature_Switch__Normally_Closed_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0372">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Temperature Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Temperature_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0373">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Temperature Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Temperature_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0374">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Timer Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Timer_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0375">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Timer Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Timer_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0376">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Timer Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Timer_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0377">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Timer Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Timer_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0378">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Toggle Switch Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Toggle_Switch_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0379">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Toggle Switch Wire Diagram</Name>
+        <Command>^C^C-INSERT;Toggle_Switch_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0380">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Vaccum Switch Normally Closed Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Vaccum_Switch_Normally_Closed_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0381">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Vaccum Switch Normally Closed Wire Diagram</Name>
+        <Command>^C^C-INSERT;Vaccum_Switch_Normally_Closed_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0382">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Vaccum Switch Normally Open Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Vaccum_Switch_Normally_Open_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0383">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Vaccum Switch Normally Open Wire Diagram</Name>
+        <Command>^C^C-INSERT;Vaccum_Switch_Normally_Open_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0384">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ThermalOverloadElement Wire Diagram block</Name>
+        <Command>^C^C-INSERT;ThermalOverloadElement_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0385">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">ThermalOverloadElement Wire Diagram</Name>
+        <Command>^C^C-INSERT;ThermalOverloadElement_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0386">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Thermocouple Wire Diagram block</Name>
+        <Command>^C^C-INSERT;Thermocouple_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0387">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">Thermocouple Wire Diagram</Name>
+        <Command>^C^C-INSERT;Thermocouple_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0388">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">UPS Wire Diagram block</Name>
+        <Command>^C^C-INSERT;UPS_Wire_Diagram_block;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0389">
+      <Macro type="Any">
+        <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <Name xlate="true" UID="XLS_243_9C8C5">UPS Wire Diagram</Name>
+        <Command>^C^C-INSERT;UPS_Wire_Diagram;\;;;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+  </MacroGroup>
+</MenuGroup>
