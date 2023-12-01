@@ -1,5 +1,5 @@
 $xml = [xml](Get-Content .\MenuGroup.cui)
-$xml1 = [xml](Get-Content .\MenuGroupcopy.cui)
+# $xml1 = [xml](Get-Content .\MenuGroupcopy.cui)
 # $xml.MenuGroup.MacroGroup.MenuMacro[0].macro.Name.'#text' = "New Insert Test"
 write-host "Original Length:" $xml.MenuGroup.MacroGroup.MenuMacro.Length
 
@@ -7,11 +7,11 @@ write-host "Original Length:" $xml.MenuGroup.MacroGroup.MenuMacro.Length
 $excelApp = New-Object -ComObject excel.application
 $excelApp.Visible = $false
 # Source file path
-$workbook = $excelApp.Workbooks.Open("C:\Users\ksuess\Documents\Obsidian\Work Code\acadexceltoxml\CCI_Drawing_Database.xlsx")
+$workbook = $excelApp.Workbooks.Open("C:\Users\ksuess\Documents\Obsidian\Work Code\acadexceltoxml\CCI_Drawing_Database (version 1).xlsx")
 $worksheet = $workbook.Sheets.Item(1) 
 $table = $worksheet.ListObjects("Table2")
 $rows = $table.ListRows
-$uidCounter = 0
+# $uidCounter = 0
 $template = $xml.MenuGroup.MacroGroup.MenuMacro[0].clone()
 
 $xml.SelectNodes('//MenuGroup/MacroGroup/MenuMacro') | ForEach-Object {
@@ -20,22 +20,14 @@ $xml.SelectNodes('//MenuGroup/MacroGroup/MenuMacro') | ForEach-Object {
 
 foreach ($row in $rows) {
     $template1 = $template.clone()
-    write-host "Adding Template: " $template.Macro.Name.'#text'
+    # write-host "Adding Template: " $template.Macro.Name.'#text'
     # Inside the loop, the script is taking data from each cell in the current row.
     $Blockname = $row.range.cells(1, 2).Text 
     $Macro = $row.range.cells(1, 6).Text 
-    
-    $uidCounter++
-        if ($uidCounter -ge 1 -and $uidCounter -le 10) {
-            $uidCounterStr = 'CCI_000' + $uidCounter
-        }
-        elseif ($uidCounter -ge 9 -and $uidCounter -le 100) {
-            $uidCounterStr = 'CCI_00' + $uidCounter
-        }
-        else {$uidCounterStr = 'CCI_0' + $uidCounter}
+    $UID = $row.Range.cells(1, 11).Text
     # Create a custom object for the current row
-    $template1.UID = $uidCounterStr
-    $template1.Macro.Name.UID = $uidCounterStr
+    $template1.UID = $UID
+    $template1.Macro.Name.UID = $UID
     $template1.Macro.Name.'#text' = $Blockname
     $template1.Macro.Command = $Macro
     $template1.Macro.Revision.MajorVersion = "1"
@@ -48,10 +40,23 @@ foreach ($row in $rows) {
     $template1.Macro.LargeImage.Name = ""
 
     $xml.MenuGroup.MacroGroup.AppendChild($template1)
+    write-host "Adding Template: " $template1.Macro.Name.'#text'
+
 
 }
 write-host "Updated Length:" $xml.MenuGroup.MacroGroup.MenuMacro.Length 
 $xml.Save(".\MenuGroupcopy.cui")
+
 $workbook.Close()
 $excelApp.Quit()
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excelApp) | Out-Null
+
+
+# $uidCounter++
+# if ($uidCounter -ge 1 -and $uidCounter -le 10) {
+#     $uidCounterStr = 'CCI_000' + $uidCounter
+# }
+# elseif ($uidCounter -ge 9 -and $uidCounter -le 100) {
+#     $uidCounterStr = 'CCI_00' + $uidCounter
+# }
+# else {$uidCounterStr = 'CCI_0' + $uidCounter}

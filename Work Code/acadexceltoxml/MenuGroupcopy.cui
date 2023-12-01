@@ -303,7 +303,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
     <MenuMacro UID="CCI_0030">
       <Macro type="Any">
         <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
-        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
         <Name xlate="true" UID="CCI_0030">1 Door CabinetOpenBottomView Panel Layout</Name>
         <Command>^C^C-INSERT;1_Door_CabinetOpenBottomView_Panel_Layout;\;;;</Command>
         <SmallImage Name="" />
@@ -1193,7 +1193,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
     <MenuMacro UID="CCI_0126">
       <Macro type="Any">
         <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
-        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
         <Name xlate="true" UID="CCI_0126">ReceptacleGFCI Wire Diagram</Name>
         <Command>^C^C-INSERT;ReceptacleGFCI_Wire_Diagram;\;;;</Command>
         <SmallImage Name="" />
