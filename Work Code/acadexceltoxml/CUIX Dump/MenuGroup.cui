@@ -303,7 +303,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
     <MenuMacro UID="CCI_0030">
       <Macro type="Any">
         <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
-        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
         <Name xlate="true" UID="CCI_0030">1 Door CabinetOpenBottomView Panel Layout</Name>
         <Command>^C^C-INSERT;1_Door_CabinetOpenBottomView_Panel_Layout;\;;;</Command>
         <SmallImage Name="" />
@@ -1193,7 +1193,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
     <MenuMacro UID="CCI_0126">
       <Macro type="Any">
         <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
-        <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
         <Name xlate="true" UID="CCI_0126">ReceptacleGFCI Wire Diagram</Name>
         <Command>^C^C-INSERT;ReceptacleGFCI_Wire_Diagram;\;;;</Command>
         <SmallImage Name="" />
@@ -3736,6 +3736,26 @@ Customization panel, User Interface button, or enter CUI on the command line.
         <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
         <Name xlate="true" UID="CCI_0457">PLC-Spare Wire Diagram Left</Name>
         <Command>^C^C-INSERT;PLC-Spare_Wire_Diagram 0,0,0;1;1;0;\;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0458">
+      <Macro type="Any">
+        <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
+        <Name xlate="true" UID="CCI_0458">BlankPage XL Panel Layout</Name>
+        <Command>^C^C-INSERT;BlankPage_XL_Panel_Layout 0,0,0;1;1;0;\;</Command>
+        <SmallImage Name="" />
+        <LargeImage Name="" />
+      </Macro>
+    </MenuMacro>
+    <MenuMacro UID="CCI_0459">
+      <Macro type="Any">
+        <Revision MajorVersion="1" MinorVersion="1" UserVersion="1" />
+        <ModifiedRev MajorVersion="1" MinorVersion="1" UserVersion="1" />
+        <Name xlate="true" UID="CCI_0459">Drawing Name Date</Name>
+        <Command>^C^C-INSERT;Drawing_Name_Date_Panel_Layout 0,0,0;1;1;0;\;</Command>
         <SmallImage Name="" />
         <LargeImage Name="" />
       </Macro>

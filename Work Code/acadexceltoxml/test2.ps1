@@ -45,7 +45,7 @@ foreach ($row in $rows) {
 
 }
 write-host "Updated Length:" $xml.MenuGroup.MacroGroup.MenuMacro.Length 
-$xml.Save(".\MenuGroupcopy.cui")
+$xml.Save(".\MenuGroup.cui")
 
 $workbook.Close()
 $excelApp.Quit()

@@ -2,7 +2,7 @@
 <MenuPackageParts>
   <PartData PartData_Name="/Header.cui" PartData_Modified="2023-11-01T15:51:50.8248909-04:00" />
   <PartData PartData_Name="/WorkspaceRoot.cui" PartData_Modified="2023-11-01T15:51:50.8262985-04:00" />
-  <PartData PartData_Name="/MenuGroup.cui" PartData_Modified="2023-11-30T10:00:44.5013914-05:00" />
+  <PartData PartData_Name="/MenuGroup.cui" PartData_Modified="2023-11-30T15:17:51.8198836-05:00" />
   <PartData PartData_Name="/AcceleratorRoot.cui" PartData_Modified="2023-11-01T15:51:50.8262985-04:00" />
   <PartData PartData_Name="/OverrideRoot.cui" PartData_Modified="2023-11-01T15:51:50.8262985-04:00" />
   <PartData PartData_Name="/MouseButtonRoot.cui" PartData_Modified="2023-11-01T15:51:50.8451428-04:00" />
@@ -11,7 +11,7 @@
   <PartData PartData_Name="/DoubleClickRoot.cui" PartData_Modified="2023-11-01T15:51:50.8451428-04:00" />
   <PartData PartData_Name="/QuickPropertiesRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/RolloverTooltipRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
-  <PartData PartData_Name="/RibbonRoot.cui" PartData_Modified="2023-11-30T10:06:14.7042000-05:00" />
+  <PartData PartData_Name="/RibbonRoot.cui" PartData_Modified="2023-12-05T13:04:47.1372520-05:00" />
   <PartData PartData_Name="/QuickAccessToolbarRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/ToolPanelRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/PanelSetRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
@@ -20,7 +20,7 @@
   <PartData PartData_Name="/TabletMenuRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/DigitizerButtonRoot.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/LSPFiles.cui" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
-  <PartData PartData_Name="/VirtualMNRRoot" PartData_Modified="2023-11-30T10:00:44.5079264-05:00" />
+  <PartData PartData_Name="/VirtualMNRRoot" PartData_Modified="2023-11-30T15:17:51.8253998-05:00" />
   <PartData PartData_Name="/Menu_Package_Info.xml" PartData_Modified="2023-11-01T15:51:50.8461863-04:00" />
   <PartData PartData_Name="/77m3zBJeOb.png" PartData_Modified="2023-11-03T13:16:36.4605082-04:00" />
   <PartData PartData_Name="/Pushbutton_Normally_Open.bmp" PartData_Modified="2023-11-28T14:14:30.2992196-05:00" />
@@ -67,4 +67,16 @@
   <PartData PartData_Name="/Receptacle.png" PartData_Modified="2023-11-29T13:56:46.8751939-05:00" />
   <PartData PartData_Name="/Receptacle.bmp" PartData_Modified="2023-11-30T09:01:25.6183984-05:00" />
   <PartData PartData_Name="/Alarm_Icon.bmp" PartData_Modified="2023-11-30T09:40:51.1875178-05:00" />
+  <PartData PartData_Name="/Dimension_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8264022-05:00" />
+  <PartData PartData_Name="/NetworkSwitch.bmp" PartData_Modified="2023-11-30T15:17:51.8264022-05:00" />
+  <PartData PartData_Name="/Cutout_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8264022-05:00" />
+  <PartData PartData_Name="/Print_Pocket_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8274049-05:00" />
+  <PartData PartData_Name="/PLCRack.bmp" PartData_Modified="2023-11-30T15:17:51.8274049-05:00" />
+  <PartData PartData_Name="/Ports_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8284074-05:00" />
+  <PartData PartData_Name="/Panel_Light_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8294101-05:00" />
+  <PartData PartData_Name="/Atenna.bmp" PartData_Modified="2023-11-30T15:17:51.8294101-05:00" />
+  <PartData PartData_Name="/Tag_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8304127-05:00" />
+  <PartData PartData_Name="/Door_Handle.bmp" PartData_Modified="2023-11-30T15:17:51.8314153-05:00" />
+  <PartData PartData_Name="/Legend_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8314153-05:00" />
+  <PartData PartData_Name="/Panelview_Icon.bmp" PartData_Modified="2023-11-30T15:17:51.8314153-05:00" />
 </MenuPackageParts>

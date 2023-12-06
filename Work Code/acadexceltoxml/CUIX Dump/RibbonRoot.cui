@@ -131,6 +131,10 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_0DB3C">BlankPage LineNumbers Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_7F14F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="CCI_0003" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_9CB2E">BlankPage Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_77D4E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0004" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_0155E">CoverPage Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
@@ -143,16 +147,32 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_41A63">Rails Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_7F14F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="CCI_0003" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_9CB2E">BlankPage Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_B8505">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
             <RibbonSplitButton UID="RBNU_243_A1A3E" Id="AcRibbonSplitButton" Text="Loop Drawings" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              <RibbonCommandButton UID="RBNU_243_6EF1B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0190" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_5A51E">LoopPnIdFieldHMI Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_43166" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0186" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_0B78F">LoopPageLayout Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_E540D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0194" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_CC636">LoopPnIdPLC Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_A3809" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0196" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_D04A9">LoopPnIdSCADA Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_08164" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0184" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A83CC">LoopCard Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
         </RibbonRowPanel>
@@ -170,7 +190,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_4467E">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_01987" Id="AcRibbonSplitButton" Text="120V Wire Drawing" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Dot.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_01987" Id="AcRibbonSplitButton" Text="120V Wire Drawing" SmallImage="Dot.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_393AD" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0114" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_45A3A">Fan Wire Diagram</TooltipTitle>
@@ -204,16 +224,20 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_BC772">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_765C4" Id="AcRibbonSplitButton" Text="480V Wire Drawing" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_765C4" Id="AcRibbonSplitButton" Text="480V Wire Drawing" SmallImage="Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_1CCFD">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_0804B" Id="AcRibbonSplitButton" Text="CircuitBreakers" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\CircuitBreaker.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_0804B" Id="AcRibbonSplitButton" Text="CircuitBreakers" SmallImage="CircuitBreaker.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_384C2" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0136" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_11DAA">CircuitBreaker Vertical Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_58466" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0129" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_F4640">CircuitBreaker 3Pole 120v Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_0C6EF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0131" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_3E0D8">CircuitBreaker 3Pole 480v Vertical</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_6DC52" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0134" KeyTip="">
@@ -224,12 +248,8 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_A9121">CircuitBreaker Terminals Vertical Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_0C6EF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0131" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_3E0D8">CircuitBreaker 3Pole 480v Vertical</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_58466" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0129" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_F4640">CircuitBreaker 3Pole 120v Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_384C2" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0136" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_11DAA">CircuitBreaker Vertical Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -239,7 +259,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_9FD09">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_EDE92" Id="AcRibbonSplitButton" Text="Contacts" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Normally_Open_Contact.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_EDE92" Id="AcRibbonSplitButton" Text="Contacts" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Normally_Open_Contact.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_408BE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0143" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_31D5B">Contact Open Wire Diagram</TooltipTitle>
@@ -253,8 +273,16 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_2F7F4">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_F6ECE" Id="AcRibbonSplitButton" Text="Fuses" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Fused_Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_F6ECE" Id="AcRibbonSplitButton" CommandID="CCI_0203" CommandType="Macro" Text="Fuses" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Fused_Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              <RibbonCommandButton UID="RBNU_243_7B6B9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0203" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_2B9C0">480v MotorFuses Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_9D342" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0176" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_B99F1">Fuse Horizontal Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_6EF89" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0183" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_E7AA9">FusedTerminal Vertical Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
@@ -267,34 +295,22 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_D5D51">Fuse Vertical Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_9D342" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0176" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_B99F1">Fuse Horizontal Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_50AA6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0177" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_7CA33">Fuse Horizontal Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_7B6B9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0203" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_2B9C0">480v MotorFuses Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_967A5">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_057D2" Id="AcRibbonSplitButton" Text="Pilot Lights" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pilot_Light.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_057D2" Id="AcRibbonSplitButton" Text="Pilot Lights" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pilot_Light.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pilot_Light.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_98356" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0224" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_6E14F">PushToTest PilotLight Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_A7972" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0220" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_FC157">Grounded PilotLight Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_E0E20" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0222" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_EEE15">PilotLight Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_A7972" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0220" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_FC157">Grounded PilotLight Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_98356" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0224" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_6E14F">PushToTest PilotLight Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -304,8 +320,12 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_FC973">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_ECDDE" Id="AcRibbonSplitButton" Text="Pushbuttons" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Horizontal_Fuse.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_ECDDE" Id="AcRibbonSplitButton" Text="Pushbuttons" SmallImage="Horizontal_Fuse.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              <RibbonCommandButton UID="RBNU_243_DEA6C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0295" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_5EFCD">Pushbutton Mushroom Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_EA8B0" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0299" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_F7DE0">Pushbutton Normally Open Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
@@ -314,15 +334,11 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_A5DA0">Pushbutton Normally Closed Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_DEA6C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0295" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_5EFCD">Pushbutton Mushroom Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_20913">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_76052" Id="AcRibbonSplitButton" Text="Receptacles" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Alarm_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_76052" Id="AcRibbonSplitButton" Text="Receptacles" SmallImage="Receptacle.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_7B72D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0126" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_E6354">ReceptacleGFCI Wire Diagram</TooltipTitle>
@@ -336,7 +352,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_EF531">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_9D736" Id="AcRibbonSplitButton" Text="Relays" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Relay.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_9D736" Id="AcRibbonSplitButton" Text="Relays" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Relay.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Relay.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_EA2F2" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0301" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_57BD5">Relay Wire Diagram</TooltipTitle>
@@ -352,18 +368,18 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_8EA34">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_1E5C3" Id="AcRibbonSplitButton" Text="Resistors" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Resistor.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_1E5C3" Id="AcRibbonSplitButton" Text="Resistors" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Resistor.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_6AEB5" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0311" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_F18C6">TappedResistor Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_1B903" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0305" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_68C06">Resistor Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_79DDC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0307" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_629B6">ResResistor Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_1B903" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0305" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_68C06">Resistor Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_6AEB5" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0311" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_F18C6">TappedResistor Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -383,7 +399,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_2C5F6">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_2D8B6" Id="AcRibbonSplitButton" Text="Connection/Ports" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Ports_Icon.png" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_2D8B6" Id="AcRibbonSplitButton" Text="Connection/Ports" SmallImage="Ports_Icon.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_CCFD6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0212" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_20E3A">RJ45 Male Wire Diagram</TooltipTitle>
@@ -391,14 +407,6 @@ Customization panel, User Interface button, or enter CUI on the command line.
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_4825F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0211" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_9BA17">RJ45 Female Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B387F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0216" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_81456">Straight-tip Male Fiber Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_46DD8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0215" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_6EA53">Straight-tip Female Fiber Wire</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_A1622" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0214" KeyTip="">
@@ -409,11 +417,19 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_CC396">RS232Connector Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B387F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0216" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_81456">Straight-tip Male Fiber Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_46DD8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0215" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_6EA53">Straight-tip Female Fiber Wire</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_E812B">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_C8DA0" Id="AcRibbonSplitButton" Text="Switches" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\NetworkSwitch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_C8DA0" Id="AcRibbonSplitButton" Text="Switches" SmallImage="NetworkSwitch.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_219B1" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0209" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_7FB75">Ethernet Switch SFP Wire Diagram</TooltipTitle>
@@ -426,25 +442,25 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_02076">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_E8D58" Id="AcRibbonSplitButton" Text="PLCRack" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\PLCRack.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_E8D58" Id="AcRibbonSplitButton" Text="PLCRack" SmallImage="PLCRack.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_FD7E6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0102" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_DBC23">PLCPatch Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_52803" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0103" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_56BAA">PLCRack Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_4954A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0210" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_9F674">PLCPCandMonitor Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_52803" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0103" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_56BAA">PLCRack Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_7E636">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_7C57C" Id="AcRibbonSplitButton" Text="Antenna" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Antenna.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_7C57C" Id="AcRibbonSplitButton" Text="Antenna" SmallImage="Atenna.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_CB694" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0208" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_D7349">Antenna2 Wire Diagram</TooltipTitle>
@@ -611,144 +627,144 @@ Customization panel, User Interface button, or enter CUI on the command line.
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
             <RibbonSplitButton UID="RBNU_243_DED3E" Id="AcRibbonSplitButton" Text="1756 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_68F51" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0258" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_49745">1756-RM2 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_30C10" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0257" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_BD6B2">1756-PA75 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B136F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0256" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_798A6">1756-PA72 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_C3AD6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0095" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_43773">1756-PA Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B6EAA" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0255" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_AB92B">1756-P75 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B461F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0254" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A225D">1756-OW16I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_9C558" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0253" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_70F14">1756-OF8I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_5721F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0252" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_30B92">1756-OF8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_ED839" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0251" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_D2A97">1756-OF4 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_D016D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0250" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A9910">1756-OA16I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_8B51D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0249" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_7FB7C">1756-OA16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_30BBC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0248" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_29C7A">1756-L8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_D699B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0247" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E5A2A">1756-L75 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_8E916" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0246" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_49B0D">1756-L74 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_8001E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0245" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_6621B">1756-L73 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_4A48B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0244" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_0B4E8">1756-L72 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3355F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0243" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_59BFE">1756-L71 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_55F78" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0242" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_009CD">1756-IF8IH Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_50660" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0241" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_F65D0">1756-IF8I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_299F5" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0240" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_91CC0">1756-IF8H Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B43FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0239" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_FBF21">1756-IF8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_9497D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0238" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_64E1D">1756-IF16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_4C5CC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0237" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_9A2A2">1756-IB16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3EFDE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0236" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_02A72">1756-IA32 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_70445" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0235" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_606F1">1756-IA16I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_F4B38" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0234" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_B8585">1756-IA16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_EFF81" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0233" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_857BF">1756-HSC Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3AD6A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0232" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_62942">1756-ENET Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_FAF8B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0231" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_96978">1756-ENBT Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_2DAD3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0230" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_10050">1756-EN2TR Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_799FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0229" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_BAF13">1756-EN2T Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_1E203" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0228" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_25C06">1756-DHRIO-DH Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_D77CB" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0227" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_AAC8B">1756-CNB Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_1E5CE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0225" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_7AEC2">1756-CN2 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_5BDE9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0226" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_F4FA5">1756-CN2R Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_1E5CE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0225" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_7AEC2">1756-CN2 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_D77CB" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0227" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_AAC8B">1756-CNB Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_1E203" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0228" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_25C06">1756-DHRIO-DH Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_799FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0229" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_BAF13">1756-EN2T Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_2DAD3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0230" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_10050">1756-EN2TR Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_FAF8B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0231" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_96978">1756-ENBT Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_3AD6A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0232" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_62942">1756-ENET Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_EFF81" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0233" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_857BF">1756-HSC Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_F4B38" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0234" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_B8585">1756-IA16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_70445" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0235" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_606F1">1756-IA16I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_3EFDE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0236" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_02A72">1756-IA32 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_4C5CC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0237" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_9A2A2">1756-IB16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_9497D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0238" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_64E1D">1756-IF16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B43FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0239" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_FBF21">1756-IF8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_299F5" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0240" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_91CC0">1756-IF8H Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_50660" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0241" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_F65D0">1756-IF8I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_55F78" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0242" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_009CD">1756-IF8IH Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_3355F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0243" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_59BFE">1756-L71 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_4A48B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0244" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_0B4E8">1756-L72 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_8001E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0245" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_6621B">1756-L73 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_8E916" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0246" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_49B0D">1756-L74 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_D699B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0247" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E5A2A">1756-L75 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_30BBC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0248" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_29C7A">1756-L8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_8B51D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0249" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_7FB7C">1756-OA16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_D016D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0250" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A9910">1756-OA16I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_ED839" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0251" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_D2A97">1756-OF4 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_5721F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0252" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_30B92">1756-OF8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_9C558" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0253" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_70F14">1756-OF8I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B461F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0254" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A225D">1756-OW16I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B6EAA" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0255" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_AB92B">1756-P75 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_C3AD6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0095" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_43773">1756-PA Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B136F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0256" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_798A6">1756-PA72 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_30C10" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0257" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_BD6B2">1756-PA75 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_68F51" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0258" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_49745">1756-RM2 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -784,26 +800,26 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_031EC">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_40D76" Id="AcRibbonSplitButton" Text="1762 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_40D76" Id="AcRibbonSplitButton" CommandID="CCI_0259" CommandType="Macro" Text="1762 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_22934" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0263" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_85F81">1762-OW8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_72276" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0262" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_316C3">1762-OW16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3F739" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0261" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_6E504">1762-OF4 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_7716E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0259" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_478C5">1762-IF4 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_1CE00" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0260" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_0892E">1762-IQ16 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_7716E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0259" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_478C5">1762-IF4 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_3F739" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0261" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_6E504">1762-OF4 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_22934" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0263" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_85F81">1762-OW8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_72276" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0262" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_316C3">1762-OW16 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -835,22 +851,22 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_868F1">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_4CFE6" Id="AcRibbonSplitButton" Text="1766 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_4CFE6" Id="AcRibbonSplitButton" CommandID="CCI_0264" CommandType="Macro" Text="1766 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_C80C4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0267" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_64281">1766-L32AWA 3OF3 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_49F56" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0266" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_8C8B3">1766-L32AWA 2OF3 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_91CE8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0264" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_CF1B0">1766-IA8 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_9493F" Id="AcRibbonCommandButton" Text="" ButtonStyle="LargeWithHorizontalText" MenuMacroID="CCI_0265" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_6C2B6">1766-L32AWA 1OF3 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_91CE8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0264" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_CF1B0">1766-IA8 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_49F56" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0266" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_8C8B3">1766-L32AWA 2OF3 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_6D0E3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0267" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_22A1F">1766-L32AWA 3OF3 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -936,72 +952,72 @@ Customization panel, User Interface button, or enter CUI on the command line.
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
             <RibbonSplitButton UID="RBNU_243_6CF3A" Id="AcRibbonSplitButton" Text="1769 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_870EC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0284" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_20867">1769-SDN Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_BD20B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0283" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_1FE21">1769-OW8I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_73689" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0282" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_901F9">1769-OW8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_77FEC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0281" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_433F1">1769-OW16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_4CAD8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0280" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_C945D">1769-OF8C Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_70A8B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0279" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_C6D42">1769-OF4 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_990C4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0278" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_1B361">1769-OA8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_1D56C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0277" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A9044">1769-OA16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_FAFA6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0276" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_225CB">1769-IQ16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_2C3BB" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0275" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_FF876">1769-IF8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_BB373" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0274" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_5460B">1769-IF4XOF2 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_5F231" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0273" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_9FF3F">1769-IF4I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_E35A1" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0272" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_5ABA5">1769-IF4 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_511D9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0271" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_8AA65">1769-IB16 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_ACE41" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0270" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E0C6B">1769-IA8I Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_0210D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0268" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_2F045">1769-AENTR Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_8ED8F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0269" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_A4C26">1769-IA16 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_0210D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0268" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_2F045">1769-AENTR Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_ACE41" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0270" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E0C6B">1769-IA8I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_511D9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0271" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_8AA65">1769-IB16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_E35A1" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0272" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_5ABA5">1769-IF4 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_5F231" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0273" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_9FF3F">1769-IF4I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_BB373" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0274" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_5460B">1769-IF4XOF2 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_2C3BB" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0275" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_FF876">1769-IF8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_FAFA6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0276" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_225CB">1769-IQ16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_1D56C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0277" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A9044">1769-OA16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_990C4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0278" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_1B361">1769-OA8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_70A8B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0279" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_C6D42">1769-OF4 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_4CAD8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0280" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_C945D">1769-OF8C Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_77FEC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0281" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_433F1">1769-OW16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_73689" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0282" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_901F9">1769-OW8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_BD20B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0283" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_1FE21">1769-OW8I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_870EC" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0284" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_20867">1769-SDN Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -1053,38 +1069,38 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_C2872">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_EE26E" Id="AcRibbonSplitButton" Text="1794 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_EE26E" Id="AcRibbonSplitButton" CommandID="CCI_0285" CommandType="Macro" Text="1794 Right" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_0EF19" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0292" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_0DAE1">1794-OW8I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B2695" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0291" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_534DA">1794-OF4I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_278D9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0290" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_01970">1794-OE8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_CBBB4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0289" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_4CAD3">1794-IF4I Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_8190B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0288" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A3961">1794-IE8 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_E06FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0287" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_53D64">1794-IB16 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_65BE3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0285" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_54983">1794-IA16 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_5897C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0286" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_C094C">1794-IA8 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_65BE3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0285" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_54983">1794-IA16 Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_E06FE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0287" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_53D64">1794-IB16 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_8190B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0288" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A3961">1794-IE8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_CBBB4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0289" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_4CAD3">1794-IF4I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_278D9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0290" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_01970">1794-OE8 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B2695" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0291" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_534DA">1794-OF4I Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_0EF19" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0292" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_0DAE1">1794-OW8I Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -1104,60 +1120,60 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_4944C">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_67736" Id="AcRibbonSplitButton" Text="Brackets" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Bracket_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_67736" Id="AcRibbonSplitButton" Text="Brackets" SmallImage="Bracket_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_DB71E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0014" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_1C77E">Z Bracket Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_37A3C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0012" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_1B942">UPS Mounting Brackets Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3FD99" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0107" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_49DF5">SelectorSwBracket Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_F903C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0011" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_95CF8">L Bracket Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_16516" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0009" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_818C8">HatBracket1 Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_774C8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0007" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_D058C">AntennaBracket Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_ECADF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0008" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_15DFD">BracketLong Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_774C8" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0007" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_D058C">AntennaBracket Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_28E67" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0013" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A9039">UPS Shelf Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_16516" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0009" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_818C8">HatBracket1 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_927D4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithoutText" MenuMacroID="CCI_00010" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_AC8CA">HatBracket2 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_F903C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0011" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_95CF8">L Bracket Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_3FD99" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0107" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_49DF5">SelectorSwBracket Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_28E67" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0013" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A9039">UPS Shelf Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_37A3C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0012" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_1B942">UPS Mounting Brackets Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_DB71E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0014" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_1C77E">Z Bracket Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_53A75">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_98A40" Id="AcRibbonSplitButton" Text="Cutouts" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Cutout_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_98A40" Id="AcRibbonSplitButton" CommandID="CCI_0015" CommandType="Macro" Text="Cutouts" SmallImage="Cutout_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_49E55" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0018" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E548A">AllenBradley 800T Cutout Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_BCE87" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0015" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_D1A60">1-38HoleCutOut Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_268DE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0017" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_2A3DC">AllenBradley 800MR Cutout Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_BCE87" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0015" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_D1A60">1-38HoleCutOut Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_49E55" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0018" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E548A">AllenBradley 800T Cutout Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_E67D6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0016" KeyTip="">
@@ -1176,14 +1192,14 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_8B539">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_FAD89" Id="AcRibbonSplitButton" Text="Dimension Symbols" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Dimension_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_FAD89" Id="AcRibbonSplitButton" CommandID="CCI_0021" CommandType="Macro" Text="Dimension Symbols" SmallImage="Dimension_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_D5058" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0022" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_4D79A">CenterLine Symbol Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_CE6E3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0021" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_45A49">CenterDimension Symbol Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_D5058" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0022" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_4D79A">CenterLine Symbol Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -1193,72 +1209,72 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_860CF">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_06226" Id="AcRibbonSplitButton" Text="Legend" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Legend_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_06226" Id="AcRibbonSplitButton" Text="Legend" SmallImage="Legend_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_2411F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0063" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_F2189">LegendTags Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_CCCEF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0062" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_97687">LegendRelay Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_FE1E3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0060" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_DBCDB">LegendCircuit Breaker Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_BD095" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0061" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_53D1F">LegendFuse Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_FE1E3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0060" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_DBCDB">LegendCircuit Breaker Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_CCCEF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0062" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_97687">LegendRelay Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_2411F" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0063" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_F2189">LegendTags Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_C3C8D">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_FB634" Id="AcRibbonSplitButton" Text="Panel Tags" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Tag_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_FB634" Id="AcRibbonSplitButton" Text="Panel Tags" SmallImage="Tag_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_915EF" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0110" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_340D1">TagRing Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_8605A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0079" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_F151B">TagN-9 Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_08FA0" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0078" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_65B23">TagN-8 Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_3E1FD" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0077" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_75B23">TagN-7 Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_4FF37" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0076" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_192F4">TagN-6 Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_A6536" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0075" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_DA9E5">TagN-5 Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_74168" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0074" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E9D4F">TagN-4 b Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_4CB6E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0073" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A9F03">TagN-4 a Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_1EB3C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0072" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_0C8AA">TagN-3 Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_9394A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0070" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_AAEDB">TagN-1 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_E40ED" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0071" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_785B0">TagN-2 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_9394A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0070" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_AAEDB">TagN-1 Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_1EB3C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0072" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_0C8AA">TagN-3 Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_4CB6E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0073" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A9F03">TagN-4 a Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_74168" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0074" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E9D4F">TagN-4 b Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_A6536" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0075" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_DA9E5">TagN-5 Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_4FF37" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0076" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_192F4">TagN-6 Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_3E1FD" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0077" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_75B23">TagN-7 Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_08FA0" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0078" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_65B23">TagN-8 Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_8605A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0079" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_F151B">TagN-9 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_293D9" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0069" KeyTip="">
@@ -1289,7 +1305,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_E2FA4">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_9990B" Id="AcRibbonSplitButton" Text="Handles &amp; Disconnects" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Door_Handle.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_9990B" Id="AcRibbonSplitButton" Text="Handles &amp; Disconnects" SmallImage="Door_Handle.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_77620" Id="AcRibbonCommandButton" Text="" ButtonStyle="LargeWithHorizontalText" MenuMacroID="CCI_0023" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_4E416">480v DisconnectHandle Panel Layout</TooltipTitle>
@@ -1303,7 +1319,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_C02AC">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_F82F1" Id="AcRibbonSplitButton" Text="Horns &amp; Alarms" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Alarm_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_F82F1" Id="AcRibbonSplitButton" Text="Horns &amp; Alarms" SmallImage="Alarm_Icon.bmp" LargeImage="" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_AB1B7" Id="AcRibbonCommandButton" Text="" ButtonStyle="LargeWithHorizontalText" MenuMacroID="CCI_0024" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_BEA32">AlarmBeacon Panel Layout</TooltipTitle>
@@ -1321,7 +1337,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_4E04C">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_4AC44" Id="AcRibbonSplitButton" Text="Panel Lights" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Panel_Light_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_4AC44" Id="AcRibbonSplitButton" Text="Panel Lights" SmallImage="Panel_Light_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_57CE8" Id="AcRibbonCommandButton" Text="" ButtonStyle="LargeWithHorizontalText" MenuMacroID="CCI_0029" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_17D42">Side View PanelLight Panel Layout</TooltipTitle>
@@ -1334,7 +1350,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_03A0F">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_AF1F7" Id="AcRibbonSplitButton" Text="Print Pockets" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Print_Pocket_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_AF1F7" Id="AcRibbonSplitButton" Text="Print Pockets" SmallImage="Print_Pocket_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_82A1A" Id="AcRibbonCommandButton" Text="" ButtonStyle="LargeWithHorizontalText" MenuMacroID="CCI_0028" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_E7C1F">Print Pocket Panel Layout</TooltipTitle>
@@ -1444,18 +1460,18 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_C1A07">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_BE275" Id="AcRibbonSplitButton" Text="Network Equipment" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\NetworkSwitch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_BE275" Id="AcRibbonSplitButton" Text="Network Equipment" SmallImage="NetworkSwitch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_11B7A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0066" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_D3403">Fiber Optic Patch Panel Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_49EBA" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0064" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_CD8CB">AllenBradley EthernetSwitch Stratix5700 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_3B0AE" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0065" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_B89CF">AllenBradley EthernetSwitch Stratix8300 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_49EBA" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0064" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_CD8CB">AllenBradley EthernetSwitch Stratix5700 Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_11B7A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0066" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_D3403">Fiber Optic Patch Panel Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_8AB9D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0067" KeyTip="">
@@ -1466,25 +1482,25 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_AAC77">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_49B0C" Id="AcRibbonSplitButton" Text="PanelViews" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Panelview_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_49B0C" Id="AcRibbonSplitButton" Text="PanelViews" SmallImage="Panelview_Icon.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_67E80" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0082" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_96AE9">PanelViewUDC3000 Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_2C0B4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0080" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A71E7">PanelViewTouchScr Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_617EB" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0081" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_F192C">PanelViewUDC2000 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_2C0B4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0080" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A71E7">PanelViewTouchScr Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_67E80" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0082" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_96AE9">PanelViewUDC3000 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_E9603">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_952E7" Id="AcRibbonSplitButton" Text="120V Equipment" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Dot.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_952E7" Id="AcRibbonSplitButton" Text="120V Equipment" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Dot.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_F64C6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0096" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_0A753">CircuitBreakerAB Panel Layout</TooltipTitle>
@@ -1500,10 +1516,6 @@ Customization panel, User Interface button, or enter CUI on the command line.
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_CF7ED" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0099" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_4B506">GroundBar Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_D8C04" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0100" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_7E4F2">HoffTherm Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_1CB86" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0101" KeyTip="">
@@ -1549,7 +1561,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_5AA9C">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_684D4" Id="AcRibbonSplitButton" Text="PLCs" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\PLCRack.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_684D4" Id="AcRibbonSplitButton" Text="PLCs" SmallImage="PLCRack.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_31277" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0088" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_4B488">1492-SP3PCB Panel Layout</TooltipTitle>
@@ -1561,10 +1573,6 @@ Customization panel, User Interface button, or enter CUI on the command line.
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_7A010" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0086" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_A1D69">1492-SP1PCB Panel Layout</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_C1E2E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0095" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_A2620">1756-PA Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_D9E04" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0094" KeyTip="">
@@ -1587,6 +1595,10 @@ Customization panel, User Interface button, or enter CUI on the command line.
                 <TooltipTitle xlate="true" UID="XLS_243_E2BE4">1756-A10 Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_C1E2E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0095" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_A2620">1756-PA Panel Layout</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_9020D" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0089" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_EE323">1756 PS Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
@@ -1603,25 +1615,25 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_3B3F0">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_BA1B2" Id="AcRibbonSplitButton" Text="Pilot Devices" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pilot_Light.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_BA1B2" Id="AcRibbonSplitButton" Text="Pilot Devices" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pilot_Light.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_49806" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0085" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_376AC">AllenBradley 800T Switch Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_BA13A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0083" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_85273">AllenBradley 800T PilotLight Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_8A4D4" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0084" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_19F54">AllenBradley 800T PushButton Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_BA13A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0083" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_85273">AllenBradley 800T PilotLight Panel Layout</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_49806" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0085" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_376AC">AllenBradley 800T Switch Panel Layout</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
           </RibbonRow>
           <RibbonRow UID="RBNU_243_85206">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_EEE93" Id="AcRibbonSplitButton" Text="480V Equipment" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_EEE93" Id="AcRibbonSplitButton" Text="480V Equipment" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Terminal.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
             </RibbonSplitButton>
           </RibbonRow>
@@ -1640,7 +1652,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_5792C">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_2AD0E" Id="AcRibbonSplitButton" Text="Float Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Float_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_2AD0E" Id="AcRibbonSplitButton" Text="Float Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Float_Switch_Normally_Closed.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Float_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_ACF17" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0325" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_FEC9B">Float Switch Normally Open Wire Diagram</TooltipTitle>
@@ -1654,7 +1666,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_15A17">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_57334" Id="AcRibbonSplitButton" Text="Flow Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Flow_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_57334" Id="AcRibbonSplitButton" Text="Flow Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Flow_Switch_Normally_Closed.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Flow_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_BC8A3" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0328" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_61F2C">Flow Switch Normally Open Wire Diagram</TooltipTitle>
@@ -1668,22 +1680,22 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_8BA53">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_F17DB" Id="AcRibbonSplitButton" Text="Limit Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Limit_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_F17DB" Id="AcRibbonSplitButton" Text="Limit Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Limit_Switch_Normally_Closed.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Limit_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_01057" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0337" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_69555">Limit Switch Normally Open Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_F4510" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0335" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_9C6C0">Limit Switch Normally Closed Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_478E2" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0333" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_0B713">Limit Switch Held Open Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_50913" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0331" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_FF747">Limit Switch Held Closed Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_01057" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0337" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_69555">Limit Switch Normally Open Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_F4510" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0335" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_9C6C0">Limit Switch Normally Closed Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -1693,7 +1705,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_B02C6">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_F29C8" Id="AcRibbonSplitButton" Text="Position Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Position_Switch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_F29C8" Id="AcRibbonSplitButton" Text="Position Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Position_Switch.BMP" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_C297A" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0339" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_52594">Postition Switch Wire Diagram</TooltipTitle>
@@ -1703,7 +1715,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_0DE11">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_48DCC" Id="AcRibbonSplitButton" Text="Pressure Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pressure_Switch_Normally_Open.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_48DCC" Id="AcRibbonSplitButton" Text="Pressure Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pressure_Switch_Normally_Open.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Pressure_Switch_Normally_Open.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_439F6" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0343" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_71BB5">Pressure Switch Normally Open Wire Diagram</TooltipTitle>
@@ -1717,58 +1729,58 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_4E2F2">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_30C79" Id="AcRibbonSplitButton" Text="Selector Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Selector_Switch_3Position.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_30C79" Id="AcRibbonSplitButton" Text="Selector Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Selector_Switch_3Position.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Selector_Switch_3Position.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              <RibbonCommandButton UID="RBNU_243_D9D65" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0368" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_7E500">Selector Switch Rotary NONBridge Contact Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_C1B59" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0367" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_454F5">Selector Switch Rotary Bridge Contact Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_054A1" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0365" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_975EA">Selector Switch Neutral Non-Automatic Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_E4A30" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0363" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_6F33B">Selector Switch Neutral Automatic Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_96413" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0361" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_90D58">Selector Switch CableOpen Emergency Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_5AF21" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0359" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_75CAD">Selector Switch 4Position2 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_B519B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0357" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_CD744">Selector Switch 4Position1 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_50D59" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0355" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_83561">Selector Switch 3Position4 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_DAF30" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0353" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_552EF">Selector Switch 3Position3 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_11D4C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0351" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_14B24">Selector Switch 3Position2 Wire Diagram</TooltipTitle>
-                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-              </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_C2F72" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0349" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E90D1">Selector Switch 3Position Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_D0076" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0345" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E5C1C">Selector Switch 2Position Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
               <RibbonCommandButton UID="RBNU_243_A6388" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0347" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_D11FC">Selector Switch 2Position2 Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
-              <RibbonCommandButton UID="RBNU_243_D0076" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0345" KeyTip="">
-                <TooltipTitle xlate="true" UID="XLS_243_E5C1C">Selector Switch 2Position Wire Diagram</TooltipTitle>
+              <RibbonCommandButton UID="RBNU_243_C2F72" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0349" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_E90D1">Selector Switch 3Position Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_11D4C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0351" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_14B24">Selector Switch 3Position2 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_DAF30" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0353" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_552EF">Selector Switch 3Position3 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_50D59" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0355" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_83561">Selector Switch 3Position4 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_B519B" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0357" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_CD744">Selector Switch 4Position1 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_5AF21" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0359" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_75CAD">Selector Switch 4Position2 Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_96413" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0361" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_90D58">Selector Switch CableOpen Emergency Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_E4A30" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0363" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_6F33B">Selector Switch Neutral Automatic Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_054A1" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0365" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_975EA">Selector Switch Neutral Non-Automatic Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_C1B59" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0367" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_454F5">Selector Switch Rotary Bridge Contact Wire Diagram</TooltipTitle>
+                <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
+              </RibbonCommandButton>
+              <RibbonCommandButton UID="RBNU_243_D9D65" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0368" KeyTip="">
+                <TooltipTitle xlate="true" UID="XLS_243_7E500">Selector Switch Rotary NONBridge Contact Wire Diagram</TooltipTitle>
                 <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               </RibbonCommandButton>
             </RibbonSplitButton>
@@ -1778,7 +1790,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_B25AD">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_D2693" Id="AcRibbonSplitButton" Text="Temperature Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Temperature_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_D2693" Id="AcRibbonSplitButton" Text="Temperature Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Temperature_Switch_Normally_Closed.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Temperature_Switch_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_A861C" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0372" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_305C1">Temperature Switch Normally Open Wire Diagram</TooltipTitle>
@@ -1792,7 +1804,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_19CFA">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_383FA" Id="AcRibbonSplitButton" Text="Timer Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Time-On_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_383FA" Id="AcRibbonSplitButton" Text="Timer Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Time-On_Normally_Closed.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Time-On_Normally_Closed.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_F7508" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0376" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_9CE12">Timer Switch Normally Open Wire Diagram</TooltipTitle>
@@ -1806,7 +1818,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           </RibbonRow>
           <RibbonRow UID="RBNU_243_40E50">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_62B1D" Id="AcRibbonSplitButton" Text="Toggle Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Toggle_Switch_Normally_Open.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_62B1D" Id="AcRibbonSplitButton" Text="Toggle Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Toggle_Switch_Normally_Open.bmp" LargeImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Toggle_Switch_Normally_Open.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_F7458" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0378" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_E32A2">Toggle Switch Wire Diagram</TooltipTitle>
@@ -1819,7 +1831,7 @@ Customization panel, User Interface button, or enter CUI on the command line.
           <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
           <RibbonRow UID="RBNU_243_67BFA">
             <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
-            <RibbonSplitButton UID="RBNU_243_1CBE6" Id="AcRibbonSplitButton" Text="Vaccum Switch" SmallImage="%APPDATA%\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Vaccum_Switch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
+            <RibbonSplitButton UID="RBNU_243_1CBE6" Id="AcRibbonSplitButton" Text="Vaccum Switch" SmallImage="C:\Users\ksuess\AppData\Roaming\Autodesk\AutoCAD LT 2024\R30\enu\Support\Icons\Vaccum_Switch.bmp" Behavior="DropDownNoFollow" ListStyle="IconText" ButtonStyle="SmallWithText" Grouping="false">
               <ModifiedRev MajorVersion="24" MinorVersion="3" UserVersion="1" />
               <RibbonCommandButton UID="RBNU_243_6294E" Id="AcRibbonCommandButton" Text="" ButtonStyle="SmallWithText" MenuMacroID="CCI_0382" KeyTip="">
                 <TooltipTitle xlate="true" UID="XLS_243_A9D6A">Vaccum Switch Normally Open Wire Diagram</TooltipTitle>
