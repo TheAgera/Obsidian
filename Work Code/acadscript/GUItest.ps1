@@ -60,6 +60,12 @@ function updateCommandPreview(){
     )
     $var_previewWindow.text=$inputString
 }
+function updateDrawingList(){
+    param (
+        [string]$inputString
+    )
+    $var_dwgslist.text=$inputString
+}
 # Attach the event handler to the SelectionChanged event of your combo box
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
 updateCommandPreview -inputString "Make a Selection on the Left:"
@@ -68,14 +74,19 @@ $var_scrfile.Add_Click({
     $scriptfilepath.Filter= "SCR (*.scr) | *.scr"
     $scriptfilepath.ShowDialog()
     write-host $scriptfilepath.FileName
-    $scriptfilepathtrue=$scriptfilepath.FileName
-    updateCommandPreview -inputString $scriptfilepathtrue[$selectedItem].FileName
+    # $scriptfilepathtrue=$scriptfilepath.FileName
+    updateCommandPreview -inputString $scriptfilepath.FileName
 })
-
+$var_dwgsfile.Add_Click({
+    $dwgsfilepath=New-Object System.Windows.Forms.OpenFileDialog
+    $dwgsfilepath.Multiselect=$true
+    $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
+    $dwgsfilepath.ShowDialog()
+    write-host $dwgsfilepath.FileName
+    # $scriptfilepathtrue=$scriptfilepath.FileName
+    updateDrawingList -inputString $dwgsfilepath.FileName
+})
 $psform.ShowDialog()
-
-
-
    # # # Depending on the selected item, update the filepath
     # # if ($selectedItem -match 'AutoCAD') {
     # #     $selectedPaths = $autocadPaths

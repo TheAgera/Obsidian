@@ -24,10 +24,5 @@ namespace ACADGUI
         {
             InitializeComponent();
         }
-
-        private void ddlacadversion_SelectionChanged()
-        {
-
-        }
     }
 }
