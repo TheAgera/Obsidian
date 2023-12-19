@@ -8,14 +8,17 @@
         Title="AutoCAD Script Manager" Height="450" Width="800">
     <Grid>
         <Label Content="AutoCAD Version" HorizontalAlignment="Left" Margin="103,61,0,0" VerticalAlignment="Top"/>
-        <Label Content="Script File" HorizontalAlignment="Left" Margin="99,166,0,0" VerticalAlignment="Top"/>
-        <Label Content="Drawing(s) File" HorizontalAlignment="Left" Margin="99,243,0,0" VerticalAlignment="Top"/>
+        <Label Content="Script File" HorizontalAlignment="Left" Margin="99,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="Drawing(s) File" HorizontalAlignment="Left" Margin="99,202,0,0" VerticalAlignment="Top"/>
         <Label Content="Drawing List Preview" HorizontalAlignment="Left" Margin="438,67,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="ddlacadversion" HorizontalAlignment="Left" Margin="103,87,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="scrfile" Content="Button" HorizontalAlignment="Left" Margin="103,192,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="dwgsfile" Content="Button" HorizontalAlignment="Left" Margin="103,274,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="scrfile" Content="Button" HorizontalAlignment="Left" Margin="103,165,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="dwgsfile" Content="Button" HorizontalAlignment="Left" Margin="103,233,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="previewWindow" HorizontalAlignment="Left" Margin="103,345,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="669" Height="49"/>
         <TextBox x:Name="dwgslist" HorizontalAlignment="Left" Height="200" Margin="438,98,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="227"/>
+        <Button x:Name="start" Content="Button" HorizontalAlignment="Left" Margin="103,294,0,0" VerticalAlignment="Top"/>
+        <Label Content="Start" HorizontalAlignment="Left" Margin="99,263,0,0" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>

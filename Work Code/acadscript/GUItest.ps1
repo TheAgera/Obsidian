@@ -42,7 +42,7 @@ $autocadPaths = foreach ($folder in $autocadfolders) {
 $ltPaths = foreach ($folder in $ltfolders) {
     Get-accoreconsolePaths $folder "AutoCAD LT"
 }
-$paths = $autocadPaths + $ltpaths
+$paths = $autocadPaths + $ltPaths
 write-host $paths
 $paths | ForEach-Object { $var_ddlacadversion.Items.Add($_.ProductAndYear) }
 # Function to handle combo box selection change event
@@ -82,20 +82,17 @@ $var_dwgsfile.Add_Click({
     $dwgsfilepath.Multiselect=$true
     $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
     $dwgsfilepath.ShowDialog()
-    write-host $dwgsfilepath.FileName
-    # $scriptfilepathtrue=$scriptfilepath.FileName
-    updateDrawingList -inputString $dwgsfilepath.FileName
+    foreach ($dwgfile in $dwgsfilepath.FileNames) {
+        Write-Host $dwgfile
+    }
+    updateDrawingList -inputString $dwgsfilepath.FileNames
+})
+$var_start.Add_Click({
+    Write-Host "Meow"
+    Start-Process -FilePath "C:\Program Files\Autodesk\AutoCAD LT 2024\accoreconsole.exe" -ArgumentList "/i", "C:\acad\SYM\1shield.dwg", "/s", "C:\acad\SCRIPT\1ASFAB.scr", "/l", "en-US"
+    foreach ($file in $dwgsfilepath.FileNames) {
+    
+  }
 })
 $psform.ShowDialog()
-   # # # Depending on the selected item, update the filepath
-    # # if ($selectedItem -match 'AutoCAD') {
-    # #     $selectedPaths = $autocadPaths
-    # # } elseif ($selectedItem -match 'AutoCAD LT') {
-    # #     $selectedPaths = $ltPaths
-    # # }
-
-    # # # Assuming you want the first path, you can modify this based on your logic
-    # # $selectedPath = $selectedPaths[0].FullPath
-    # $var_previewWindow.text=$selectedItem
-    # # Update the filepath or use it as needed in your script
-    # Write-Host "Selected Path: $selectedPath"
+# Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
