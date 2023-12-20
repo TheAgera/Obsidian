@@ -69,30 +69,35 @@ function updateDrawingList(){
 # Attach the event handler to the SelectionChanged event of your combo box
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
 updateCommandPreview -inputString "Make a Selection on the Left:"
+$global:scriptPath
+$global:dwgsPath
 $var_scrfile.Add_Click({
     $scriptfilepath=New-Object System.Windows.Forms.OpenFileDialog
     $scriptfilepath.Filter= "SCR (*.scr) | *.scr"
     $scriptfilepath.ShowDialog()
-    write-host $scriptfilepath.FileName
-    # $scriptfilepathtrue=$scriptfilepath.FileName
-    updateCommandPreview -inputString $scriptfilepath.FileName
+    $global:scriptPath = $scriptfilepath.FileName
+    Write-Host $global:scriptPath
+    updateCommandPreview -inputString $global:scriptPath
 })
 $var_dwgsfile.Add_Click({
     $dwgsfilepath=New-Object System.Windows.Forms.OpenFileDialog
     $dwgsfilepath.Multiselect=$true
     $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
     $dwgsfilepath.ShowDialog()
+    $global:dwgsPath = $dwgsfilepath.FileNames
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
         Write-Host $dwgfile
     }
     updateDrawingList -inputString $dwgsfilepath.FileNames
 })
 $var_start.Add_Click({
-    Write-Host "Meow"
-    Start-Process -FilePath "C:\Program Files\Autodesk\AutoCAD LT 2024\accoreconsole.exe" -ArgumentList "/i", "C:\acad\SYM\1shield.dwg", "/s", "C:\acad\SCRIPT\1ASFAB.scr", "/l", "en-US"
-    foreach ($file in $dwgsfilepath.FileNames) {
-    
-  }
+    $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
+    Write-Host $global:scriptPath
+    Write-Host $accorePath
+     foreach ($file in $global:dwgsPath){
+        write-host $file
+        Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath"
+     }    
 })
 $psform.ShowDialog()
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
