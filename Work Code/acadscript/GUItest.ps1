@@ -49,17 +49,21 @@ $paths | ForEach-Object { $var_ddlacadversion.Items.Add($_.ProductAndYear) }
 function ComboBox_SelectionChanged($sender, $e) {
     clearCommandPreview
     $selectedItem = $var_ddlacadversion.SelectedIndex
-    updateCommandPreview -inputString $paths[$selectedItem].FullPath
+    fullCommandPreview -accorePath $paths[$selectedItem].FullPath -selectedScript $global:scriptPath -selectedFiles $global:dwgsPath
 }
+
 function clearCommandPreview(){
     $var_previewWindow.text=""
 }
-function updateCommandPreview(){
-    param (
-        [string]$inputString
-    )
-    $var_previewWindow.text=$inputString
+function updateCommandPreview($inputStrings){
+    $var_previewWindow.text = $inputStrings -join "`r`n"
 }
+
+function fullCommandPreview($accorePath, $selectedScript, $selectedFiles){
+    $fullCommand = "$accorePath /i $($selectedFiles -join ' /i ') /s $selectedScript"
+    updateCommandPreview -inputString $fullCommand
+}
+
 function updateDrawingList(){
     param (
         [string]$inputString
@@ -85,10 +89,13 @@ $var_dwgsfile.Add_Click({
     $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
     $dwgsfilepath.ShowDialog()
     $global:dwgsPath = $dwgsfilepath.FileNames
+    $fileNames=@()
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
-        Write-Host $dwgfile
+        $fileNameOnly = [System.IO.Path]::GetFileName($dwgfile)
+        $fileNames += $fileNameOnly
+        Write-Host $fileNameOnly
     }
-    updateDrawingList -inputString $dwgsfilepath.FileNames
+    updateDrawingList -inputString ($fileNames -join "`r`n")
 })
 $var_start.Add_Click({
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
