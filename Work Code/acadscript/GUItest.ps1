@@ -1,6 +1,6 @@
 Add-Type -AssemblyName PresentationFramework
 Add-Type -AssemblyName System.Windows.Forms
-$xamlfile="C:\Users\ksuess\Documents\Obsidian\Work Code\acadscript\ACADGUI\MainWindow.xaml"
+$xamlfile="ACADGUI\MainWindow.xaml" 
 $inputXAML=Get-Content -Path $xamlFile -Raw
 $inputXAML=$inputXAML -replace 'mc:Ignorable="d"','' -replace "x:N","N" -replace '^<Win.*','<Window'
 [XML]$XAML=$inputXAML
@@ -19,7 +19,11 @@ $xaml.SelectNodes("//*[@Name]") | ForEach-Object {
 }
 Get-Variable var_*
 $autocadinstallpath = "C:\Program Files\Autodesk"
-# Get folders in the install directory matching the pattern
+$global:scriptPath = ""
+$global:dwgsPath = ""
+
+if(test-path $autocadinstallpath){
+    # Get folders in the install directory matching the pattern
 $autocadfolders = Get-ChildItem -Path $autocadinstallpath -Directory | Where-Object { $_.Name -match 'AutoCAD \d{4}' }
 $ltfolders = Get-ChildItem -Path $autocadinstallpath -Directory | Where-Object { $_.Name -match 'AutoCAD LT \d{4}' }
 # Function to get an array of paths for accoreconsole.exe in a given folder
@@ -49,53 +53,82 @@ $paths | ForEach-Object { $var_ddlacadversion.Items.Add($_.ProductAndYear) }
 function ComboBox_SelectionChanged($sender, $e) {
     clearCommandPreview
     $selectedItem = $var_ddlacadversion.SelectedIndex
-    fullCommandPreview -accorePath $paths[$selectedItem].FullPath -selectedScript $global:scriptPath -selectedFiles $global:dwgsPath
+    updateCommandPreview -inputString $paths[$selectedItem].FullPath
+    fullCommandPreview
 }
-
+# When called clears the preview window
 function clearCommandPreview(){
     $var_previewWindow.text=""
 }
-function updateCommandPreview($inputStrings){
-    $var_previewWindow.text = $inputStrings -join "`r`n"
+# When called, the preview window gets updated with the input string
+function updateCommandPreview(){
+    param (
+        [string]$inputString
+    )
+    $var_previewWindow.text=$inputString
 }
-
-function fullCommandPreview($accorePath, $selectedScript, $selectedFiles){
-    $fullCommand = "$accorePath /i $($selectedFiles -join ' /i ') /s $selectedScript"
-    updateCommandPreview -inputString $fullCommand
+# This function is to dynamically generate the command that starts the scripting process for the AutoCAD files.
+function fullCommandPreview(){
+    $examplePath = "$($paths[$var_ddlacadversion.SelectedIndex].FullPath) /i $($global:dwgsPath[0]) /s $global:scriptPath"
+    $var_previewWindow.text= $examplePath
 }
-
+# Updates the drawing list when called with inputstring parameter
 function updateDrawingList(){
     param (
         [string]$inputString
     )
     $var_dwgslist.text=$inputString
 }
-# Attach the event handler to the SelectionChanged event of your combo box
+# When a selection is made in the drop-down box, the function to give the full path and update the command preview is called.
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
 updateCommandPreview -inputString "Make a Selection on the Left:"
+# Global variables so they can be used within functions
 $global:scriptPath
 $global:dwgsPath
+# Button click function that opens a windows file explorer dialog box, writes the path, and updates the command preview window
 $var_scrfile.Add_Click({
+    $global:scriptPath = ""
     $scriptfilepath=New-Object System.Windows.Forms.OpenFileDialog
     $scriptfilepath.Filter= "SCR (*.scr) | *.scr"
     $scriptfilepath.ShowDialog()
     $global:scriptPath = $scriptfilepath.FileName
     Write-Host $global:scriptPath
     updateCommandPreview -inputString $global:scriptPath
+    fullCommandPreview
 })
+# Button click function that opens a file explorer dialog box, populates global variable with file paths chosen, 
 $var_dwgsfile.Add_Click({
+    # $global:dwgsPath = "" || You don't need to initialize it, but if you're going to
+    $global:dwgsPath = @()
     $dwgsfilepath=New-Object System.Windows.Forms.OpenFileDialog
     $dwgsfilepath.Multiselect=$true
     $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
     $dwgsfilepath.ShowDialog()
-    $global:dwgsPath = $dwgsfilepath.FileNames
+    $global:dwgsPath += $dwgsfilepath.FileNames
     $fileNames=@()
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($dwgfile)
+        $fileNames = $fileNameOnly
+        $global:dwgsPath += $fileNameOnly
+        Write-Host $fileNameOnly
+    }
+    updateDrawingList -inputString ($fileNames -join "`r`n")
+    fullCommandPreview
+})
+$var_splitdwgs.Add_Click({
+    $extraDwgs=New-Object System.Windows.Forms.OpenFileDialog
+    $extraDwgs.Multiselect=$true
+    $extraDwgs.Filter= "DWG (*.dwg) | *.dwg"
+    $extraDwgs.ShowDialog()
+    $global:dwgsPath += $extraDwgs.FileNames
+    $fileNames = @()
+    foreach ($extraDwgFile in $extraDwgs.FileNames) {
+        $fileNameOnly = [System.IO.Path]::GetFileName($extraDwgFile)
         $fileNames += $fileNameOnly
         Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
+    fullCommandPreview
 })
 $var_start.Add_Click({
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
@@ -105,6 +138,10 @@ $var_start.Add_Click({
         write-host $file
         Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath"
      }    
+    $global:scriptPath = ""
+    $global:dwgsPath = ""
 })
 $psform.ShowDialog()
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
+}else{Write-Host "No AutoCAD found"}
+
