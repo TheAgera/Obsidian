@@ -109,7 +109,7 @@ $var_dwgsfile.Add_Click({
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($dwgfile)
         $fileNames = $fileNameOnly
-        $global:dwgsPath += $fileNameOnly
+        # $global:dwgsPath += $fileNameOnly
         Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
@@ -124,7 +124,8 @@ $var_splitdwgs.Add_Click({
     $fileNames = @()
     foreach ($extraDwgFile in $extraDwgs.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($extraDwgFile)
-        $fileNames += $fileNameOnly
+        $fileNames = $fileNameOnly
+        # $global:dwgsPath += $fileNameOnly
         Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
