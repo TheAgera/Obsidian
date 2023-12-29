@@ -77,7 +77,7 @@ function updateDrawingList(){
     param (
         [string]$inputString
     )
-    $var_dwgslist.text=$inputString
+    $var_dwgslist.text+=$inputString + "`r`n"
 }
 # When a selection is made in the drop-down box, the function to give the full path and update the command preview is called.
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
@@ -93,6 +93,8 @@ $var_scrfile.Add_Click({
     $scriptfilepath.ShowDialog()
     $global:scriptPath = $scriptfilepath.FileName
     Write-Host $global:scriptPath
+    $scriptContents = Get-Content -Path $global:scriptPath -Raw
+    $var_scriptPreview.Text = $scriptContents
     updateCommandPreview -inputString $global:scriptPath
     fullCommandPreview
 })
@@ -108,8 +110,7 @@ $var_dwgsfile.Add_Click({
     $fileNames=@()
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($dwgfile)
-        $fileNames = $fileNameOnly
-        # $global:dwgsPath += $fileNameOnly
+        $fileNames += $fileNameOnly
         Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
@@ -124,8 +125,7 @@ $var_splitdwgs.Add_Click({
     $fileNames = @()
     foreach ($extraDwgFile in $extraDwgs.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($extraDwgFile)
-        $fileNames = $fileNameOnly
-        # $global:dwgsPath += $fileNameOnly
+        $fileNames += $fileNameOnly
         Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
@@ -137,7 +137,8 @@ $var_start.Add_Click({
     Write-Host $accorePath
      foreach ($file in $global:dwgsPath){
         write-host $file
-        Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath"
+        Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath" 
+        #-WindowStyle Hidden
      }    
     $global:scriptPath = ""
     $global:dwgsPath = ""
