@@ -1,0 +1,1 @@
+FOR %%F IN (C:\acad\BATCH\*.dwg) DO "C:\Program Files\Autodesk\AutoCAD LT 2024\accoreconsole.exe" /i "%%F" /s "c:\acad\BATCH\namethatfile.scr" /l en-US
