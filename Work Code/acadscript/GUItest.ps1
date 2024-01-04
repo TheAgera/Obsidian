@@ -135,27 +135,46 @@ $var_splitdwgs.Add_Click({
     fullCommandPreview
 })
 # Button click to start script and generate a text output of errors
-$var_start.Add_Click({
+$var_start.Add_Click(
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
     Write-Host $global:scriptPath
     Write-Host $accorePath
-     foreach ($file in $global:dwgsPath){
+    # ASCII Art for output and error sections
+    $asciiArtOutput = @"
+    ************************************
+    *********** OUTPUT TEXT ************
+    ************************************
+"@
+    $asciiArtError = @"
+    ************************************
+    *********** ERROR TEXT *************
+    ************************************
+"@
+    foreach ($file in $global:dwgsPath){
         write-host $file
         $process = $null
-        $errorFileName = [System.IO.Path]::GetFileNameWithoutExtension($file) + "-error.txt"
+        $baseFileName = [System.IO.Path]::GetFileNameWithoutExtension($file)
+        $errorFileName = "$baseFileName-error.txt"
         $errorPath = Join-Path ".\temp\" $errorFileName
-        $outputFileName = [System.IO.Path]::GetFileNameWithoutExtension($file) + "-output.txt"
+        $outputFileName = "$baseFileName-output.txt"
         $outputPath = Join-Path ".\temp\" $outputFileName
-        $process = Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath"  -PassThru -RedirectStandardError $errorPath -RedirectStandardOutput $outputPath -WindowStyle Hidden
+        $combinedFileName = "$baseFileName-combined.txt"
+        $combinedFilePath = Join-Path ".\temp\" $combinedFileName
+        $process = Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath" -PassThru -RedirectStandardError $errorPath -RedirectStandardOutput $outputPath -WindowStyle Hidden
         $global:processArray += $process
-        
-     }    
+        # Wait for the process to exit
+        $process.WaitForExit()
+        # Combine error and output into a single file
+        $asciiArtError | Out-File $combinedFilePath
+        Get-Content $errorPath | Out-File $combinedFilePath -Append
+        $asciiArtOutput | Out-File $combinedFilePath -Append
+        Get-Content $outputPath | Out-File $combinedFilePath -Append
+        # Optional: Remove individual error and output files
+        Remove-Item $errorPath, $outputPath -ErrorAction SilentlyContinue
+    }    
     $global:scriptPath = ""
     $global:dwgsPath = ""
-    # Wait for 30 seconds
-    Start-Sleep -Seconds 10
-
-    # Loop through the array to check process status
+    # Check process status
     foreach ($proc in $global:processArray) {
         if ($proc.HasExited) {
             Write-Host "Process $($proc.Id) has exited"
@@ -163,33 +182,55 @@ $var_start.Add_Click({
             Write-Host "Process $($proc.Id) is still running"
         }
     }
-# ASCII Art for output and error sections
-$asciiArtOutput = @"
-************************************
-*********** OUTPUT TEXT ************
-************************************
-"@
-$asciiArtError = @"
-************************************
-*********** ERROR TEXT *************
-************************************
-"@
-    # Define the final combined file path
-    $combinedFile = ".\temp\Combined-File.txt"
-    # Ensure the combined file is empty or create it if it doesn't exist
-    if (Test-Path $combinedFile) { Clear-Content $combinedFile }
-    else { New-Item $combinedFile -ItemType File }
-    # Combine error and output files
-    Get-ChildItem ".\temp\*.*" -Include *-error.txt, *-output.txt | Sort-Object Name | ForEach-Object {
-        $asciiArt = if ($_.Name -like "*-error.txt") { $asciiArtError } else { $asciiArtOutput }
-        Add-Content $combinedFile $asciiArt
-        Get-Content $_.FullName | Out-File $combinedFile -Append
-        Write-Host "Appended $($_.Name) to $combinedFile"
-    }
-    # Optional: Clean up individual files after combining
-    Get-ChildItem ".\temp\*.*" -Include *-error.txt, *-output.txt | Remove-Item
-})
+)
 $psform.ShowDialog()
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
 }else{Write-Host "No AutoCAD found"}
 
+# foreach ($file in $global:dwgsPath){
+#     write-host $file
+#     $process = $null
+#     $errorFileName = [System.IO.Path]::GetFileNameWithoutExtension($file) + "-error.txt"
+#     $errorPath = Join-Path ".\temp\" $errorFileName
+#     $outputFileName = [System.IO.Path]::GetFileNameWithoutExtension($file) + "-output.txt"
+#     $outputPath = Join-Path ".\temp\" $outputFileName
+#     $process = Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath"  -PassThru -RedirectStandardError $errorPath -RedirectStandardOutput $outputPath -WindowStyle Hidden
+#     $global:processArray += $process
+#  }    
+# $global:scriptPath = ""
+# $global:dwgsPath = ""
+# # Wait for 30 seconds
+# Start-Sleep -Seconds 10
+# # Loop through the array to check process status
+# foreach ($proc in $global:processArray) {
+#     if ($proc.HasExited) {
+#         Write-Host "Process $($proc.Id) has exited"
+#     } else {
+#         Write-Host "Process $($proc.Id) is still running"
+#     }
+# }
+# # ASCII Art for output and error sections
+# $asciiArtOutput = @"
+# ************************************
+# *********** OUTPUT TEXT ************
+# ************************************
+# "@
+# $asciiArtError = @"
+# ************************************
+# *********** ERROR TEXT *************
+# ************************************
+# "@
+# # Define the final combined file path
+# $combinedFile = ".\temp\Combined-File.txt"
+# # Ensure the combined file is empty or create it if it doesn't exist
+# if (Test-Path $combinedFile) { Clear-Content $combinedFile }
+# else { New-Item $combinedFile -ItemType File }
+# # Combine error and output files
+# Get-ChildItem ".\temp\*.*" -Include *-error.txt, *-output.txt | Sort-Object Name | ForEach-Object {
+#     $asciiArt = if ($_.Name -like "*-error.txt") { $asciiArtError } else { $asciiArtOutput }
+#     Add-Content $combinedFile $asciiArt
+#     Get-Content $_.FullName | Out-File $combinedFile -Append
+#     Write-Host "Appended $($_.Name) to $combinedFile"
+# }
+# # Optional: Clean up individual files after combining
+# # Get-ChildItem ".\temp\*.*" -Include *-error.txt, *-output.txt | Remove-Item
