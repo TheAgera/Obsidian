@@ -135,7 +135,7 @@ $var_splitdwgs.Add_Click({
     fullCommandPreview
 })
 # Button click to start script and generate a text output of errors
-$var_start.Add_Click(
+$var_start.Add_Click({
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
     Write-Host $global:scriptPath
     Write-Host $accorePath
@@ -182,7 +182,7 @@ $var_start.Add_Click(
             Write-Host "Process $($proc.Id) is still running"
         }
     }
-)
+})
 $psform.ShowDialog()
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
 }else{Write-Host "No AutoCAD found"}
