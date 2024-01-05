@@ -72,19 +72,73 @@ function fullCommandPreview(){
     $examplePath = "$($paths[$var_ddlacadversion.SelectedIndex].FullPath) /i $($global:dwgsPath[0]) /s $global:scriptPath"
     $var_previewWindow.text= $examplePath
 }
+
 # Updates the drawing list when called with inputstring parameter
 function updateDrawingList(){
     param (
         [string]$inputString
     )
-    $var_dwgslist.text+=$inputString + "`r`n"
+    $counter = 0
+    foreach ($fileName in $fileNames) {
+        # Create a new ListBoxItem
+        $listBoxItem = New-Object System.Windows.Controls.ListBoxItem
+        $listBoxItem.Content = $fileName  # Set the filename as the content of the ListBoxItem
+
+        # Set other properties on the ListBoxItem, if needed
+        # For example, setting the background color
+        # $listBoxItem.Background = 'Red'
+
+        # Add an event handler for the DoubleClick event
+        $listBoxItem.Add_MouseDoubleClick({
+            if ($global:isStartClicked) {
+            # This script block is executed when the ListBoxItem is double-clicked
+            $item = $_.Source.Content
+            $baseItemName = $item -replace '\.dwg$', ''
+            $doubleClickPath = ".\temp\" + $baseItemName + "-combined.txt"
+            # Read and output the content of the combined file
+            $fileContent = Get-Content -Path $doubleClickPath 
+            
+            # Create a new form
+            $form = New-Object System.Windows.Forms.Form
+            $form.Text = "File Content"
+            $form.Size = New-Object System.Drawing.Size(600, 700)
+            $form.StartPosition = "CenterScreen"
+
+            # Add a textbox to the form to display the content
+            $textBox = New-Object System.Windows.Forms.TextBox
+            $textBox.Multiline = $true
+            $textBox.ScrollBars = "Vertical"
+            $textBox.Dock = "Fill"
+            $textBox.Text = $fileContent
+            $form.Controls.Add($textBox)
+
+            # Show the form
+            $form.ShowDialog()
+            Write-Host "Content of $doubleClickPath"
+            Write-Host $fileContent
+            } else {
+                Write-host "Start Button has not been clicked yet"
+            }
+        })
+
+        # Add the ListBoxItem to the ListBox
+        $var_listbox.Items.Add($listBoxItem)
+
+        # Debug output
+        Write-Host $listBoxItem.Content
+        Write-Host "The type of this item is" $listBoxItem.GetType()
+        Write-host "The value of counter is: $counter"
+        $counter = $counter + 1
+    }
 }
+
 # When a selection is made in the drop-down box, the function to give the full path and update the command preview is called.
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
 updateCommandPreview -inputString "Make a Selection on the Left:"
 # Global variables so they can be used within functions
 $global:scriptPath
 $global:dwgsPath
+$global:isStartClicked = $false
 # Array to store process objects
 $global:processArray = @()
 # Button click function that opens a windows file explorer dialog box, writes the path, and updates the command preview window
@@ -113,7 +167,7 @@ $var_dwgsfile.Add_Click({
     foreach ($dwgfile in $dwgsfilepath.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($dwgfile)
         $fileNames += $fileNameOnly
-        Write-Host $fileNameOnly
+        # Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
     fullCommandPreview
@@ -129,26 +183,27 @@ $var_splitdwgs.Add_Click({
     foreach ($extraDwgFile in $extraDwgs.FileNames) {
         $fileNameOnly = [System.IO.Path]::GetFileName($extraDwgFile)
         $fileNames += $fileNameOnly
-        Write-Host $fileNameOnly
+        # Write-Host $fileNameOnly
     }
     updateDrawingList -inputString ($fileNames -join "`r`n")
     fullCommandPreview
 })
 # Button click to start script and generate a text output of errors
 $var_start.Add_Click({
+    $global:isStartClicked = $true
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
     Write-Host $global:scriptPath
     Write-Host $accorePath
     # ASCII Art for output and error sections
     $asciiArtOutput = @"
-    ************************************
-    *********** OUTPUT TEXT ************
-    ************************************
+************************************
+*********** OUTPUT TEXT ************
+************************************
 "@
     $asciiArtError = @"
-    ************************************
-    *********** ERROR TEXT *************
-    ************************************
+************************************
+*********** ERROR TEXT *************
+************************************
 "@
     foreach ($file in $global:dwgsPath){
         write-host $file

@@ -21,6 +21,7 @@
         <Button x:Name="splitdwgs" Content="Split" HorizontalAlignment="Left" Margin="143,233,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="scriptPreview" HorizontalAlignment="Left" Margin="284,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Height="200"/>
         <Label Content="Script Preview" HorizontalAlignment="Left" Margin="284,67,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <ListBox x:Name="listbox" Margin="319,147,319,185"/>
 
 
     </Grid>
