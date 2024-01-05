@@ -96,24 +96,31 @@ function updateDrawingList(){
             $baseItemName = $item -replace '\.dwg$', ''
             $doubleClickPath = ".\temp\" + $baseItemName + "-combined.txt"
             # Read and output the content of the combined file
-            $fileContent = Get-Content -Path $doubleClickPath 
+            $fileContent = Get-Content -Path $doubleClickPath -Raw -Encoding unicode
             
-            # Create a new form
-            $form = New-Object System.Windows.Forms.Form
-            $form.Text = "File Content"
-            $form.Size = New-Object System.Drawing.Size(600, 700)
-            $form.StartPosition = "CenterScreen"
+            # Create a new WPF Window
+            Add-Type -AssemblyName PresentationFramework
+            $window = New-Object System.Windows.Window
+            $window.Title = "File Content"
+            $window.Width = 600
+            $window.Height = 700
+            $window.WindowStartupLocation = [System.Windows.WindowStartupLocation]::CenterScreen
 
-            # Add a textbox to the form to display the content
-            $textBox = New-Object System.Windows.Forms.TextBox
-            $textBox.Multiline = $true
-            $textBox.ScrollBars = "Vertical"
-            $textBox.Dock = "Fill"
+            # Add a TextBox to the Window to display the content
+            $textBox = New-Object System.Windows.Controls.TextBox
+            $textBox.VerticalScrollBarVisibility = 'Visible'
+            $textBox.HorizontalScrollBarVisibility = 'Auto'
+            $textBox.AcceptsReturn = $true
+            $textBox.TextWrapping = 'Wrap'
             $textBox.Text = $fileContent
-            $form.Controls.Add($textBox)
 
-            # Show the form
-            $form.ShowDialog()
+            # Using a Grid as the layout container
+            $grid = New-Object System.Windows.Controls.Grid
+            $grid.Children.Add($textBox)
+            $window.Content = $grid
+
+            # Show the Window
+            $window.ShowDialog()
             Write-Host "Content of $doubleClickPath"
             Write-Host $fileContent
             } else {
@@ -129,6 +136,20 @@ function updateDrawingList(){
         Write-Host "The type of this item is" $listBoxItem.GetType()
         Write-host "The value of counter is: $counter"
         $counter = $counter + 1
+    }
+}
+
+# New function to update the list box after $var_start is clicked
+function updateListBoxAfterStart() {
+    foreach ($item in $var_listbox.Items) {
+        $itemName = $item.Content
+        $baseItemName = $itemName -replace '\.dwg$', ''
+        $doubleClickPath = ".\temp\" + $baseItemName + "-combined.txt"
+        if (Test-Path $doubleClickPath) {
+            $item.Background = [System.Windows.Media.Brushes]::Green
+        } else {
+            $item.Background = [System.Windows.Media.Brushes]::Red
+        }
     }
 }
 
@@ -220,10 +241,12 @@ $var_start.Add_Click({
         # Wait for the process to exit
         $process.WaitForExit()
         # Combine error and output into a single file
-        $asciiArtError | Out-File $combinedFilePath
-        Get-Content $errorPath | Out-File $combinedFilePath -Append
-        $asciiArtOutput | Out-File $combinedFilePath -Append
-        Get-Content $outputPath | Out-File $combinedFilePath -Append
+        
+
+        $asciiArtError | Out-File $combinedFilePath -Encoding unicode
+        Get-Content $errorPath | Out-File $combinedFilePath -Append -Encoding unicode
+        $asciiArtOutput | Out-File $combinedFilePath -Append -Encoding unicode
+        Get-Content $outputPath | Out-File $combinedFilePath -Append -Encoding unicode
         # Optional: Remove individual error and output files
         Remove-Item $errorPath, $outputPath -ErrorAction SilentlyContinue
     }    
@@ -237,6 +260,7 @@ $var_start.Add_Click({
             Write-Host "Process $($proc.Id) is still running"
         }
     }
+    updateListBoxAfterStart
 })
 $psform.ShowDialog()
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
