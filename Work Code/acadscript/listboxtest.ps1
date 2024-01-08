@@ -241,8 +241,6 @@ $var_start.Add_Click({
         # Wait for the process to exit
         $process.WaitForExit()
         # Combine error and output into a single file
-        
-
         $asciiArtError | Out-File $combinedFilePath -Encoding unicode
         Get-Content $errorPath | Out-File $combinedFilePath -Append -Encoding unicode
         $asciiArtOutput | Out-File $combinedFilePath -Append -Encoding unicode

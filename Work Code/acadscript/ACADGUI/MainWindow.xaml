@@ -15,13 +15,12 @@
         <Button x:Name="scrfile" Content="Button" HorizontalAlignment="Left" Margin="103,165,0,0" VerticalAlignment="Top"/>
         <Button x:Name="dwgsfile" Content="Button" HorizontalAlignment="Left" Margin="103,233,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="previewWindow" HorizontalAlignment="Left" Margin="103,345,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="669" Height="49"/>
-        <TextBox x:Name="dwgslist" HorizontalAlignment="Left" Height="200" Margin="545,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="227"/>
         <Button x:Name="start" Content="Button" HorizontalAlignment="Left" Margin="103,294,0,0" VerticalAlignment="Top"/>
         <Label Content="Start" HorizontalAlignment="Left" Margin="99,263,0,0" VerticalAlignment="Top"/>
         <Button x:Name="splitdwgs" Content="Split" HorizontalAlignment="Left" Margin="143,233,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="scriptPreview" HorizontalAlignment="Left" Margin="284,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Height="200"/>
         <Label Content="Script Preview" HorizontalAlignment="Left" Margin="284,67,0,0" VerticalAlignment="Top" IsEnabled="False"/>
-        <ListBox x:Name="listbox" Margin="319,147,319,185"/>
+        <ListBox x:Name="listbox" Margin="545,98,28,136"/>
 
 
     </Grid>
