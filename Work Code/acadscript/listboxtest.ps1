@@ -50,29 +50,53 @@ $paths = $autocadPaths + $ltPaths
 write-host $paths
 $paths | ForEach-Object { $var_ddlacadversion.Items.Add($_.ProductAndYear) }
 # Function to handle combo box selection change event
+$global:scriptPath
+$global:dwgsPath = @()
+$global:isStartClicked = $false
+# Array to store process objects
+$global:processArray = @()
 function ComboBox_SelectionChanged($sender, $e) {
     clearCommandPreview
     $selectedItem = $var_ddlacadversion.SelectedIndex
-    updateCommandPreview -inputString $paths[$selectedItem].FullPath
     fullCommandPreview
+}
+$global:scriptFilePaths = @()
+
+function ComboBox_scriptSelectionChanged {
+    param (
+        [string]$searchPath
+    )
+    # Populate ComboBox with files from the script library if not already done
+    if ($var_ddlScriptLibrary.Items.Count -eq 0) {
+        $scrFiles = Get-ChildItem -Path $searchPath -Filter "*.scr"
+        foreach ($scr in $scrFiles) {
+            $var_ddlScriptLibrary.Items.Add($scr.Name)
+            $global:scriptFilePaths += $scr.FullName
+        }
+    }
+    $var_ddlScriptLibrary.add_SelectionChanged({
+        $selectedIndex = $var_ddlScriptLibrary.SelectedIndex
+        $selectedFilePath = $global:scriptFilePaths[$selectedIndex]
+        $global:scriptPath = $selectedFilePath
+        if (Test-Path $global:scriptPath) {
+            $scriptContents = Get-Content -Path $global:scriptPath -Raw
+            $var_scriptPreview.Text = $scriptContents
+        } else {
+            $var_scriptPreview.Text = "Selected file not found."
+        }
+        fullCommandPreview
+    })
 }
 # When called clears the preview window
 function clearCommandPreview(){
     $var_previewWindow.text=""
 }
-# When called, the preview window gets updated with the input string
-function updateCommandPreview(){
-    param (
-        [string]$inputString
-    )
-    $var_previewWindow.text=$inputString
-}
 # This function is to dynamically generate the command that starts the scripting process for the AutoCAD files.
 function fullCommandPreview(){
+    # updateCommandPreview -inputString "Make a Selection on the Left:" Work the following into this function so it is text that gets overwritten once selection is made
     $examplePath = "$($paths[$var_ddlacadversion.SelectedIndex].FullPath) /i $($global:dwgsPath[0]) /s $global:scriptPath"
     $var_previewWindow.text= $examplePath
 }
-
 # Updates the drawing list when called with inputstring parameter
 function updateDrawingList(){
     param (
@@ -83,11 +107,6 @@ function updateDrawingList(){
         # Create a new ListBoxItem
         $listBoxItem = New-Object System.Windows.Controls.ListBoxItem
         $listBoxItem.Content = $fileName  # Set the filename as the content of the ListBoxItem
-
-        # Set other properties on the ListBoxItem, if needed
-        # For example, setting the background color
-        # $listBoxItem.Background = 'Red'
-
         # Add an event handler for the DoubleClick event
         $listBoxItem.Add_MouseDoubleClick({
             if ($global:isStartClicked) {
@@ -97,7 +116,6 @@ function updateDrawingList(){
             $doubleClickPath = ".\temp\" + $baseItemName + "-combined.txt"
             # Read and output the content of the combined file
             $fileContent = Get-Content -Path $doubleClickPath -Raw -Encoding unicode
-            
             # Create a new WPF Window
             Add-Type -AssemblyName PresentationFramework
             $window = New-Object System.Windows.Window
@@ -105,7 +123,6 @@ function updateDrawingList(){
             $window.Width = 600
             $window.Height = 700
             $window.WindowStartupLocation = [System.Windows.WindowStartupLocation]::CenterScreen
-
             # Add a TextBox to the Window to display the content
             $textBox = New-Object System.Windows.Controls.TextBox
             $textBox.VerticalScrollBarVisibility = 'Visible'
@@ -113,12 +130,10 @@ function updateDrawingList(){
             $textBox.AcceptsReturn = $true
             $textBox.TextWrapping = 'Wrap'
             $textBox.Text = $fileContent
-
             # Using a Grid as the layout container
             $grid = New-Object System.Windows.Controls.Grid
             $grid.Children.Add($textBox)
             $window.Content = $grid
-
             # Show the Window
             $window.ShowDialog()
             Write-Host "Content of $doubleClickPath"
@@ -127,10 +142,8 @@ function updateDrawingList(){
                 Write-host "Start Button has not been clicked yet"
             }
         })
-
         # Add the ListBoxItem to the ListBox
         $var_listbox.Items.Add($listBoxItem)
-
         # Debug output
         Write-Host $listBoxItem.Content
         Write-Host "The type of this item is" $listBoxItem.GetType()
@@ -138,7 +151,6 @@ function updateDrawingList(){
         $counter = $counter + 1
     }
 }
-
 # New function to update the list box after $var_start is clicked
 function updateListBoxAfterStart() {
     foreach ($item in $var_listbox.Items) {
@@ -152,33 +164,31 @@ function updateListBoxAfterStart() {
         }
     }
 }
-
 # When a selection is made in the drop-down box, the function to give the full path and update the command preview is called.
+ComboBox_scriptSelectionChanged -searchPath ".\ScriptLibrary"
 $var_ddlacadversion.add_SelectionChanged({ ComboBox_SelectionChanged $_ })
-updateCommandPreview -inputString "Make a Selection on the Left:"
 # Global variables so they can be used within functions
-$global:scriptPath
-$global:dwgsPath
-$global:isStartClicked = $false
-# Array to store process objects
-$global:processArray = @()
 # Button click function that opens a windows file explorer dialog box, writes the path, and updates the command preview window
 $var_scrfile.Add_Click({
-    $global:scriptPath = ""
-    $scriptfilepath=New-Object System.Windows.Forms.OpenFileDialog
-    $scriptfilepath.Filter= "SCR (*.scr) | *.scr"
-    $scriptfilepath.ShowDialog()
-    $global:scriptPath = $scriptfilepath.FileName
-    Write-Host $global:scriptPath
-    $scriptContents = Get-Content -Path $global:scriptPath -Raw
-    $var_scriptPreview.Text = $scriptContents
-    updateCommandPreview -inputString $global:scriptPath
-    fullCommandPreview
+    $scriptFilePathDialog = New-Object System.Windows.Forms.OpenFileDialog
+    $scriptFilePathDialog.Filter = "SCR (*.scr)|*.scr"
+    if ($scriptFilePathDialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+        $selectedScriptPath = $scriptFilePathDialog.FileName
+        $global:scriptPath = $selectedScriptPath
+        Write-Host "Selected script path: $global:scriptPath"
+        if (Test-Path $global:scriptPath) {
+            $scriptContents = Get-Content -Path $global:scriptPath -Raw
+            $var_scriptPreview.Text = $scriptContents
+        } else {
+            $var_scriptPreview.Text = "Selected file not found."
+        }
+        fullCommandPreview
+    }
 })
 # Button click function that opens a file explorer dialog box, populates global variable with file paths chosen, 
 $var_dwgsfile.Add_Click({
     # $global:dwgsPath = "" || You don't need to initialize it, but if you're going to
-    $global:dwgsPath = @()
+    # $global:dwgsPath = @()
     $dwgsfilepath=New-Object System.Windows.Forms.OpenFileDialog
     $dwgsfilepath.Multiselect=$true
     $dwgsfilepath.Filter= "DWG (*.dwg) | *.dwg"
@@ -212,6 +222,8 @@ $var_splitdwgs.Add_Click({
 # Button click to start script and generate a text output of errors
 $var_start.Add_Click({
     $global:isStartClicked = $true
+    $totalFiles = $global:dwgsPath.count
+    $currentIndex = 0
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
     Write-Host $global:scriptPath
     Write-Host $accorePath
@@ -257,6 +269,8 @@ $var_start.Add_Click({
         } else {
             Write-Host "Process $($proc.Id) is still running"
         }
+        $currentIndex++
+        $var_progressBar.Value = ($currentIndex / $totalFiles) * 100
     }
     updateListBoxAfterStart
 })
