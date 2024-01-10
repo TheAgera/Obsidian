@@ -21,9 +21,9 @@
         <TextBox x:Name="scriptPreview" HorizontalAlignment="Left" Margin="284,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Height="200"/>
         <Label Content="Script Preview" HorizontalAlignment="Left" Margin="284,42,0,0" VerticalAlignment="Top" IsEnabled="False"/>
         <ListBox x:Name="listbox" Margin="545,73,28,161"/>
-        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="11" Margin="104,374,0,0" VerticalAlignment="Top" Width="668"/>
         <Button x:Name="dwgsDelete" Content="Delete" HorizontalAlignment="Left" Margin="103,227,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="ddlScriptLibrary" HorizontalAlignment="Left" Margin="104,161,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="ddlScriptLibrary" HorizontalAlignment="Left" Margin="104,161,0,0" VerticalAlignment="Top" Width="120" Text="test"/>
+        <Button x:Name="resetScript" Content="reset" HorizontalAlignment="Left" Margin="35,62,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>

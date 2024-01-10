@@ -6,14 +6,31 @@ $inputXAML=$inputXAML -replace 'mc:Ignorable="d"','' -replace "x:N","N" -replace
 [XML]$XAML=$inputXAML
 $reader = New-Object System.Xml.XmlNodeReader $XAML
 try{
-    $psform=[Windows.Markup.XamlReader]::Load($reader)
+    $global:psform=[Windows.Markup.XamlReader]::Load($reader)
 }catch{
     Write-Host $_.Exception
     throw
 }
 $xaml.SelectNodes("//*[@Name]") | ForEach-Object {
     try{
-        Set-Variable -Name "var_$($_.Name)" -Value $psform.FindName($_.Name) -ErrorAction Stop
+        Set-Variable -Name "var_$($_.Name)" -Value $global:psform.FindName($_.Name) -ErrorAction Stop
+    }catch{
+    }
+}
+$xamlfile1="ACADGUI\progressWindow.xaml" 
+$inputXAML1=Get-Content -Path $xamlFile1 -Raw
+$inputXAML1=$inputXAML1 -replace 'mc:Ignorable="d"','' -replace "x:N","N" -replace '^<Win.*','<Window'
+[XML]$XAML1=$inputXAML1
+$reader1 = New-Object System.Xml.XmlNodeReader $XAML1
+try{
+    $global:psform1=[Windows.Markup.XamlReader]::Load($reader1)
+}catch{
+    Write-Host $_.Exception
+    throw
+}
+$xaml1.SelectNodes("//*[@Name]") | ForEach-Object {
+    try{
+        Set-Variable -Name "var_$($_.Name)" -Value $global:psform1.FindName($_.Name) -ErrorAction Stop
     }catch{
     }
 }
@@ -91,6 +108,22 @@ function ComboBox_scriptSelectionChanged {
 function clearCommandPreview(){
     $var_previewWindow.text=""
 }
+function clearCommandVariables(){
+    $var_ddlacadversion.SelectedIndex = -1
+    $var_ddlScriptLibrary.SelectedIndex = -1
+    # $var_progressBar.Value = 0
+    $global:dwgsPath = @()
+    $global:scriptPath = ""
+    clearCommandPreview
+    clearDwgPreview
+    clearScriptPreview
+}
+function clearDwgPreview(){
+    $var_listbox.Items.Clear()
+}
+function clearScriptPreview(){
+    $var_scriptPreview.Text = ""
+}
 # This function is to dynamically generate the command that starts the scripting process for the AutoCAD files.
 function fullCommandPreview(){
     # updateCommandPreview -inputString "Make a Selection on the Left:" Work the following into this function so it is text that gets overwritten once selection is made
@@ -102,7 +135,6 @@ function updateDrawingList(){
     param (
         [string]$inputString
     )
-    $counter = 0
     foreach ($fileName in $fileNames) {
         # Create a new ListBoxItem
         $listBoxItem = New-Object System.Windows.Controls.ListBoxItem
@@ -144,11 +176,15 @@ function updateDrawingList(){
         })
         # Add the ListBoxItem to the ListBox
         $var_listbox.Items.Add($listBoxItem)
-        # Debug output
-        Write-Host $listBoxItem.Content
-        Write-Host "The type of this item is" $listBoxItem.GetType()
-        Write-host "The value of counter is: $counter"
-        $counter = $counter + 1
+    } 
+    printDrawingNames
+}
+function printDrawingNames(){
+    $counter = 1
+    foreach ($item in $var_listbox.Items) {
+        $item.content
+        Write-Host $counter ": " $item.content " | " $var_listbox.GetType()
+        $counter = $counter +1
     }
 }
 # New function to update the list box after $var_start is clicked
@@ -219,10 +255,23 @@ $var_splitdwgs.Add_Click({
     updateDrawingList -inputString ($fileNames -join "`r`n")
     fullCommandPreview
 })
+# Button delete currently added drawings, clears global:dwgsPath, Full Command Preview, and Drawing List Preview
+$var_dwgsDelete.ToolTip = 
+$var_dwgsDelete.Add_Click({
+    Write-Host "I am a working button :)"
+    $global:dwgsPath = ""
+    clearDwgPreview
+    fullCommandPreview
+})
+$var_resetScript.Add_Click({
+
+    Write-Host "I am a working button :)"
+    clearCommandVariables
+})
 # Button click to start script and generate a text output of errors
 $var_start.Add_Click({
     $global:isStartClicked = $true
-    $totalFiles = $global:dwgsPath.count
+    # $totalFiles = $global:dwgsPath.count
     $currentIndex = 0
     $accorePath = $paths[$var_ddlacadversion.SelectedIndex].FullPath
     Write-Host $global:scriptPath
@@ -238,6 +287,7 @@ $var_start.Add_Click({
 *********** ERROR TEXT *************
 ************************************
 "@
+    $global:psform1.Show()
     foreach ($file in $global:dwgsPath){
         write-host $file
         $process = $null
@@ -249,6 +299,12 @@ $var_start.Add_Click({
         $combinedFileName = "$baseFileName-combined.txt"
         $combinedFilePath = Join-Path ".\temp\" $combinedFileName
         $process = Start-Process -FilePath "$accorePath" -ArgumentList "/i", "$file", "/s", "$global:scriptPath" -PassThru -RedirectStandardError $errorPath -RedirectStandardOutput $outputPath -WindowStyle Hidden
+        $currentIndex++
+        $var_progressBar.Value = ($currentIndex / $global:dwgsPath.count) * 100
+        Write-host $var_progressBar.Value
+        $global:psform1.InvalidateVisual()
+        $global:psform1.Update()
+        $global:psform1.UpdateLayout()
         $global:processArray += $process
         # Wait for the process to exit
         $process.WaitForExit()
@@ -269,11 +325,13 @@ $var_start.Add_Click({
         } else {
             Write-Host "Process $($proc.Id) is still running"
         }
-        $currentIndex++
-        $var_progressBar.Value = ($currentIndex / $totalFiles) * 100
+
     }
     updateListBoxAfterStart
 })
-$psform.ShowDialog()
+
+$global:psform.ShowDialog()
+write-host $global:psform.GetType()
+
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
 }else{Write-Host "No AutoCAD found"}
