@@ -335,3 +335,32 @@ write-host $global:psform.GetType()
 
 # Original Batch: FOR %%F IN (C:\BATCH\*.dwg, this will be array) DO "$pathtocoreconsole" /i "%%F" /s "c:\BATCH\namethatfile.scr, variable for script" /l en-US
 }else{Write-Host "No AutoCAD found"}
+
+
+
+function Update-UI {
+    [System.Windows.Forms.Application]::DoEvents()
+}
+$backgroundWorker = New-Object System.ComponentModel.BackgroundWorker
+$backgroundWorker.WorkerReportsProgress = $true
+$backgroundWorker.DoWork += {
+    param($sender, $e)
+    foreach ($file in $global:dwgsPath) {
+        # ... Your existing processing logic ...
+        # Report progress
+        $currentIndex++
+        $progress = ($currentIndex / $global:dwgsPath.count) * 100
+        $backgroundWorker.ReportProgress($progress)
+    }
+}
+$backgroundWorker.ProgressChanged += {
+    param($sender, $e)
+    $var_progressBar.Value = $e.ProgressPercentage
+    Update-UI
+}
+$backgroundWorker.RunWorkerCompleted += {
+    param($sender, $e)
+    # Code to execute when the background worker has completed its task
+}
+$global:psform1.Show()
+$backgroundWorker.RunWorkerAsync()
