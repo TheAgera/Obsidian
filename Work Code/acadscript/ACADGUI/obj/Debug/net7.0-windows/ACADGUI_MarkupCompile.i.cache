@@ -9,12 +9,21 @@ ACADGUI
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\theag\Documents\Obsidian\Work Code\acadscript\ACADGUI\App.xaml
 11407045341
 
 5-1931687438
 1981462702791
 MainWindow.xaml;
+=======
+C:\Users\ksuess\Documents\Obsidian\Work Code\acadscript\ACADGUI\App.xaml
+2339285910
 
-False
+61084449013
+1981827736222
+MainWindow.xaml;progressWindow.xaml;
+>>>>>>> d245bc86cdc256c48bd22ee1a0dff8f461ec51c4
+
+True
 
