@@ -10,13 +10,6 @@
         "name": "Microsoft.WindowsDesktop.App",
         "version": "7.0.0"
       }
-    ],
-    "additionalProbingPaths": [
-      "C:\\Users\\theag\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\theag\\.nuget\\packages"
-    ],
-    "configProperties": {
-      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
-    }
+    ]
   }
 }
