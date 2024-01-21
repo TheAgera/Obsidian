@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c583cfb910c4c2ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ther/1-12-24.md",
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ther/1-12-24.md",
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ther/1-12-24.md"
+                "file": "Ther/I Feel (EMOTION) because (REASON).md"
               }
             }
           }
@@ -169,8 +181,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df66ed1d25409f87",
+  "active": "c583cfb910c4c2ae",
   "lastOpenFiles": [
+    "Ther/Happiness Emotions.md",
+    "Ther/I Feel (EMOTION) because (REASON).md",
+    "Ther/Remorse Emotions.md",
+    "Ther/Loneliness Emotions.md",
+    "Ther/Untitled",
+    "Ther/Anger Emotions.md",
+    "Ther/Hurt Emotions.md",
+    "Ther/Anger Emotions",
+    "Ther/Confusion Emotions.md",
+    "Ther/Fear Emotions.md",
+    "Ther/Inadequate Emotions.md",
+    "Ther/Depression Emotions.md",
+    "Ther/Caring Emotions.md",
     "Work/Daily Log December/Daily Log Template.md",
     "Ther/1-12-24.md",
     "Ther",
