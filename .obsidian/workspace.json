@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06081720646ec125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,7 +162,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -181,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c583cfb910c4c2ae",
+  "active": "06081720646ec125",
   "lastOpenFiles": [
     "Ther/Happiness Emotions.md",
     "Ther/I Feel (EMOTION) because (REASON).md",
