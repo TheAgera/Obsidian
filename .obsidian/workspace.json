@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log November/11-13-23.md",
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log November/11-13-23.md",
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log November/11-13-23.md"
+                "file": "Ther/I Feel (EMOTION) because (REASON).md"
               }
             }
           }
@@ -207,8 +207,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b53bfa1d4488e837",
+  "active": "06081720646ec125",
   "lastOpenFiles": [
+    "Work/Daily Log November/11-13-23.md",
     "Ther/I Feel (EMOTION) because (REASON).md",
     "Ther/Happiness Emotions.md",
     "Ther/Remorse Emotions.md",
@@ -226,7 +227,6 @@
     "Ther/1-12-24.md",
     "Ther",
     "Work Code/acadexceltoxml/~$CCI_Drawing_Database (version 1).xlsx",
-    "Work/Daily Log November/11-13-23.md",
     "Work/Daily Log December",
     "Work/Daily Log November/11-6-23.md",
     "Work/Daily Log October/Daily Log Template.md",
