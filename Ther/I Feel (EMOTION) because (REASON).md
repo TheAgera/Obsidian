@@ -46,3 +46,12 @@ I feel [stumped] on how to justify my decision to Maggie, without just saying I 
 
 
 Maggie, I don't wish to be here, I don't want to date anymore, and I don't see a future together where we are both happy. I'm sorry for pain I have caused you, I never meant to hurt you. I take full responsibility for what i have done. In my heart, I believe that we just aren't compatible. This last two months have been me trying, but all thats done is hurt you more and made me realize that this relationship is hurting me as well. You are probably angry, and will be sad and confused. However, I think once enough time has passed you will start to realize that I am right. I suggest you don't comb through your memories and try to figure out where it went wrong, this will only make the process more difficult for you. I have no explanation for you that will make you satisfied. I would comb through your memories, and make a list of everything that I did that made you feel bad. Again, in time you will realize that I am right. One day you will wake up and you won't think about me anymore. I don't regret any of the time I spent with, you've taught me so much and I will always think of you fondly. I will not be contacting you, if you need further closure, I can provide that, but besides that this is goodbye. I wish you a beautiful life.
+
+## 1/31/24
+
+- ### What Did I Learn From My Relationship
+	- I learned so much in my relationship it will be hard to remember it all and explained it all. Currently what I'm thinking is how important it is to be open and honest with the person you with. Nobody is perfect, but the grass is greenest where you water it. Sure, it might be difficult to tell someone that you hate spending all of your time with them and that its not for you, but having those conversations gives you both the ability to work through as a team. I also think having similar goals and values are really important, even with things that might seem "redundant" to others is important to you. If you are on a mission, you want someone who is on a similar mission. You don't need this however, but I think it would help. I learned a lot about 
+- ### How Did I Grow From My Relationship
+	- 
+- ### What Are Three Ways I Did Good
+	- 
