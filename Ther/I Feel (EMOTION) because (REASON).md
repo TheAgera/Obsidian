@@ -52,6 +52,8 @@ Maggie, I don't wish to be here, I don't want to date anymore, and I don't see a
 - ### What Did I Learn From My Relationship
 	- I learned so much in my relationship it will be hard to remember it all and explained it all. Currently what I'm thinking is how important it is to be open and honest with the person you with. Nobody is perfect, but the grass is greenest where you water it. Sure, it might be difficult to tell someone that you hate spending all of your time with them and that its not for you, but having those conversations gives you both the ability to work through as a team. I also think having similar goals and values are really important, even with things that might seem "redundant" to others is important to you. If you are on a mission, you want someone who is on a similar mission. You don't need this however, but I think it would help. I learned a lot about 
 - ### How Did I Grow From My Relationship
-	- 
+	- Like the above, I grew so much from my relationship, and I learned so much about myself from Maggie.
 - ### What Are Three Ways I Did Good
+	- I was physically there for my partner. Out of the two years, there were only 2 or 3 times where I wasn't physically present for maggie when she needed me. I also did a lot of physical work for her to make her life easier
+	- I learned about what my partner likes, even if they were things I would normally like at judgementally. For example, she was really into astrology, psychology, animals, and how society should be structured. I never really cared about those things but I took the time and effort to learn about them, for her and my own sake. I learned a lot from her
 	- 
