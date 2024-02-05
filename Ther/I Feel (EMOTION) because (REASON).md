@@ -71,5 +71,6 @@ So today's visit we talked about my emotions and feelings before the breakup, du
 We also talked about fears, what they mean, and how I should confront them. 
 
 My homework is to think back of memories during elementary school, what was school like, what were the people like, who where the people. Outside of school, what was my home like, how did I feel? Who was there, why were they there? What did I do, what did I like? Friends? Traumatic events?
+Who is the Kyler Suess I want to be?
 Also continue to think about relationship and remind myself that I did a good job with the information I had, and i did what I want and felt what was best for me.
 
