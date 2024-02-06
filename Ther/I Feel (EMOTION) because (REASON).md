@@ -74,3 +74,4 @@ My homework is to think back of memories during elementary school, what was scho
 Who is the Kyler Suess I want to be?
 Also continue to think about relationship and remind myself that I did a good job with the information I had, and i did what I want and felt what was best for me.
 
+In elementary school, that would probably be when most of the fighting happened. With that said, my real parents were the television and the videogame. I was given an xbox 360 with Xbox Live and microphone.
