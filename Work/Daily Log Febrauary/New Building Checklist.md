@@ -14,3 +14,6 @@ Rollout office 365 multifactor auth
 - First idea is to try and raise more events, one for item in runspace updated, and another for runspace completed
 - Second idea is to create the runspace at the start of my gui, so that when I do my button click, it is simply calling that runspace. I could go one step further and make a new script and gui that works through the runspace, making sure it the name is there, and then if the script is being called etc.
 - BeginInvoke() is needed to run ASync, however when using Out-Null it does not work together, because the code needs to be completed before the out-null is called. Therefore, the idea is to try and speed up that process. 
+
+Okay, so by using WPFGui.Host.UI.Write("$variable")
+I can trouble shoot the code by stripping down my script and using the write to host to figure out what is wrong. It seems to be the way my events are being executed is wrong.
