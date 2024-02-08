@@ -43,4 +43,7 @@ Therefore, we know �(-∞<�<�)=0.475+0.5=0.975.
   
 This is telling us the area to the left of � is 0.975.  
   
-In order to find � we can use invNorm(0.975,0,1) = 1.96.
+In order to find � we can use invNorm(0.975,0,1) = 1.96.![[chrome_z46mJCo9T4.png]]![[chrome_27byHdSoLW.png]]
+
+## Module 9 - Central Limit Theorem
+
