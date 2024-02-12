@@ -30,3 +30,5 @@ Correlational research examines relationships between variables but cannot estab
 
 **Longitudinal and Cross-Sectional Research** Longitudinal studies track the same individuals over time, offering insights into development and changes, but are time-consuming and subject to attrition. Cross-sectional studies compare different groups at one point in time, providing insights into age-related differences but are limited by cohort effects.
 
+## Module 4: Biopsychology
+
