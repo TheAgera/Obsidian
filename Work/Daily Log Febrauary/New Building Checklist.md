@@ -17,3 +17,7 @@ Rollout office 365 multifactor auth
 
 Okay, so by using WPFGui.Host.UI.Write("$variable")
 I can trouble shoot the code by stripping down my script and using the write to host to figure out what is wrong. It seems to be the way my events are being executed is wrong.
+
+## 2/12/24 
+
+For the new building today, we are going to bring down the new network rack around the afternoon and set up a single access point. Not sure if the building has a WAN connection yet but weshalle see

@@ -1,76 +1,39 @@
 {
   "main": {
-    "id": "8920c86bca94deb4",
+    "id": "4eefb62e9455a844",
     "type": "split",
     "children": [
       {
-        "id": "2592a07727ab7aca",
+        "id": "59b984ba5ffe5a77",
         "type": "tabs",
         "children": [
           {
-            "id": "b350fd537894a0e8",
+            "id": "fa03ab3038bf1bb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work/Daily Log October/10-13-2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df66ed1d25409f87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ther/1-12-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c583cfb910c4c2ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ther/I Feel (EMOTION) because (REASON).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06081720646ec125",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Winter 2024/PSYCH201/Course Notes.md",
+                "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "308beabdd8ab416d",
+    "id": "2c7bb64f354b1ff8",
     "type": "split",
     "children": [
       {
-        "id": "db63564592694f33",
+        "id": "471550f3ae9aa3a7",
         "type": "tabs",
         "children": [
           {
-            "id": "c6b511eeee559414",
+            "id": "fbb03800cb896d65",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,7 +43,7 @@
             }
           },
           {
-            "id": "4e4bcb2b17896c6b",
+            "id": "a09e783cd09f1b46",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +58,7 @@
             }
           },
           {
-            "id": "16acaec122a6aaaa",
+            "id": "5345ef3fa744a80d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -109,20 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "5d804ba693d17550",
+    "id": "ac3657ddde1bd53d",
     "type": "split",
     "children": [
       {
-        "id": "54399e0b88cc06c2",
+        "id": "8a408f76e7ad3640",
         "type": "tabs",
         "children": [
           {
-            "id": "48020421171b323d",
+            "id": "b62b577d654f9cd6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Winter 2024/PSYCH201/Course Notes.md",
+                "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +97,19 @@
             }
           },
           {
-            "id": "b4c22284f58c8861",
+            "id": "62fd38bd89cae683",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Winter 2024/PSYCH201/Course Notes.md",
+                "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c6356cc39ed3b5b9",
+            "id": "410000ef7fa5986d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,7 +120,7 @@
             }
           },
           {
-            "id": "30c4409b03bbfdad",
+            "id": "92c7ee084d2fd8c4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -169,12 +132,12 @@
             }
           },
           {
-            "id": "cdf189976d472d66",
+            "id": "ef8731a478d6c348",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Winter 2024/PSYCH201/Course Notes.md"
+                "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md"
               }
             }
           }
@@ -195,53 +158,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06081720646ec125",
+  "active": "fa03ab3038bf1bb4",
   "lastOpenFiles": [
-    "School/Winter 2024/PSYCH201/~$opsychology Case Studies.docx",
-    "School/Winter 2024/PSYCH201/~WRL1156.tmp",
-    "School/Winter 2024/PSYCH201/~WRD1152.tmp",
-    "School/Winter 2024/PSYCH201/Biopsychology Case Studies.docx",
-    "School/Winter 2024/PSYCH201/~$search Methods.docx",
-    "Ther/I Feel (EMOTION) because (REASON).md",
-    "School/Winter 2024/PSYCH201/Course Notes.md",
-    "School/Winter 2024/PSYCH201/~WRL0434.tmp",
-    "School/Winter 2024/PSYCH201/~WRD0434.tmp",
-    "School/Winter 2024/PSYCH201/~WRL2327.tmp",
-    "School/Winter 2024/PSYCH201/~WRD2323.tmp",
-    "School/Winter 2024/PSYCH201/Research Methods.docx",
-    "School/Winter 2024/ANTH 112/Course Notes.md",
-    "Pasted image 20240210212250.png",
-    "Pasted image 20240210212054.jpg",
-    "Ther/Capstone Project.md",
-    "Ther/Remorse Emotions.md",
-    "Ther/Loneliness Emotions.md",
-    "Ther/Inadequate Emotions.md",
-    "Work/Daily Log Febrauary/New Building Checklist.md",
-    "chrome_z46mJCo9T4.png",
-    "chrome_z46mJCo9T4 1.png",
-    "chrome_27byHdSoLW.png",
-    "School/Statistics Notes.md",
-    "Work/Daily Log Febrauary",
-    "chrome_unJjBZy7mV.png",
-    "chrome_quBeHt5A89.png",
-    "chrome_qrUbWcwYHU.png",
-    "chrome_qHhF52a6IM.png",
-    "chrome_SGrdPvtVuw.png",
-    "Ther/Happiness Emotions.md",
-    "Ther/Anger Emotions.md",
-    "Ther/Hurt Emotions.md",
-    "Ther/Confusion Emotions.md",
-    "Ther/Fear Emotions.md",
-    "Ther/Depression Emotions.md",
-    "Ther/Caring Emotions.md",
-    "Work/Daily Log December/Daily Log Template.md",
-    "Ther/1-12-24.md",
-    "Work/Daily Log November/11-13-23.md",
-    "Work/Daily Log November/11-6-23.md",
-    "Work/Daily Log October/Daily Log Template.md",
-    "Work/Daily Log October/10-19-2023.md",
-    "Work/Daily Log October/10-17-2023.md",
-    "Work/Daily Log October/10-13-2023.md",
-    "Work/Daily Log October/10-11-2023.md"
+    "School/Winter 2024/MATH112/Statistics Notes.md",
+    "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
+    "chrome_Zb9xwkHqF9.png",
+    "chrome_GqLTxG9xIT.png",
+    "chrome_Eumr6jodHY.png",
+    "chrome_aSdtT0OEqx.png",
+    "chrome_fLIQvgJDTo.png",
+    "chrome_hq5gvrYDAb.png",
+    "chrome_3CZSNi1JSo.png",
+    "rEAR6ksHtp.png",
+    "chrome_uAwgvXoiVf.png",
+    "chrome_DeUhdyUXYX.png",
+    "Ther/I Feel (EMOTION) because (REASON).md"
   ]
 }
