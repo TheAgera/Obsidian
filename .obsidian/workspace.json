@@ -13,7 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
+=======
+                "file": "Work/Daily Log October/10-13-2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df66ed1d25409f87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ther/1-12-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c583cfb910c4c2ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06081720646ec125",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log Febrauary/Vision Engraver S1612.md",
+>>>>>>> c165dfa50408857f5626a69e655c7d05c05b6da5
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +125,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
+=======
+                "file": "Work/Daily Log Febrauary/Vision Engraver S1612.md",
+>>>>>>> c165dfa50408857f5626a69e655c7d05c05b6da5
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +146,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
+=======
+                "file": "Work/Daily Log Febrauary/Vision Engraver S1612.md",
+>>>>>>> c165dfa50408857f5626a69e655c7d05c05b6da5
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +185,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md"
+=======
+                "file": "Work/Daily Log Febrauary/Vision Engraver S1612.md"
+>>>>>>> c165dfa50408857f5626a69e655c7d05c05b6da5
               }
             }
           }
@@ -160,6 +212,7 @@
   },
   "active": "fa03ab3038bf1bb4",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "School/Winter 2024/MATH112/Statistics Notes.md",
     "School/Winter 2024/MATH112/Mid Term Questions and Explanations.md",
     "chrome_Zb9xwkHqF9.png",
@@ -173,5 +226,53 @@
     "chrome_uAwgvXoiVf.png",
     "chrome_DeUhdyUXYX.png",
     "Ther/I Feel (EMOTION) because (REASON).md"
+=======
+    "Work/Daily Log Febrauary/New Building Checklist.md",
+    "Ther/I Feel (EMOTION) because (REASON).md",
+    "Work/Daily Log Febrauary/Vision Engraver S1612.md",
+    "Work/Daily Log December/Daily Log Template.md",
+    "Ther/Remorse Emotions.md",
+    "Ther/Loneliness Emotions.md",
+    "Ther/Inadequate Emotions.md",
+    "chrome_z46mJCo9T4.png",
+    "chrome_z46mJCo9T4 1.png",
+    "chrome_27byHdSoLW.png",
+    "School/Statistics Notes.md",
+    "Work/Daily Log Febrauary",
+    "chrome_unJjBZy7mV.png",
+    "chrome_quBeHt5A89.png",
+    "chrome_qrUbWcwYHU.png",
+    "chrome_qHhF52a6IM.png",
+    "chrome_SGrdPvtVuw.png",
+    "chrome_M502F6pELs.png",
+    "chrome_IcxZJ8N6sU.png",
+    "School/Winter 2024/PSYCH201/Theoretical Perspectives and Subfields in Psychology.docx",
+    "School/Winter 2024/PSYCH201",
+    "School/Winter 2024",
+    "Work Code/~$ProxMoxServerSummary.xlsx",
+    "School/Winter 2024/MATH112",
+    "School/Winter 2024/New folder",
+    "School/Winter 2024/ANTH 112",
+    "School/New folder",
+    "Ther/Happiness Emotions.md",
+    "Ther/Untitled",
+    "Ther/Anger Emotions.md",
+    "Ther/Hurt Emotions.md",
+    "Ther/Confusion Emotions.md",
+    "Ther/Fear Emotions.md",
+    "Ther/Depression Emotions.md",
+    "Ther/Caring Emotions.md",
+    "Ther/1-12-24.md",
+    "Work/Daily Log November/11-13-23.md",
+    "Work/Daily Log November/11-6-23.md",
+    "Work/Daily Log October/Daily Log Template.md",
+    "Work/Daily Log October/10-19-2023.md",
+    "Work/Daily Log October/10-17-2023.md",
+    "Work/Daily Log October/10-13-2023.md",
+    "Work/Daily Log October/10-11-2023.md",
+    "Work/Daily Log October/10-10-2023.md",
+    "Work/Daily Log October/10-6-2023 1.md",
+    "Work/Daily Log October/10-5-2023.md"
+>>>>>>> c165dfa50408857f5626a69e655c7d05c05b6da5
   ]
 }
