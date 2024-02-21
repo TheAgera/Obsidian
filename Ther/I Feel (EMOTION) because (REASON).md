@@ -169,3 +169,15 @@ Moving on to my therapy homework
 - Thoughts
 	- Gamblers mindset, poor self esteem, feel stuck, feel like I can't accomplish more than what I do now. Constantly thinking about surface level things, instead of trying to dig deeper. Always looking at the whats next. 
 >>>>>>> 180b0828844b6c5ead4aa8463998d6f83b1e4adb
+
+
+## 2/21/24
+
+#### Mind Over Mood: Chapter It's the Thought That Counts
+	This chapter in Mind over Mood focus on how thoughts influence or mood and physical life. For example, if someone believes they are inadequate, they will probably perform inadequate. Essentially the placebo effect. Noticing this connection between thoughts and modd, behavior, and physical reactions. Like in the gym, if I think I cannot lift something, I probably won't
+	With that said, the book does make an effort to note that just thinking positvely and differently will not help the reader. Some life situations are so challenging, that thinking different is not a wise idea. To illustrate that point, if you were nervous about talking to people and thought "I'm excited i get to talk to people," the moment you don't feel excitement, you might feel like a failure. Some extreme sitiations, require a stop to that situation (think abuse).
+
+#### Chapter 5: Setting Goals and Noticing Personal Improvement
+	When writing goals, each goal should be something that you can observe or measure (such as mood or behavior change).
+##### Setting Goals:
+1. 
