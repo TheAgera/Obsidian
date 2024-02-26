@@ -181,4 +181,4 @@ Moving on to my therapy homework
 	When writing goals, each goal should be something that you can observe or measure (such as mood or behavior change).
 ##### Setting Goals:
 1. I want to learn to love myself, and feel confident in my spirit and body. I know I can accomplish this goal because of my strong work ethic, and the support system I have.
-2. Improve my social skills, and eliminate my fear of socializing. This goal I know I can accomplish for similar reasons. The only negative of this goal is I will get scared and mess up, but the pros are a life where i can meet new people and strengthen my bonds with people I already know
+2. I want to experience more. 
