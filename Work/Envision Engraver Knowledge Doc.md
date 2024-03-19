@@ -29,7 +29,11 @@ The pendant will display "Machine not Homed!" press the button "Go to Home," to 
 
 At the time of writing, the rotary is already connected to the network and is obtaining and an IP address through DHCP. If this needs to change, setting a static IP or enabling DHCP is done by going to the menu -> configuration -> Ethernet
 
-Holding the material on the surface: 
+Holding the material on the surface: The vision engraving series 4 controller manual lists methods provided from the manufacturer to hold material on the table surface. There are multiple ways to hold the material down:
+- Multi-Mat
+- Double Side Tape + Spare Sheet
+- Multi-Mat + Double sided tape
+The method of choice will be double sided tape + spare sheet. To do this, unscrew the thumbscrews holding the edge guides to the table [insert picture here]. It should be level with the sacrificial material that is being laid down, so it can fit into the corner. The 
 
 Setting the surface: This step is for the engraver to know where z = 0 is at. Since you can engrave sheets of varying height, the machine allows for configuration of the 0 point. Remove the cutter from the spindle head. Find the SET SURFACE button on the pedant and use the up and down arrow keys to jog the spindle up and down [insert picture here]. Lower the spindle down with the down arrow until light pressure is being applied by the spindle on to the cutting material[ insert picture here ].  The cue is to watch the spring on the spindle, it will slightly compress. Before pressing enter, the cutter(s) need to be zeroed as well. Use the provided wrench to release the collar from the cutter and drop it into the spindle head [insert picture here]. At this point, the spindle and cutter will be level with the cutting material surface. Screw the collar into the head and re-tighten with the wrench [insert picture here]. Repeat this process for any remaining cutters you plan on using for the job. Press ENTER on the pendant to set the surface.
 
@@ -80,3 +84,5 @@ The vision series 4 manual can provide more insight into each option, but for th
 The button furthest to the right will be the button that sends the job over to the engraver. Upon clicking engrave, the color selection box will re-appear for any remaining colors. Repeat the same process until all individual colors are sent to the engraver. At this point, any work on the computer is complete.
 
 ### Preparing Rotary for Print
+
+With the job sent over to the machine, the pendant will display the following [insert picture here]
