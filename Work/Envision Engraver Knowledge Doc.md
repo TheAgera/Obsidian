@@ -2,6 +2,8 @@
 #### Missing Instructions
 
 1. Delete extra layers
+### Engraving Terminology
+
 
 ### Initial Setup Physical
 
@@ -45,7 +47,7 @@ The dimensions of this machine are 12x16, so it is best to keep what you are eng
 - Use ROMANS font for small text, Sans Serif for BOLD 
 - Have a separate color for items to be engraved and items to be cut 
 - All text MUST be middle-justified [insert picture here] 
-- While the table is 12x16, you will want to create your drawings in 12x16 inside AutoCAD Below is an example drawing with the correct settings [inset picture here] 
+- While the table is 12x16, you will want to create your drawings in 12x16 inside AutoCAD Below is an example drawing with the correct settings DO NOT rotate the drawing 90 degrees inside AutoCAD, this wall cause text to become offset during the import process. [inset picture here] 
 Now, the drawing must be saved in DXF format. To do this, click file -> saves as, or press Ctrl + Shift + S to open the file save dialog box. Click the drop-down arrow to the right of "Files of Type" and save as "AutoCAD LT 2018 DXF" [inset picture here]
 
 
@@ -84,3 +86,16 @@ Be sure to dial in the correct depth of cut on the micrometer. For engraving, 10
 At this point, ensure the vacuum, cutter, and material are secure. Once secure, the START button on the pendant can be pressed [insert picture here]. It is important to note the e-stop button at the top of the pendant. Push this button to immediately stop the machine if something unexpected occurs. [insert picture here] The machine will start the first job that was sent over, finish it, and will prompt to start another job. At this point, the cutter or depth of cut can be changed before starting the next job.
 
 ### Common Problems
+
+##### Software
+Please connect security device
+
+Misaligned text when importing
+
+##### Physical
+Vacuum 
+
+
+
+
+### Closing
