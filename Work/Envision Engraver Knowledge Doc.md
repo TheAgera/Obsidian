@@ -89,11 +89,18 @@ At this point, ensure the vacuum, cutter, and material are secure. Once secure, 
 
 ##### Software
 Please connect security device
-
+- This occurs due to the security flash drive not being plugged into the host computer
 Misaligned text when importing
+- The
 
 ##### Physical
-Vacuum 
+Uneven engraving
+- Vacuum Nose Cone is lose
+- Table is not level
+- Material is not securely held to the table
+Shadowing Around Letters
+- Too much pressure applied by the spindle
+
 
 
 
