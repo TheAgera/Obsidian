@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3baab5b9ed6381b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Daily Log March 24/3-26-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Envision Engraver Knowledge Doc.md",
+                "file": "Work/Daily Log March 24/3-26-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Envision Engraver Knowledge Doc.md",
+                "file": "Work/Daily Log March 24/3-26-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Envision Engraver Knowledge Doc.md"
+                "file": "Work/Daily Log March 24/3-26-24.md"
               }
             }
           }
@@ -158,23 +171,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85d2e8c9a35106b9",
+  "active": "f3baab5b9ed6381b",
   "lastOpenFiles": [
+    "School/Winter 2024/ANTH 112/~$2 Assignment.docx",
+    "School/Winter 2024/ANTH 112/~WRL0003.tmp",
+    "School/Winter 2024/ANTH 112/~WRD0002.tmp",
+    "School/Winter 2024/ANTH 112/M12 Assignment.docx",
+    "School/Winter 2024/ANTH 112/~$ Assignment Pick a Hominin Project (Kyler Suess).docx",
+    "Work/Daily Log March 24/3-20-24.md",
+    "Work/Daily Log March 24/3-26-24.md",
+    "Work/Envision Engraver Knowledge Doc.md",
+    "Work/Daily Log November/11-13-23.md",
     "School/Winter 2024/ANTH 112/~WRL3486.tmp",
     "School/Winter 2024/ANTH 112/~WRD3482.tmp",
     "School/Winter 2024/ANTH 112/~WRL1398.tmp",
     "School/Winter 2024/ANTH 112/~WRD1394.tmp",
     "School/Winter 2024/ANTH 112/~WRL0736.tmp",
     "School/Winter 2024/ANTH 112/~WRD0732.tmp",
-    "School/Winter 2024/ANTH 112/~$ Assignment Pick a Hominin Project (Kyler Suess).docx",
-    "School/Winter 2024/ANTH 112/~WRL0667.tmp",
-    "School/Winter 2024/ANTH 112/~WRD0663.tmp",
-    "School/Winter 2024/ANTH 112/M8 Assignment Pick a Hominin Project (Kyler Suess).docx",
-    "School/Winter 2024/ANTH 112/~WRL3258.tmp",
-    "Work/Daily Log March 24/3-20-24.md",
     "Work/Daily Log December/Daily Log Template.md",
     "Work/Daily Log November/11-6-23.md",
-    "Work/Envision Engraver Knowledge Doc.md",
     "School/Winter 2024/PSYCH201/Group Conversation.md",
     "School/Winter 2024/PSYCH201/CourseProject #1/Rought Draft.md",
     "cadlink_hazmQyV0Zb.png",
