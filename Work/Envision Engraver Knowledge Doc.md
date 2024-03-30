@@ -103,6 +103,10 @@ Shadowing Around Letters
 
 
 
+### Remaining Items
+Figure out the price of a new software flash drive 
+	We will have a new PC in the engraver room, or buy two more flash drives
+Teach processing how to use the engraver
 
 
 ### Closing
