@@ -1,27 +1,22 @@
 {
   "main": {
-    "id": "3af24abcf37793a7",
+    "id": "9b1fe013832b4ecf",
     "type": "split",
     "children": [
       {
-        "id": "26174599bc51b5de",
+        "id": "e1ee3fcd01be296f",
         "type": "tabs",
         "children": [
           {
-            "id": "3714d06f6b2da7b2",
+            "id": "460a5bd4aed6a5ae",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
               "type": "markdown",
               "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md",
+                "file": "Daily Log April 2024/4-1thru4-5.md",
                 "mode": "source",
                 "source": false
               }
-=======
-              "type": "empty",
-              "state": {}
->>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
             }
           }
         ]
@@ -30,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6da1de24278db405",
+    "id": "c10500f75afbcf81",
     "type": "split",
     "children": [
       {
-        "id": "acc96f8c7173c98a",
+        "id": "19184076c076dc54",
         "type": "tabs",
         "children": [
           {
-            "id": "ff1c3fe10b321b62",
+            "id": "a1295a73367ad3f8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +43,7 @@
             }
           },
           {
-            "id": "3419bd6b6f6de56c",
+            "id": "6fdd57f7d735b859",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +58,7 @@
             }
           },
           {
-            "id": "7209ff97dea5f51b",
+            "id": "8dfcfee882f55178",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,23 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "15782f6663c21f0c",
+    "id": "71d97cd15a36cd48",
     "type": "split",
     "children": [
       {
-        "id": "2cdcae3fb0da7b65",
+        "id": "fd9f4684a78ae1a7",
         "type": "tabs",
         "children": [
           {
-            "id": "3d0557ae946bfa0f",
+            "id": "4cd17afa73362969",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Trading Log Bootcamp/Break of Structure.md",
-=======
->>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
+                "file": "Daily Log April 2024/4-1thru4-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,22 +97,19 @@
             }
           },
           {
-            "id": "c184b80424eae888",
+            "id": "6a40adcb0a551277",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Trading Log Bootcamp/Break of Structure.md",
-=======
->>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
+                "file": "Daily Log April 2024/4-1thru4-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b90651d578107bf8",
+            "id": "b9c2a542d0cc4747",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +120,13 @@
             }
           },
           {
-            "id": "7f8bdcb7a79668bd",
+            "id": "bf38fc268c891be6",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
               "state": {
-                "file": "Trading Log Bootcamp/Break of Structure.md"
+                "file": "Daily Log April 2024/4-1thru4-5.md"
               }
-=======
-              "state": {}
->>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
             }
           }
         ]
@@ -161,38 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff1c3fe10b321b62",
+  "active": "460a5bd4aed6a5ae",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Daily Log/6-27-23.md",
-    "Trading Log Bootcamp/Trading Log.md",
-=======
-    "Daily Log/6-21-23.md",
-    "Daily Log/7-7-23.md",
-    "Daily Log/7-10-23.md",
-    "Trading Log Bootcamp/Trading Log.md",
-    "Daily Log/Daily Log Template 1 1.md",
-    "Daily Log/7-6-23.md",
-    "Daily Log/7-5-23.md",
-    "Daily Log/6-27-23.md",
-    "Daily Log/6-28-23.md",
-    "Daily Log/6-29-23.md",
-    "Daily Log/6-30-23.md",
-    "Daily Log/7-3-23.md",
-    "Trading Log Bootcamp/Gold Analysis.md",
-    "Trading Log Bootcamp/Bootcamp Day 34-35 - Daily Bias 1 & 2.md",
-    "Trading Log Bootcamp/Bootcamp Day 33 - Execution pt.3.md",
-    "Trading Log Bootcamp/Bootcamp Day 32 - Execution pt.2.md",
-    "Daily Log/6-22-2023.md",
-    "Daily Log/6-23-2023.md",
-    "Daily Log/6-26-23.md",
->>>>>>> 16fa1373c1ce77257f28550b6436d998d58d1b9a
-    "Trading Log Bootcamp/TJR Trading Plan.md",
-    "Trading Log Bootcamp/Break of Structure.md",
-    "Trading Log Bootcamp/My_Trading_Plan.md",
-    "Trading Log Bootcamp/Execution_Plan.md",
-    "Trading Log Bootcamp",
-    "Daily Log/Untitled.md",
-    "Daily Log"
+    "Daily Log March 24/Untitled.md",
+    "Daily Log April 2024/4-1thru4-5.md",
+    "Daily Log April 2024"
   ]
 }
