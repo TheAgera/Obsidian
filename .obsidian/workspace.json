@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c9c04f89b31af341",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +181,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3baab5b9ed6381b",
+  "active": "c9c04f89b31af341",
   "lastOpenFiles": [
     "School/Winter 2024/ANTH 112/M12 Discussion Tweet.png",
     "School/Winter 2024/ANTH 112/M12 Assignment Marriage, Family, & Gender (Kyler Suess).docx",

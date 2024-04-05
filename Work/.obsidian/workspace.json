@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e9e6af3b2fc09a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Log April 2024/4-1thru4-5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "460a5bd4aed6a5ae",
+  "active": "8e9e6af3b2fc09a9",
   "lastOpenFiles": [
     "Daily Log March 24/Untitled.md",
     "Daily Log April 2024/4-1thru4-5.md",
