@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hXa4CIP6cJnDSCFdqOVMpVOR1eVQbrYr8PoNsDQDqUNGtFh0PQaJcTUqCf0TC+pa/eC0VAnw5jkb7g7pclJ1Pw==",
+  "dgSpecHash": "8Z2TgdF7ClB2J2TgJS6u6DKsD04TdRHYOdZyLyemBWc9JzLs1wTqDfk7+rNBWv3lOlC04WqJzKtHcCyok2Y1/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\theag\\Documents\\Obsidian\\Work Code\\acadscript\\ACADGUI\\ACADGUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ksuess\\Documents\\Obsidian\\Work Code\\acadscript\\ACADGUI\\ACADGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ksuess\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ksuess\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ksuess\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\ksuess\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
   "logs": []
 }
