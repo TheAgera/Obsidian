@@ -5,7 +5,6 @@
 - Problems Affecting End-Users:
 	- The Brady 600 not working, the machine might be working okay, but the paper roll might not  be loaded correctly. If I determine the machine is working correctly.
 	- The glowforge has a roughly every few day issue of not focusing on the material. Lenses have all been cleaned yet still happens. Sent Email, can't figure this out
-	- Bryan Clor, unable to communicate with PLCs on his PC. Leaving PC after hours for troubleshooting
 	- Kyle McNulty still have issues with Sage desktop. I remember his DHCP ip kept getting dropped.
 
 ##### Wazuh
@@ -19,4 +18,13 @@
 	- Medium (8,9,10,11) idk where these goes
 	- Low (0-7) Can stay on wazuh in the dashboard.
 	- I need to figure out what we need alerts on, and what we need active responses on. Struggling because there are SO many options to choose from. Need to break this into smaller steps
+	- Need to look at the data my computer has pulled (has sysmon configured) against it 01, and 05, and see what rules are being triggered. For example Wazuh thinks PDQ is a virus. 
 
+##### Notes for 7-2 
+
+###### Tasks for the day
+- Create an exclusion rule on 92213 to ignore files created by PDQ
+	- Image: C:\WINDOWS\AdminArsenal\PDQInventory-Scanner\service-1\exec\PDQInventoryScanner.exe TargetFilename: C:\Users\pdq\AppData\Local\Temp\__PSScriptPolicyTest_qvxomwbc.fu1.ps1
+	- It seems my only option is I can exclude files using the real-time monitoring.
+	- With the sysmon alerts rule ID for PDQ
+	- We can do rules for multiple events, /var/ossec/ruleset/rules/0595-win-sysmon-rules.xml bottom of the page.
