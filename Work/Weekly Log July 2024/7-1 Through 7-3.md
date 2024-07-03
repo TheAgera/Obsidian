@@ -25,6 +25,24 @@
 ###### Tasks for the day
 - Create an exclusion rule on 92213 to ignore files created by PDQ
 	- Image: C:\WINDOWS\AdminArsenal\PDQInventory-Scanner\service-1\exec\PDQInventoryScanner.exe TargetFilename: C:\Users\pdq\AppData\Local\Temp\__PSScriptPolicyTest_qvxomwbc.fu1.ps1
-	- It seems my only option is I can exclude files using the real-time monitoring.
-	- With the sysmon alerts rule ID for PDQ
-	- We can do rules for multiple events, /var/ossec/ruleset/rules/0595-win-sysmon-rules.xml bottom of the page.
+	- 
+
+###### Notes
+- It seems my only option is I can exclude files using the real-time monitoring.
+- With the sysmon alerts rule ID for PDQ
+- We can do rules for multiple events, /var/ossec/ruleset/rules/0595-win-sysmon-rules.xml bottom of the page.
+
+##### Notes for 7-3
+###### Tasks for the day
+- Problems Affecting End Users:
+	- Brady 600 machine, investigate after 3:30 when processing leaves. Might be working and the thermal roll is loaded incorrectly. Machine reports no errors, but does not print anything onto the roll. Also reported strange noises
+	- Glowforge focusing issue, waiting on reply. 
+	- Kyle McNulty Sage problems. IP seems to drop, might be a DHCP issue.
+- Create override rules in local_rules.xml on the Wazuh manager to stop the false alarms from Visual studio. Was able to do this, here is an example OVERRIDE rule made in local_rules.xml on the wazuh manager
+	  <rule id ="115013" level="3">
+		  <if_sid>92213</if_sid>
+		  <field name ="win.eventdata.image" type="pcre2">C:\\\\Program\ Files\ \(x86\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe</field>
+		  <field name="win.eventdata.targetFilename" type="pcre2">C:\\\\Users\\\\ksuess\\\\AppData\\\\Local\\\\chrome_.*</field>
+		  <description>Ignore PSScript PolicyTest</description>
+		</rule>
+
