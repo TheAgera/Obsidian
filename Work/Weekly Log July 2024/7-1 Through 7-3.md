@@ -46,3 +46,4 @@
 		  <description>Ignore PSScript PolicyTest</description>
 		</rule>
 
+- Go through and add exclusions
