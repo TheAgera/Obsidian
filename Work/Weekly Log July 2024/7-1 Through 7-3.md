@@ -5,7 +5,7 @@
 - Problems Affecting End-Users:
 	- The Brady 600 not working, the machine might be working okay, but the paper roll might not  be loaded correctly. If I determine the machine is working correctly.
 	- The glowforge has a roughly every few day issue of not focusing on the material. Lenses have all been cleaned yet still happens. Sent Email, can't figure this out
-	- Kyle McNulty still have issues with Sage desktop. I remember his DHCP ip kept getting dropped.
+	- Kyle McNulty still have issues with Sage desktop. I remember his DHCP ip kept getting dropped. Dylan 
 
 ##### Wazuh
 - Alerts will be split into four categories: low, medium, high, and critical. 
