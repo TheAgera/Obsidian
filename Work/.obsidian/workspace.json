@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a3e3718af900f591",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e9e6af3b2fc09a9",
+  "active": "a3e3718af900f591",
   "lastOpenFiles": [
     "Weekly Log July 2024/7-8 thru 7-12.md",
     "Weekly Log July 2024/7-15 thru 7-19.md",
