@@ -25,24 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekly Log July 2024/7-15 thru 7-19.md",
+                "file": "Weekly Log July 2024/7-22 thru 7-26.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a3e3718af900f591",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly Log July 2024/7-15 thru 7-19.md",
+                "file": "Weekly Log July 2024/7-22 thru 7-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly Log July 2024/7-15 thru 7-19.md",
+                "file": "Weekly Log July 2024/7-22 thru 7-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly Log July 2024/7-15 thru 7-19.md"
+                "file": "Weekly Log July 2024/7-22 thru 7-26.md"
               }
             }
           }
@@ -169,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3e3718af900f591",
+  "active": "8e9e6af3b2fc09a9",
   "lastOpenFiles": [
-    "Weekly Log July 2024/7-8 thru 7-12.md",
     "Weekly Log July 2024/7-15 thru 7-19.md",
+    "Weekly Log July 2024/7-22 thru 7-26.md",
+    "Weekly Log July 2024/7-8 thru 7-12.md",
     "2024-07-09.md",
     "Weekly Log June 2024/6-10 thru 6-14.md",
     "Weekly Log June 2024/6-24 thru 6-28.md",
@@ -202,7 +193,6 @@
     "Daily Log April 2024/Untitled",
     "Envision Engraver Knowledge Doc.md",
     "README.md",
-    "Daily Log March 24/Untitled.md",
     "Daily Log April 2024"
   ]
 }
