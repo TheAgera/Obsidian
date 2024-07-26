@@ -40,9 +40,21 @@
                 "currentVersion": "1.5.12"
               }
             }
+          },
+          {
+            "id": "14041e4643b6e5bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Weekly Log July 2024/7-22 thru 7-26.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work/Daily Log March 24/3-26-24.md",
+                "file": "Work/Weekly Log July 2024/7-22 thru 7-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work/Daily Log March 24/3-26-24.md",
+                "file": "Work/Weekly Log July 2024/7-22 thru 7-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work/Daily Log March 24/3-26-24.md"
+                "file": "Work/Weekly Log July 2024/7-22 thru 7-26.md"
               }
             }
           }
@@ -181,7 +193,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9c04f89b31af341",
+  "active": "14041e4643b6e5bd",
   "lastOpenFiles": [
     "School/Winter 2024/ANTH 112/M12 Discussion Tweet.png",
     "School/Winter 2024/ANTH 112/M12 Assignment Marriage, Family, & Gender (Kyler Suess).docx",
