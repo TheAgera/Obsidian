@@ -1,13 +1,6 @@
 
 # Tasks for the week
 
-##### Issues affecting end users
-- GlowForge follow trouble shooting steps from glowforge email. (this saturday)
-
-
-
-
-
 ### Wazuh
 
 #### ACAD Menu Project
@@ -44,7 +37,13 @@ I also need to add tool tips lol
 	- Install AutoCAD with a click of a button
 	- Denise email search still pulling deleted emails on desktop client, also outlook is running slow. 
 	- Elmer monitor basess, investigate longer monitor arms so monitors can be closer.
-	- Refill perscription
-	
 	- Change my bed frame for a new one
-	
+
+### 7-30
+- Goals for Today:
+	- Add levels/event Ids to AutoCAD event viewer.
+	- Select old autoCAD version for install, might just open the AutoCAD gui.
+	- Open event viewer log from right click context menu
+	- AutoCAD install with button click, copy from pdq script
+	- Update drawing is not working properly
+	- 
