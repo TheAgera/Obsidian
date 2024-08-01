@@ -46,4 +46,5 @@ I also need to add tool tips lol
 	- Open event viewer log from right click context menu
 	- AutoCAD install with button click, copy from pdq script
 	- Update drawing is not working properly
+	-  AutoCAD profile migrate will export the profile from the previous version, and then import the previous version profile to the new version. 
 	- 
