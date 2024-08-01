@@ -1,4 +1,4 @@
-
+          
 # Tasks for the week
 
 ### Wazuh
@@ -41,9 +41,11 @@ I also need to add tool tips lol
 
 ### 7-30
 - Goals for Today:
-	- Add levels/event Ids to AutoCAD event viewer.
-	- Select old autoCAD version for install, might just open the AutoCAD gui.
+	- 
+	- Select old autoCAD version for install, might just open the AutoCAD gui. Using the dang GUI from autodesk.
 	- Open event viewer log from right click context menu
 	- AutoCAD install with button click, copy from pdq script
-	- Update drawing is not working properly
+		- Make a modal that checks for AutoCAD to be installed, if not installed, ifelse not newest version, open modal and prompt for user to update/install. 
+	- Add levels/event Ids to AutoCAD event viewer.
+	
 	- 
