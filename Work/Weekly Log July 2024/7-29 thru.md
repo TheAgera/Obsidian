@@ -39,12 +39,14 @@ I also need to add tool tips lol
 	- Elmer monitor basess, investigate longer monitor arms so monitors can be closer.
 	- Change my bed frame for a new one
 
-### 7-30
+### 7-30 and 7-31
 - Goals for Today:
 	- Add levels/event Ids to AutoCAD event viewer.
 	- Select old autoCAD version for install, might just open the AutoCAD gui.
 	- Open event viewer log from right click context menu
 	- AutoCAD install with button click, copy from pdq script
-	- Update drawing is not working properly
-	-  AutoCAD profile migrate will export the profile from the previous version, and then import the previous version profile to the new version. 
-	- 
+
+### 8-1 
+- Goals for Today:
+	- View the event log from right click context menu
+	- AutoCAD install from button click, thinking of a modal that opens up to notify
