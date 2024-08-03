@@ -39,13 +39,21 @@ I also need to add tool tips lol
 	- Elmer monitor basess, investigate longer monitor arms so monitors can be closer.
 	- Change my bed frame for a new one
 
-### 7-30
+### 7-30 and 7-31
 - Goals for Today:
 	- 
 	- Select old autoCAD version for install, might just open the AutoCAD gui. Using the dang GUI from autodesk.
 	- Open event viewer log from right click context menu
 	- AutoCAD install with button click, copy from pdq script
+<<<<<<< HEAD
 		- Make a modal that checks for AutoCAD to be installed, if not installed, ifelse not newest version, open modal and prompt for user to update/install. 
 	- Add levels/event Ids to AutoCAD event viewer.
 	
 	- 
+=======
+
+### 8-1 
+- Goals for Today:
+	- View the event log from right click context menu
+	- AutoCAD install from button click, thinking of a modal that opens up to notify
+>>>>>>> 3f948a9e95f12882f3883e5b7ee0ae6cf58866c6
