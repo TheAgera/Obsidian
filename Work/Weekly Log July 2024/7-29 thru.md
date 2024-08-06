@@ -48,5 +48,4 @@ I also need to add tool tips lol
 
 ### 8-1 
 - Goals for Today:
-	- View the event log from right click context menu
-	- AutoCAD install from button click, thinking of a modal that opens up to notify
+	-
