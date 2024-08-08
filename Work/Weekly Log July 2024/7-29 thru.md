@@ -54,6 +54,10 @@ I also need to add tool tips lol
 
 ### 8-1 
 - Goals for Today:
+<<<<<<< HEAD
 	- View the event log from right click context menu
 	- AutoCAD install from button click, thinking of a modal that opens up to notify
 >>>>>>> 3f948a9e95f12882f3883e5b7ee0ae6cf58866c6
+=======
+	-
+>>>>>>> ac665398078c514ea0e3c7817e33c15cd360a1e2
