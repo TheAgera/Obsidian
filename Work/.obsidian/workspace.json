@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekly Log August 2024/8-26-.md",
+                "file": "Weekly Log August 2024/8-26-8-30.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a49eef7d5fbf4346",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "College/CNT 180.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly Log August 2024/8-26-.md",
+                "file": "College/CNT 180.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly Log August 2024/8-26-.md",
+                "file": "College/CNT 180.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly Log August 2024/8-26-.md"
+                "file": "College/CNT 180.md"
               }
             }
           }
@@ -171,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a26bd2ab4328e34",
+  "active": "a49eef7d5fbf4346",
   "lastOpenFiles": [
+    "Weekly Log August 2024/8-26-8-30.md",
+    "College/CNT 180.md",
+    "College",
     "Weekly Log August 2024/8-19 thru 8-23.md",
-    "Weekly Log August 2024/8-26-.md",
     "CCI AutoCAD Manager Knowledge Doc.md",
     "Envision Engraver Knowledge Doc.md",
     "2024-07-09.md",
@@ -201,7 +215,6 @@
     "Daily Log May 2024/5-13thru5-17.md",
     "Daily Log May 2024/5-6thru5-10.md",
     "Daily Log April 2024/4-1thru4-5.md",
-    "Daily Log April 2024/4-15thru4-19.md",
     "Code_9ABUnAd0fM.png",
     "Weekly Log June 2024",
     "Daily Log May 2024/Untitled",
