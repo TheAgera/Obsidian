@@ -11,8 +11,12 @@
             "id": "c10ac850a5191572",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ther/I Feel (EMOTION) because (REASON).md"
+              }
             }
           }
         ]
@@ -151,5 +159,14 @@
     }
   },
   "active": "c10ac850a5191572",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Ther/Hurt Emotions.md",
+    "Ther/Happiness Emotions.md",
+    "Ther/Depression Emotions.md",
+    "Ther/Confusion Emotions.md",
+    "Ther/Caring Emotions.md",
+    "Ther/Capstone Project.md",
+    "Ther/Anger Emotions.md",
+    "Ther/1-12-24.md"
+  ]
 }
