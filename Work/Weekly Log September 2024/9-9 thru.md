@@ -1,0 +1,26 @@
+Issues Affecting End Users:
+- Brady IP600 loud noises, fan issue, not sure what to do
+- Elmer Monitor Arms & Tony Gohl Monitor Arms, they have the same desk 
+
+Projects I am working On
+- AutoCAD Manager
+- Wazuh
+- Vision Engraver
+- Door Signs
+- Server Room Cleanup
+- Zabbix Refresh
+- AutoCAD building drawing, populate names from AD
+- Go through phone list, figure out who is deactivated
+I want to complete remaining items on AutoCAD Manager so it can be given to one of the engineers on monday. What needs to be done with this:
+	- Make seperate page for AutoCAD install and functionality for AutoCAD install
+	- Profile migrate https://help.autodesk.com/view/ACDLT/2025/ENU/index.html?guid=GUID-D4502890-6980-4942-8841-7248F4ECA848
+	- Review Visual Design 
+	- Check error function that runs before errors/crashes are actrually triggered. 
+
+
+Goals for the day:
+- Office Map
+		Printer Function, 
+- Hang up Door signs 
+- Take inventory of what plastic I have
+- Office clean up
