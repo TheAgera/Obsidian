@@ -24,7 +24,34 @@ I feel empty because I [im not sure]
 I feel [WORRIED] because I tend to focus on the negative and that causes me to worry a lot of the time
 I feel outcasted because I find it incredibly difficult to meet new people and build relationships while others have developed the skill. It also makes me jealous. I don't know to develop that skill.
 I feel appreciative because of the people in my life. They put up with a lot, so I feel I have to owe them something.
-I'm not surewhat words I can use to describe this, but touching on the issue last week, I just really don't want to continue this. Its been hard, because I can't tell if I am projecting my problems with life onto Maggie, or Maggie really is the issue. So it causes me to feel alot of what i have listed. My body is telling me to go,  I feel a physical response to LEAVE LEAVE LEAVE RUN AWAY OMG. And its hard, because the thing I am running away from is someone I am so fond of. I am seeing the Maggie today, and it made me so angry I was about to start crying. Fortunately, I have my own office at work, and I was able to close that door and mediate and breath for a few minutes to clam me down. Now I am focusing on not trying to get rild up and ruminate. I have a lot on my plate, and I'm not sure how trying to meet another persons needs is a good idea when I can barely meet my own needs. IF I do decide to break away, I don't want to fall into my old habits of isolating myself and not connecting with myself and others. I haven't been enjoying this process while I am putting in low effort, how is putting in more effort going to make me feel better?????? So, that is my main issue that is bothering me. It is just hard because while we are both laid back, silly people, none of our interests and goals line up, so its one of us compromising all the time, or one of us masking during the conversation. I honestly am amazed we kept this up for so long. I feel really contrite because I went into this just excited to get a girlfriend, but once I realized my girlfriend was an entire person, I realized I bit off more than I can chew and decided to check out mentally. I realize people get divorced, but I don't know how to convince myself that what I am doing is okay besides its what I wanna do. Like if I had to spend every day with them, I would seriously loose my mind. I did spend every day with them for months, and I lost my fucking mind. With everything I am trying to do, I don't think I can have a relationship I enjoy until I get my own place. Once again, I cannot figure out if these are my true feelings, but rather another issue at play
+I'm not surewhat words I can use to describe this, but touching on the issue last week, I just really don't want to continue this. Its been hard, because I can't tell if I am projecting my problems with life onto or really is the issue. So it causes me to feel alot of what i have listed. My body is telling me to go,  I feel a physical response to LEAVE LEAVE LEAVE RUN AWAY OMG. And its hard, because the thing I am running away from is someone I am so fond of. I am seeing them today, and it made me so angry I was about to start crying. Fortunately, I have my own office at work, and I was able to close that door breath for a few minutes to clam me down. Now I am focusing on not trying to get rild up and ruminate. I have a lot on my plate, and I'm not sure how trying to meet another persons needs is a good idea when I can barely meet my own needs. IF I do decide to break away, I don't want to fall into my old habits of isolating myself and not connecting with myself and others. I haven't been enjoying this process while I am putting in low effort, how is putting in more effort going to make me feel better??????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+So, that is my main issue that is bothering me. It is just hard because while we are both laid back, silly people, none of our interests and goals line up, so its one of us compromising all the time, or one of us masking during the conversation. I honestly am amazed we kept this up for so long. I feel really contrite because I went into this just excited to get a girlfriend, but once I realized my girlfriend was an entire person, I realized I bit off more than I can chew and decided to check out mentally. I realize people get divorced, but I don't know how to convince myself that what I am doing is okay besides its what I wanna do. Like if I had to spend every day with them, I would seriously loose my mind. I did spend every day with them for months, and I lost my fucking mind. With everything I am trying to do, I don't think I can have a relationship I enjoy until I get my own place. Once again, I cannot figure out if these are my true feelings, but rather another issue at play
 On another note, I tend to feel like I focus mostly on the negative. I think this represents a bigger problem at hand, and not just the things i have mentioned. 
 I feel exposed because I act just like my parents, who only care about people until they start inconveniencing their lives, they like me when I am like a cat or a dog.
 ## 1/25/24
