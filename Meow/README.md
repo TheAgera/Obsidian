@@ -4,4 +4,4 @@
 - CNT 250
 - Week 8 and 9 Homework
 - Module 8.1 and 8.2 labs
-- CNT244 Labs 26-27
+- CNT244 Labs 27-28 and 27-28 Quiz
